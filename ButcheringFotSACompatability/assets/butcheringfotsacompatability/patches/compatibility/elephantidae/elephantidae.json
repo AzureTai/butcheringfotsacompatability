@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/elephantidae/elephantidae.json",
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "elephantidae-adult-female-*": "butchering:deadelephantidae-female-1-dead",
+        "elephantidae-adult-male-*": "butchering:deadelephantidae-male-1-dead",
+        "elephantidae-baby-*": "butchering:deadelephantidae-baby-1-dead"
+      }
+    },
+    "file": "elephantidae:entities/land/elephantidae.json",
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "elephantidae-adult-female-*": "butchering:deadelephantidae-female-1-dead",
+        "elephantidae-adult-male-*": "butchering:deadelephantidae-male-1-dead",
+        "elephantidae-baby-*": "butchering:deadelephantidae-baby-1-dead"
+      }
+    },
+    "file": "elephantidae:entities/land/elephantidae.json",
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/casuariidae/casuariidae.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "casuariidae-adult-female-*": "butchering:deadcasuariidae-female-1-dead",
+        "casuariidae-adult-male-*": "butchering:deadcasuariidae-male-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/casuariidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "casuariidae-adult-female-*": "butchering:deadcasuariidae-female-1-dead",
+        "casuariidae-adult-male-*": "butchering:deadcasuariidae-male-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/casuariidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "casuariidae-baby-*": "butchering:deadcasuariidae-baby-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/casuariidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "casuariidae-baby-*": "butchering:deadcasuariidae-baby-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/casuariidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  }
+]

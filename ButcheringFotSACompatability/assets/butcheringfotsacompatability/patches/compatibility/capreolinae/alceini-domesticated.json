@@ -1,0 +1,36 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-alceini-adult-female-*": "butchering:deadalceini-female-1-dead",
+        "cervidae-alceini-adult-male-*": "butchering:deadalceini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-alceini-adult-female-*": "butchering:deadalceini-female-1-dead",
+        "cervidae-alceini-adult-male-*": "butchering:deadalceini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/iniidae/iniidae.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadiniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadiniidae-male-1-dead"
+      }
+    },
+    "file": "iniidae:entities/water/iniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadiniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadiniidae-male-1-dead"
+      }
+    },
+    "file": "iniidae:entities/water/iniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadiniidae-baby-1-dead"
+      }
+    },
+    "file": "iniidae:entities/water/iniidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadiniidae-baby-1-dead"
+      }
+    },
+    "file": "iniidae:entities/water/iniidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  }
+]

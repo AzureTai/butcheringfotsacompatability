@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/dinornithidae/megalapterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "megalapterygidae-adult-female-*": "butchering:deadmegalapterygidae-female-1-dead",
+        "megalapterygidae-adult-male-*": "butchering:deadmegalapterygidae-male-1-dead",
+        "megalapterygidae-baby-*": "butchering:deadmegalapterygidae-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/megalapterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "megalapterygidae-adult-female-*": "butchering:deadmegalapterygidae-female-1-dead",
+        "megalapterygidae-adult-male-*": "butchering:deadmegalapterygidae-male-1-dead",
+        "megalapterygidae-baby-*": "butchering:deadmegalapterygidae-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/megalapterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  }
+]

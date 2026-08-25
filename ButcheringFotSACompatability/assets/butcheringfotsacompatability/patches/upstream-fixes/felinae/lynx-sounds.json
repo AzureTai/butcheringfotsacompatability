@@ -1,0 +1,68 @@
+[
+  {
+    "op": "add",
+    "path": "/soundsByType/*-adult-*-lynxcanadensis/idle",
+    "value": "creature/felinae/lynxcall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/*-baby-*-lynxcanadensis/idle",
+    "value": "creature/felinae/lynxbabycall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/*-adult-*-lynxlynx/idle",
+    "value": "creature/felinae/lynxcall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/*-baby-*-lynxlynx/idle",
+    "value": "creature/felinae/lynxbabycall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/*-adult-*-lynxpardinus/idle",
+    "value": "creature/felinae/lynxcall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType/*-baby-*-lynxpardinus/idle",
+    "value": "creature/felinae/lynxbabycall*",
+    "file": "felinae:entities/land/felinae.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  }
+]

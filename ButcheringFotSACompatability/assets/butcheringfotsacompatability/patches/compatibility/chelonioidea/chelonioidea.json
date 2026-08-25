@@ -1,0 +1,79 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/chelonioidea/chelonioidea.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadchelonioidea-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadchelonioidea-male-1-dead"
+      }
+    },
+    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadchelonioidea-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadchelonioidea-male-1-dead"
+      }
+    },
+    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadchelonioidea-baby-1-dead"
+      }
+    },
+    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadchelonioidea-baby-1-dead"
+      }
+    },
+    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  }
+]

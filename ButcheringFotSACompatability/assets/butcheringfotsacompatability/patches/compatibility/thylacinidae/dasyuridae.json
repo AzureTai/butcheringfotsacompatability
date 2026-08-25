@@ -1,0 +1,79 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/thylacinidae/dasyuridae.json",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deaddasyuridae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deaddasyuridae-male-1-dead"
+      }
+    },
+    "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deaddasyuridae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deaddasyuridae-male-1-dead"
+      }
+    },
+    "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deaddasyuridae-baby-1-dead"
+      }
+    },
+    "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deaddasyuridae-baby-1-dead"
+      }
+    },
+    "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  }
+]

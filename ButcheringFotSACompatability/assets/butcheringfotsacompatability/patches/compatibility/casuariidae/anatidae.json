@@ -1,0 +1,79 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/casuariidae/cereopsisnovaehollandiae.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-adult-female-*": "butchering:deadcereopsisnovaehollandiae-female-1-dead",
+        "anatidae-adult-male-*": "butchering:deadcereopsisnovaehollandiae-male-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/anatidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-adult-female-*": "butchering:deadcereopsisnovaehollandiae-female-1-dead",
+        "anatidae-adult-male-*": "butchering:deadcereopsisnovaehollandiae-male-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/anatidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-baby-*": "butchering:deadcereopsisnovaehollandiae-baby-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/anatidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "anatidae-baby-*": "butchering:deadcereopsisnovaehollandiae-baby-1-dead"
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/anatidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  }
+]

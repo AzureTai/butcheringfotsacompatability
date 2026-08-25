@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/spheniscidae/spheniscidae.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadspheniscidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadspheniscidae-baby-1-dead"
+      }
+    },
+    "file": "spheniscidae:entities/land/spheniscidae.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadspheniscidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadspheniscidae-baby-1-dead"
+      }
+    },
+    "file": "spheniscidae:entities/land/spheniscidae.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      }
+    ]
+  }
+]

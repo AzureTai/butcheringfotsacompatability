@@ -1,0 +1,36 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadcaninae-male-1-dead",
+        "*-adult-male-*": "butchering:deadcaninae-male-1-dead"
+      }
+    },
+    "file": "caninae:entities/animal/mammal/canina-semitamed.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadcaninae-male-1-dead",
+        "*-adult-male-*": "butchering:deadcaninae-male-1-dead"
+      }
+    },
+    "file": "caninae:entities/animal/mammal/canina-semitamed.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

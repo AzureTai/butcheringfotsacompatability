@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/dinornithidae/rallidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "rallidae-adult-female-*": "butchering:deadrallidae2-female-1-dead",
+        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead",
+        "rallidae-baby-*": "butchering:deadrallidae2-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/rallidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "rallidae-adult-female-*": "butchering:deadrallidae2-female-1-dead",
+        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead",
+        "rallidae-baby-*": "butchering:deadrallidae2-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/rallidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  }
+]

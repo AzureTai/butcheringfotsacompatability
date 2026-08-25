@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/meiolaniidae/meiolaniidae.json",
+    "dependsOn": [
+      {
+        "modid": "meiolaniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadmeiolaniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadmeiolaniidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadmeiolaniidae-baby-1-dead"
+      }
+    },
+    "file": "meiolaniidae:entities/land/meiolaniidae.json",
+    "dependsOn": [
+      {
+        "modid": "meiolaniidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadmeiolaniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadmeiolaniidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadmeiolaniidae-baby-1-dead"
+      }
+    },
+    "file": "meiolaniidae:entities/land/meiolaniidae.json",
+    "dependsOn": [
+      {
+        "modid": "meiolaniidae"
+      }
+    ]
+  }
+]

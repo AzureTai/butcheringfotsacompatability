@@ -1,0 +1,18 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Content",
+  "modid": "butcheringfotsacompatability",
+  "name": "Butchering and Fauna of the Stone Age Compatability Patch",
+  "authors": [
+    "AzureTai"
+  ],
+  "description": "Adds current Butchering compatibility for the Fauna of the Stone Age animal packs and corrects the affected Felinae lynx sound definitions.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.0",
+    "butchering": "1.14.2"
+  }
+}

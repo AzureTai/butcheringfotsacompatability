@@ -1,0 +1,287 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/deadcaninae-baby-1-*/bloodType",
+    "value": "butchering:bloodportion",
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/deadcaninae-baby-1-*/butcheringWorkLoad",
+    "value": "small",
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/deadcaninae-female-1-*/butcheringWorkLoad",
+    "value": "medium",
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/deadcaninae-male-1-*/hangingShape",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-hanging"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/deadcaninae-female-1-*/hangingShape",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-hanging"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/deadcaninae-baby-1-*/hangingShape",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-pup-hanging"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapeByType/deadcaninae-male-1-*",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-dead"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapeByType/deadcaninae-female-1-*",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-dead"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapeByType/deadcaninae-baby-1-*",
+    "value": {
+      "base": "butchering:creatures/game/wolf/wolf-pup-dead"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/deadcaninae-male-1-dead/skin",
+    "value": {
+      "base": "game:entity/animal/mammal/wolf/eurasian-adult1"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/deadcaninae-female-1-dead/skin",
+    "value": {
+      "base": "game:entity/animal/mammal/wolf/eurasian-adult1"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/deadcaninae-baby-1-dead/skin",
+    "value": {
+      "base": "game:entity/animal/mammal/wolf/eurasian-baby1"
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-male-1-skinned",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbloody"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-female-1-skinned",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbloody"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-baby-1-skinned",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbloody"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-male-1-bledout",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbledout"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-female-1-bledout",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbledout"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-baby-1-bledout",
+    "value": {
+      "skin": {
+        "base": "butchering:item/butchercreatures/animalbushmeatbledout"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-male-1-rotten",
+    "value": {
+      "skin": {
+        "base": "game:block/creature/rot/rot"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-female-1-rotten",
+    "value": {
+      "skin": {
+        "base": "game:block/creature/rot/rot"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/deadcaninae-baby-1-rotten",
+    "value": {
+      "skin": {
+        "base": "game:block/creature/rot/rot"
+      }
+    },
+    "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

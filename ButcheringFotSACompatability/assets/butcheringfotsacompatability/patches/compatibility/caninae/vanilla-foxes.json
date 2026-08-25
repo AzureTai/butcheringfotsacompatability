@@ -1,0 +1,85 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/fox.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "fox-red-adult-female": "butchering:deadfox-female-red-1-dead",
+        "fox-red-adult-male": "butchering:deadfox-male-red-1-dead",
+        "fox-arctic-adult-female": "butchering:deadfox-female-arctic-1-dead",
+        "fox-arctic-adult-male": "butchering:deadfox-male-arctic-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/fox-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "fox-red-adult-female": "butchering:deadfox-female-red-1-dead",
+        "fox-red-adult-male": "butchering:deadfox-male-red-1-dead",
+        "fox-arctic-adult-female": "butchering:deadfox-female-arctic-1-dead",
+        "fox-arctic-adult-male": "butchering:deadfox-male-arctic-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/fox-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-arctic-baby-*": "butchering:deadfox-baby-arctic-1-dead",
+        "*-red-baby-*": "butchering:deadfox-baby-red-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-arctic-baby-*": "butchering:deadfox-baby-arctic-1-dead",
+        "*-red-baby-*": "butchering:deadfox-baby-red-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

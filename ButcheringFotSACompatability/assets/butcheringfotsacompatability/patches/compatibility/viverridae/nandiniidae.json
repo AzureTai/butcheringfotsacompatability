@@ -1,0 +1,66 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/viverridae/nandiniidae.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadnandiniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadnandiniidae-baby-1-dead"
+      }
+    },
+    "file": "viverridae:entities/land/nandiniidae.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butcheringfotsacompatability:deadnandiniidae-female-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead",
+        "*-baby-*": "butcheringfotsacompatability:deadnandiniidae-baby-1-dead"
+      }
+    },
+    "file": "viverridae:entities/land/nandiniidae.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/soundsByType",
+    "value": {
+      "*-adult-*-nandiniabinotata": {
+        "hurt": "creature/nandiniidae/call*",
+        "death": "creature/nandiniidae/call*",
+        "idle": "creature/nandiniidae/call*"
+      }
+    },
+    "file": "viverridae:entities/land/nandiniidae.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  }
+]

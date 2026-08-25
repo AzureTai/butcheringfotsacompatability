@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputPath>bin/$(Configuration)/Build</OutputPath>
+    <DevelopmentModDirectory>$(MSBuildProjectDirectory)/bin/$(Configuration)/Mods/mod</DevelopmentModDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <DevelopmentModFile Include="$(MSBuildProjectDirectory)/modinfo.json" />
+    <DevelopmentModFile Include="$(MSBuildProjectDirectory)/modicon.png" Condition="Exists('$(MSBuildProjectDirectory)/modicon.png')" />
+  </ItemGroup>
+
+  <Target Name="StageDevelopmentContentMod" AfterTargets="Build">
+    <RemoveDir Directories="$(DevelopmentModDirectory)" />
+    <MakeDir Directories="$(DevelopmentModDirectory)" />
+    <Copy SourceFiles="@(DevelopmentModFile)" DestinationFolder="$(DevelopmentModDirectory)" />
+  </Target>
+
+</Project>

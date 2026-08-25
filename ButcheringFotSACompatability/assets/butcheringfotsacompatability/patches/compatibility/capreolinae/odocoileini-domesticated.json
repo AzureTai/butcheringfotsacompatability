@@ -1,0 +1,36 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-odocoileini-adult-female-*": "butchering:deadodocoileini-female-1-dead",
+        "cervidae-odocoileini-adult-male-*": "butchering:deadodocoileini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-odocoileini-adult-female-*": "butchering:deadodocoileini-female-1-dead",
+        "cervidae-odocoileini-adult-male-*": "butchering:deadodocoileini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

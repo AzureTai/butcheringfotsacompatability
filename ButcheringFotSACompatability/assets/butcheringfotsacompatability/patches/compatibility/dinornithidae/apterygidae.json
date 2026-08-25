@@ -1,0 +1,49 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/dinornithidae/apterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "apterygidae-adult-female-*": "butchering:deadapterygidae-female-1-dead",
+        "apterygidae-adult-male-*": "butchering:deadapterygidae-male-1-dead",
+        "apterygidae-baby-*": "butchering:deadapterygidae-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/apterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "apterygidae-adult-female-*": "butchering:deadapterygidae-female-1-dead",
+        "apterygidae-adult-male-*": "butchering:deadapterygidae-male-1-dead",
+        "apterygidae-baby-*": "butchering:deadapterygidae-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/land/apterygidae.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  }
+]

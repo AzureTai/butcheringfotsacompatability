@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+    "side": "server",
     "path": "/enabled",
     "value": true,
     "file": "butchering:itemtypes/butchercreatures/manidae/manidae.json",
@@ -12,6 +13,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deadmanidae-female-1-*/bloodType",
     "value": "butchering:bloodportion",
     "file": "butchering:itemtypes/butchercreatures/manidae/manidae.json",
@@ -23,6 +25,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deadmanidae-female-1-*/butcheringWorkLoad",
     "value": "small",
     "file": "butchering:itemtypes/butchercreatures/manidae/manidae.json",
@@ -34,6 +37,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -52,6 +56,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",

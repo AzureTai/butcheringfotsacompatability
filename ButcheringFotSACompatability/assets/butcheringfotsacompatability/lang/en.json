@@ -22,5 +22,9 @@
   "item-deadthylacoleonidae-*": "Marsupial lion (dead)",
   "itemdesc-deadthylacoleonidae-*": "The animal's weight slows you by a large amount.",
   "item-deadvombatidae-*": "Vombatid (dead)",
-  "itemdesc-deadvombatidae-*": "The animal's weight slows you by a large amount."
+  "itemdesc-deadvombatidae-*": "The animal's weight slows you by a large amount.",
+  "butchering:item-deademeidae-*": "Emeidae (dead)",
+  "butchering:itemdesc-deademeidae-*": "The animal's weight slows you by a small amount.",
+  "butchering:item-deadmegalapterygidae-*": "Megalapterygidae (dead)",
+  "butchering:itemdesc-deadmegalapterygidae-*": "The animal's weight slows you by a medium amount."
 }

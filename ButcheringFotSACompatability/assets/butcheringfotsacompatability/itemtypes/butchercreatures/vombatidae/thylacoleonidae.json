@@ -137,7 +137,24 @@
         "base": "butchering:creatures/modded/genericlarge/large-hanging"
       },
       "excludeRewards": [],
-      "butcheringRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:sinew-wet",
+          "quantity": {
+            "avg": 3,
+            "var": 1
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 2,
+            "var": 0.5
+          }
+        }
+      ],
       "skinningRewards": []
     },
     "deadthylacoleonidae-female-1-*": {
@@ -158,7 +175,24 @@
         "base": "butchering:creatures/modded/genericlarge/large-hanging"
       },
       "excludeRewards": [],
-      "butcheringRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:sinew-wet",
+          "quantity": {
+            "avg": 3,
+            "var": 1
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 2,
+            "var": 0.5
+          }
+        }
+      ],
       "skinningRewards": []
     },
     "deadthylacoleonidae-baby-1-*": {

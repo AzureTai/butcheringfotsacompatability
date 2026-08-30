@@ -1,6 +1,7 @@
 [
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -18,6 +19,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",

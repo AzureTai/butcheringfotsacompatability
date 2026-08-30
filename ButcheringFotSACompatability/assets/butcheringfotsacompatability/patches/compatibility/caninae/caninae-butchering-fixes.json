@@ -1,6 +1,7 @@
 [
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-baby-1-*/bloodType",
     "value": "butchering:bloodportion",
     "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
@@ -12,6 +13,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-baby-1-*/butcheringWorkLoad",
     "value": "small",
     "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
@@ -23,6 +25,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-female-1-*/butcheringWorkLoad",
     "value": "medium",
     "file": "butchering:itemtypes/butchercreatures/caninae/caninae.json",
@@ -34,6 +37,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-male-1-*/hangingShape",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-hanging"
@@ -47,6 +51,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-female-1-*/hangingShape",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-hanging"
@@ -60,6 +65,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/attributesByType/deadcaninae-baby-1-*/hangingShape",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-pup-hanging"
@@ -73,6 +79,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/shapeByType/deadcaninae-male-1-*",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-dead"
@@ -86,6 +93,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/shapeByType/deadcaninae-female-1-*",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-dead"
@@ -99,6 +107,7 @@
   },
   {
     "op": "replace",
+    "side": "server",
     "path": "/shapeByType/deadcaninae-baby-1-*",
     "value": {
       "base": "butchering:creatures/game/wolf/wolf-pup-dead"
@@ -112,6 +121,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-male-1-dead/skin",
     "value": {
       "base": "game:entity/animal/mammal/wolf/eurasian-adult1"
@@ -125,6 +135,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-female-1-dead/skin",
     "value": {
       "base": "game:entity/animal/mammal/wolf/eurasian-adult1"
@@ -138,6 +149,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-baby-1-dead/skin",
     "value": {
       "base": "game:entity/animal/mammal/wolf/eurasian-baby1"
@@ -151,6 +163,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-male-1-skinned",
     "value": {
       "skin": {
@@ -166,6 +179,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-female-1-skinned",
     "value": {
       "skin": {
@@ -181,6 +195,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-baby-1-skinned",
     "value": {
       "skin": {
@@ -196,6 +211,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-male-1-bledout",
     "value": {
       "skin": {
@@ -211,6 +227,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-female-1-bledout",
     "value": {
       "skin": {
@@ -226,6 +243,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-baby-1-bledout",
     "value": {
       "skin": {
@@ -241,6 +259,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-male-1-rotten",
     "value": {
       "skin": {
@@ -256,6 +275,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-female-1-rotten",
     "value": {
       "skin": {
@@ -271,6 +291,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/texturesByType/deadcaninae-baby-1-rotten",
     "value": {
       "skin": {

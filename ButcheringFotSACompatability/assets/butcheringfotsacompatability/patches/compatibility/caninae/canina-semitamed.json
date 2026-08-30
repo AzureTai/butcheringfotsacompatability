@@ -1,11 +1,12 @@
 [
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
       "itemByType": {
-        "*-adult-female-*": "butchering:deadcaninae-male-1-dead",
+        "*-adult-female-*": "butchering:deadcaninae-female-1-dead",
         "*-adult-male-*": "butchering:deadcaninae-male-1-dead"
       }
     },
@@ -18,11 +19,12 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",
       "itemByType": {
-        "*-adult-female-*": "butchering:deadcaninae-male-1-dead",
+        "*-adult-female-*": "butchering:deadcaninae-female-1-dead",
         "*-adult-male-*": "butchering:deadcaninae-male-1-dead"
       }
     },

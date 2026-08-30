@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+    "side": "server",
     "path": "/enabled",
     "value": true,
     "file": "butchering:itemtypes/butchercreatures/dinornithidae/dinornithidae.json",
@@ -12,6 +13,7 @@
   },
   {
     "op": "add",
+    "side": "server",
     "path": "/attributesByType/deaddinornithidae-female-1-*/butcheringWorkLoad",
     "value": "medium",
     "file": "butchering:itemtypes/butchercreatures/dinornithidae/dinornithidae.json",
@@ -23,6 +25,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -41,6 +44,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",

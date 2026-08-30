@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+    "side": "server",
     "path": "/enabled",
     "value": true,
     "file": "butcheringfotsacompatability:itemtypes/butchercreatures/vombatidae/diprotodontidae.json",
@@ -12,6 +13,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -29,6 +31,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -46,6 +49,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
@@ -62,6 +66,7 @@
   },
   {
     "op": "addmerge",
+    "side": "server",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",

@@ -7,32 +7,68 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Environment
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Vintage Story Version:**  
+<!-- Example: 1.22.7 -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Compatibility Patch Version:**  
+<!-- Example: 1.0.1 -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Butchering Version:**  
+<!-- Example: 1.14.3 -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Installed FotSA Packs and Versions:**  
+<!-- List every installed FotSA pack and its version. -->
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Environment:**  
+<!-- Single-player, hosted multiplayer or dedicated server -->
 
-**Additional context**
-Add any other context about the problem here.
+**Operating System:**  
+<!-- Include both client and server operating systems where applicable. -->
+
+**Complete Mod List:**  
+<!-- Paste your mod list or attach a file containing it. -->
+
+## Defect
+
+**Defect Type:**  
+<!-- Examples: missing behaviour, incorrect reward, missing texture, incorrect carcass, processing failure, localization or crash -->
+
+**Affected Animal:**  
+<!-- Include the species, sex, life stage and domestication status where known. -->
+
+**Processing Stage:**  
+<!-- Examples: collecting, carrying, placing, hanging, bleeding, skinning, butchering or restarting the world/server -->
+
+**Summary:**  
+<!-- Provide a short summary of the problem. -->
+
+**Description:**  
+<!-- Describe what happened and include any relevant circumstances. -->
+
+**Reproduction Steps:**
+
+1. 
+2. 
+3. 
+
+**Expected Result:**  
+<!-- Describe what should have happened. -->
+
+**Actual Result:**  
+<!-- Describe what happened instead. -->
+
+**Suggestion:**  
+<!-- Optional: Describe any suggested solution or expected behaviour. -->
+
+**Additional Information:**  
+<!-- Include anything else that may help investigate the problem. -->
+
+## Supporting Files
+
+**Logs:**  
+<!-- Attach the relevant client-main, client-debug, server-main and server-debug logs. Please do not paste complete logs directly into the issue. -->
+
+**Screen Captures:**  
+<!-- Attach any relevant screenshots or video captures. -->

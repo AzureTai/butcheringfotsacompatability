@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/elements/2/attachmentpoints",
+    "value": [
+      {
+        "code": "Center",
+        "posX": "4.0",
+        "posY": "0.0",
+        "posZ": "0.0",
+        "rotationX": "0.0",
+        "rotationY": "0.0",
+        "rotationZ": "0.0"
+      }
+    ],
+    "file": "casuariidae:shapes/entity/carcass-small.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      }
+    ]
+  }
+]

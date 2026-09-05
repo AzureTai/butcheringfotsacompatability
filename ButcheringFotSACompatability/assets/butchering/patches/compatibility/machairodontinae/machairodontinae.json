@@ -1,0 +1,80 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/machairodontinae/machairodontinae.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "machairodontinae-adult-female-*": "butchering:deadmachairodontinae-female-1-dead",
+        "machairodontinae-adult-male-*": "butchering:deadmachairodontinae-male-1-dead"
+      }
+    },
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "machairodontinae-adult-female-*": "butchering:deadmachairodontinae-female-1-dead",
+        "machairodontinae-adult-male-*": "butchering:deadmachairodontinae-male-1-dead"
+      }
+    },
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-baby-1-dead"
+    },
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadmachairodontinae-baby-1-dead"
+    },
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  }
+]

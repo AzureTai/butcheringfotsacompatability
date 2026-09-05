@@ -1,0 +1,68 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "caninae-vulpini-adult-female-*": "butchering:deadcaninae-female-1-dead",
+        "caninae-vulpini-adult-male-*": "butchering:deadcaninae-male-1-dead"
+      }
+    },
+    "file": "caninae:entities/animal/mammal/vulpini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "caninae-vulpini-adult-female-*": "butchering:deadcaninae-female-1-dead",
+        "caninae-vulpini-adult-male-*": "butchering:deadcaninae-male-1-dead"
+      }
+    },
+    "file": "caninae:entities/animal/mammal/vulpini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/vulpini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/vulpini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ],
+    "side": "server"
+  }
+]

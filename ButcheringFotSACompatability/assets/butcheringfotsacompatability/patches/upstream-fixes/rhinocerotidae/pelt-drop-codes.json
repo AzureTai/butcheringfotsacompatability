@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "rhinocerotidae:pelt-raw-{gender}-{type}",
+    "file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-adult*",
+    "dependsOn": [
+      {
+        "modid": "rhinocerotidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "rhinocerotidae:pelt-raw-baby-{type}",
+    "file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-baby*",
+    "dependsOn": [
+      {
+        "modid": "rhinocerotidae"
+      }
+    ]
+  }
+]

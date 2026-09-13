@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/1/code",
+    "value": "manidae:pelt-raw-{gender}-{type}",
+    "file": "manidae:entities/land/manidae*",
+    "dependsOn": [
+      {
+        "modid": "manidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/1/code",
+    "value": "manidae:pelt-raw-{gender}-{type}",
+    "file": "manidae:entities/animal/mammal/manidae-adult*",
+    "dependsOn": [
+      {
+        "modid": "manidae"
+      }
+    ]
+  }
+]

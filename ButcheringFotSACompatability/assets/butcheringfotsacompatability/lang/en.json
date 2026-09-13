@@ -26,5 +26,8 @@
   "butchering:item-deademeidae-*": "Emeidae (dead)",
   "butchering:itemdesc-deademeidae-*": "The animal's weight slows you by a small amount.",
   "butchering:item-deadmegalapterygidae-*": "Megalapterygidae (dead)",
-  "butchering:itemdesc-deadmegalapterygidae-*": "The animal's weight slows you by a medium amount."
+  "butchering:itemdesc-deadmegalapterygidae-*": "The animal's weight slows you by a medium amount.",
+  "bovinae:item-pelt-baby-bostaurustaurus": "Taurine Cattle Pelt (Calf)",
+  "bovinae:item-pelt-female-bostaurustaurus": "Taurine Cattle Pelt (Female)",
+  "bovinae:item-pelt-male-bostaurustaurus": "Taurine Cattle Pelt (Male)"
 }

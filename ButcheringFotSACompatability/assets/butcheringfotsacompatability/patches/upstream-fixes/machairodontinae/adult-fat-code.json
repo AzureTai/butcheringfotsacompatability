@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/1/code",
+    "value": "game:fat",
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  }
+]

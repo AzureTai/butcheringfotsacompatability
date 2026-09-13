@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/6/drops/3/code",
+    "value": "vombatidae:pelt-baby-phascolonusgigas",
+    "file": "vombatidae:entities/land/vombatidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      }
+    ]
+  }
+]

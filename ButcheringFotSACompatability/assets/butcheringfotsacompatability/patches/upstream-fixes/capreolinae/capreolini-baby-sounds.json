@@ -1,0 +1,154 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/7/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/8/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/9/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/10/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/11/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/12/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/13/soundByType/*",
+    "value": "creature/capreolus/scared",
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "client",
+    "path": "/soundsByType/*",
+    "value": {
+      "hurt": "creature/capreolus/scared",
+      "death": "creature/capreolus/scared",
+      "idle": "game:creature/sheep/idle"
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/17/soundByType",
+    "value": {
+      "*": "creature/capreolus/babycall"
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/17/soundRange",
+    "value": 60,
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/18/soundByType",
+    "value": {
+      "*": "creature/capreolus/babycall"
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/server/behaviors/10/aitasks/18/soundRange",
+    "value": 30,
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

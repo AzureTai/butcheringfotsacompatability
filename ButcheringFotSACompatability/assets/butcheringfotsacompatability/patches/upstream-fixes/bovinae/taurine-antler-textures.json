@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-female",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers01.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-female",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers02.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-female",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers03.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-female",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers04.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-male",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers05.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/textures/skin",
+    "value": "entity/bovinae/bostaurustaurus-male",
+    "file": "bovinae:shapes/entity/bovinae/bostaurustaurus/antlers06.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "side": "server",
+    "path": "/variantgroups/1/states/-",
+    "value": "bostaurustaurus",
+    "file": "bovinae:itemtypes/resource/pelt.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "side": "client",
+    "path": "/shapeByType/*-baby-male-bostaurustaurus",
+    "value": {
+      "base": "entity/bovinae/bosprimigeniusprimigenius/baby"
+    },
+    "file": "bovinae:itemtypes/animals.json",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  }
+]

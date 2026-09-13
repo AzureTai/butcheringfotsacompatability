@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/7/aitasks/0/sound",
+    "value": "creature/rhinocerotidae/carcass",
+    "file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-carcass.json",
+    "dependsOn": [
+      {
+        "modid": "rhinocerotidae"
+      }
+    ]
+  }
+]

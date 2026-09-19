@@ -31,11 +31,10 @@
       "code": "butcherable",
       "itemByType": {
         "dinornithidae-adult-female-*": "butchering:deaddinornithidae-female-1-dead",
-        "dinornithidae-adult-male-*": "butchering:deaddinornithidae-male-1-dead",
-        "dinornithidae-baby-*": "butchering:deaddinornithidae-baby-1-dead"
+        "dinornithidae-adult-male-*": "butchering:deaddinornithidae-male-1-dead"
       }
     },
-    "file": "dinornithidae:entities/land/dinornithidae.json",
+    "file": "dinornithidae:entities/animal/bird/dinornithidae-adult.json",
     "dependsOn": [
       {
         "modid": "dinornithidae"
@@ -50,11 +49,44 @@
       "code": "butcherable",
       "itemByType": {
         "dinornithidae-adult-female-*": "butchering:deaddinornithidae-female-1-dead",
-        "dinornithidae-adult-male-*": "butchering:deaddinornithidae-male-1-dead",
+        "dinornithidae-adult-male-*": "butchering:deaddinornithidae-male-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/dinornithidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "dinornithidae-baby-*": "butchering:deaddinornithidae-baby-1-dead"
       }
     },
-    "file": "dinornithidae:entities/land/dinornithidae.json",
+    "file": "dinornithidae:entities/animal/bird/dinornithidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "dinornithidae-baby-*": "butchering:deaddinornithidae-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/dinornithidae-baby.json",
     "dependsOn": [
       {
         "modid": "dinornithidae"

@@ -85,7 +85,7 @@
   },
   {
     "op": "replace",
-    "side": "client",
+    "side": "server",
     "path": "/soundsByType/*",
     "value": {
       "hurt": "creature/capreolus/scared",

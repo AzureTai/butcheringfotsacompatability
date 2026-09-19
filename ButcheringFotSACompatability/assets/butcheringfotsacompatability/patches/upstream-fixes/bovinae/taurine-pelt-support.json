@@ -13,7 +13,7 @@
   },
   {
     "op": "add",
-    "side": "client",
+    "side": "server",
     "path": "/shapeByType/*-baby-male-bostaurustaurus",
     "value": {
       "base": "entity/bovinae/bosprimigeniusprimigenius/baby"

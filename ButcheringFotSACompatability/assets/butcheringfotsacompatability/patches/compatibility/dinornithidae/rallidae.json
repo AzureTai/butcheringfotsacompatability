@@ -19,11 +19,10 @@
       "code": "butcherable",
       "itemByType": {
         "rallidae-adult-female-*": "butchering:deadrallidae2-female-1-dead",
-        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead",
-        "rallidae-baby-*": "butchering:deadrallidae2-baby-1-dead"
+        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead"
       }
     },
-    "file": "dinornithidae:entities/land/rallidae.json",
+    "file": "dinornithidae:entities/animal/bird/rallidae-adult.json",
     "dependsOn": [
       {
         "modid": "dinornithidae"
@@ -38,11 +37,44 @@
       "code": "butcherable",
       "itemByType": {
         "rallidae-adult-female-*": "butchering:deadrallidae2-female-1-dead",
-        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead",
+        "rallidae-adult-male-*": "butchering:deadrallidae2-male-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/rallidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "rallidae-baby-*": "butchering:deadrallidae2-baby-1-dead"
       }
     },
-    "file": "dinornithidae:entities/land/rallidae.json",
+    "file": "dinornithidae:entities/animal/bird/rallidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "rallidae-baby-*": "butchering:deadrallidae2-baby-1-dead"
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/rallidae-baby.json",
     "dependsOn": [
       {
         "modid": "dinornithidae"

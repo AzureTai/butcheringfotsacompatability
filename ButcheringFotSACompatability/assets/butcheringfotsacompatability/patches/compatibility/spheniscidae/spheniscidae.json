@@ -19,11 +19,10 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadspheniscidae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead",
-        "*-baby-*": "butcheringfotsacompatability:deadspheniscidae-baby-1-dead"
+        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead"
       }
     },
-    "file": "spheniscidae:entities/land/spheniscidae.json",
+    "file": "spheniscidae:entities/animal/bird/spheniscidae-adult.json",
     "dependsOn": [
       {
         "modid": "spheniscidae"
@@ -38,11 +37,44 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadspheniscidae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadspheniscidae-male-1-dead"
+      }
+    },
+    "file": "spheniscidae:entities/animal/bird/spheniscidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadspheniscidae-baby-1-dead"
       }
     },
-    "file": "spheniscidae:entities/land/spheniscidae.json",
+    "file": "spheniscidae:entities/animal/bird/spheniscidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadspheniscidae-baby-1-dead"
+      }
+    },
+    "file": "spheniscidae:entities/animal/bird/spheniscidae-baby.json",
     "dependsOn": [
       {
         "modid": "spheniscidae"

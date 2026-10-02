@@ -4,7 +4,7 @@
     "side": "server",
     "path": "/enabled",
     "value": true,
-    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/cervinae/cervini.json",
+    "file": "butchering:itemtypes/butchercreatures/cervinae/cervini.json",
     "dependsOn": [
       {
         "modid": "cervinae"
@@ -18,9 +18,9 @@
     "value": {
       "code": "butcherable",
       "itemByType": {
-        "*-adult-female-*": "butcheringfotsacompatability:deadcervini-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadcervini-male-1-dead",
-        "*-baby-*": "butcheringfotsacompatability:deadcervini-baby-1-dead"
+        "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead",
+        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
       }
     },
     "file": "cervinae:entities/land/cervini.json",
@@ -37,9 +37,9 @@
     "value": {
       "code": "butcherable",
       "itemByType": {
-        "*-adult-female-*": "butcheringfotsacompatability:deadcervini-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadcervini-male-1-dead",
-        "*-baby-*": "butcheringfotsacompatability:deadcervini-baby-1-dead"
+        "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead",
+        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
       }
     },
     "file": "cervinae:entities/land/cervini.json",

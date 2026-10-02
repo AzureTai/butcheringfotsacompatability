@@ -22,7 +22,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadchelonioidea-male-1-dead"
       }
     },
-    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-adult.json",
     "dependsOn": [
       {
         "modid": "chelonioidea"
@@ -40,7 +40,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadchelonioidea-male-1-dead"
       }
     },
-    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-adult.json",
     "dependsOn": [
       {
         "modid": "chelonioidea"
@@ -57,7 +57,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadchelonioidea-baby-1-dead"
       }
     },
-    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-baby.json",
     "dependsOn": [
       {
         "modid": "chelonioidea"
@@ -74,7 +74,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadchelonioidea-baby-1-dead"
       }
     },
-    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-baby.json",
     "dependsOn": [
       {
         "modid": "chelonioidea"

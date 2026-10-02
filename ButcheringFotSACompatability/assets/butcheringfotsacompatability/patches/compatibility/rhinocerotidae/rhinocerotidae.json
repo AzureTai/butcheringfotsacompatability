@@ -19,44 +19,6 @@
       "code": "butcherable",
       "itemByType": {
         "rhinocerotidae-adult-female-*": "butchering:deadrhinocerotidae-female-1-dead",
-        "rhinocerotidae-adult-male-*": "butchering:deadrhinocerotidae-male-1-dead",
-        "rhinocerotidae-baby-*": "butchering:deadrhinocerotidae-baby-1-dead"
-      }
-    },
-    "file": "rhinocerotidae:entities/land/rhinocerotidae*",
-    "dependsOn": [
-      {
-        "modid": "rhinocerotidae"
-      }
-    ]
-  },
-  {
-    "op": "addmerge",
-    "side": "server",
-    "path": "/client/behaviors/-",
-    "value": {
-      "code": "butcherable",
-      "itemByType": {
-        "rhinocerotidae-adult-female-*": "butchering:deadrhinocerotidae-female-1-dead",
-        "rhinocerotidae-adult-male-*": "butchering:deadrhinocerotidae-male-1-dead",
-        "rhinocerotidae-baby-*": "butchering:deadrhinocerotidae-baby-1-dead"
-      }
-    },
-    "file": "rhinocerotidae:entities/land/rhinocerotidae*",
-    "dependsOn": [
-      {
-        "modid": "rhinocerotidae"
-      }
-    ]
-  },
-  {
-    "op": "addmerge",
-    "side": "server",
-    "path": "/server/behaviors/-",
-    "value": {
-      "code": "butcherable",
-      "itemByType": {
-        "rhinocerotidae-adult-female-*": "butchering:deadrhinocerotidae-female-1-dead",
         "rhinocerotidae-adult-male-*": "butchering:deadrhinocerotidae-male-1-dead"
       }
     },

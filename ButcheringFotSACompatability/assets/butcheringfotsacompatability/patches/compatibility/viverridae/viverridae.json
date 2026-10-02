@@ -19,11 +19,27 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadviverridae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadviverridae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadviverridae-male-1-dead"
+      }
+    },
+    "file": "viverridae:entities/animal/mammal/viverridae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadviverridae-baby-1-dead"
       }
     },
-    "file": "viverridae:entities/land/viverridae.json",
+    "file": "viverridae:entities/animal/mammal/viverridae-baby.json",
     "dependsOn": [
       {
         "modid": "viverridae"
@@ -38,11 +54,27 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadviverridae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadviverridae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadviverridae-male-1-dead"
+      }
+    },
+    "file": "viverridae:entities/animal/mammal/viverridae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadviverridae-baby-1-dead"
       }
     },
-    "file": "viverridae:entities/land/viverridae.json",
+    "file": "viverridae:entities/animal/mammal/viverridae-baby.json",
     "dependsOn": [
       {
         "modid": "viverridae"

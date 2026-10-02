@@ -152,7 +152,24 @@
         "base": "butchering:creatures/modded/genericsmall/small-hanging"
       },
       "excludeRewards": [],
-      "butcheringRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:sinew-wet",
+          "quantity": {
+            "avg": 1.1,
+            "var": 0.5
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 1,
+            "var": 0.5
+          }
+        }
+      ],
       "skinningRewards": []
     },
     "deadviverridae-female-1-*": {
@@ -173,7 +190,24 @@
         "base": "butchering:creatures/modded/genericsmall/small-hanging"
       },
       "excludeRewards": [],
-      "butcheringRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:sinew-wet",
+          "quantity": {
+            "avg": 1.1,
+            "var": 0.5
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 1,
+            "var": 0.5
+          }
+        }
+      ],
       "skinningRewards": []
     },
     "deadviverridae-baby-1-*": {

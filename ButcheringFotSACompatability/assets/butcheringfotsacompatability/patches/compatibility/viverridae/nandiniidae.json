@@ -19,11 +19,27 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadnandiniidae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead"
+      }
+    },
+    "file": "viverridae:entities/animal/mammal/nandiniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadnandiniidae-baby-1-dead"
       }
     },
-    "file": "viverridae:entities/land/nandiniidae.json",
+    "file": "viverridae:entities/animal/mammal/nandiniidae-baby.json",
     "dependsOn": [
       {
         "modid": "viverridae"
@@ -38,11 +54,27 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadnandiniidae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadnandiniidae-male-1-dead"
+      }
+    },
+    "file": "viverridae:entities/animal/mammal/nandiniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadnandiniidae-baby-1-dead"
       }
     },
-    "file": "viverridae:entities/land/nandiniidae.json",
+    "file": "viverridae:entities/animal/mammal/nandiniidae-baby.json",
     "dependsOn": [
       {
         "modid": "viverridae"
@@ -60,7 +92,7 @@
         "idle": "creature/nandiniidae/call*"
       }
     },
-    "file": "viverridae:entities/land/nandiniidae.json",
+    "file": "viverridae:entities/animal/mammal/nandiniidae-adult.json",
     "dependsOn": [
       {
         "modid": "viverridae"

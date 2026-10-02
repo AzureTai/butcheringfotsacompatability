@@ -1,6 +1,4 @@
 {
-  "item-deadcervini-*": "Cervini (dead)",
-  "itemdesc-deadcervini-*": "The animal's weight slows you by a large amount.",
   "item-deadchelonioidea-*": "Sea turtle (dead)",
   "itemdesc-deadchelonioidea-*": "The animal's weight slows you by a large amount.",
   "item-deadiniidae-*": "River dolphin (dead)",
@@ -29,5 +27,10 @@
   "butchering:itemdesc-deadmegalapterygidae-*": "The animal's weight slows you by a medium amount.",
   "bovinae:item-pelt-baby-bostaurustaurus": "Taurine Cattle Pelt (Calf)",
   "bovinae:item-pelt-female-bostaurustaurus": "Taurine Cattle Pelt (Female)",
-  "bovinae:item-pelt-male-bostaurustaurus": "Taurine Cattle Pelt (Male)"
+  "bovinae:item-pelt-male-bostaurustaurus": "Taurine Cattle Pelt (Male)",
+  "cervinae:item-pelt-cervini-baby-megalocerosgiganteus": "Giant Deer Pelt (Calf)",
+  "cervinae:item-pelt-cervini-female-megalocerosgiganteus": "Giant Deer Pelt (Female)",
+  "cervinae:item-pelt-cervini-male-megalocerosgiganteus": "Giant Deer Pelt (Male)",
+  "item-deadmoschidae-*": "Musk deer (dead)",
+  "itemdesc-deadmoschidae-*": "The animal's weight slows you by a medium amount."
 }

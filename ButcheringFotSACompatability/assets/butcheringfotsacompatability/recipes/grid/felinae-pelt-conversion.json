@@ -1,0 +1,230 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-baby-caracalcaracal",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-baby-caracalcaracal",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-baby-lynxcanadensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-baby-lynxcanadensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-baby-lynxlynx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-baby-lynxlynx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-baby-lynxpardinus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-baby-lynxpardinus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-female-caracalcaracal",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-female-caracalcaracal",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-female-lynxcanadensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-female-lynxcanadensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-female-lynxlynx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-female-lynxlynx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-female-lynxpardinus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-female-lynxpardinus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-male-caracalcaracal",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-male-caracalcaracal",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-male-lynxcanadensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-male-lynxcanadensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-male-lynxlynx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-male-lynxlynx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "felinae:pelt-male-lynxpardinus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "felinae:pelt-raw-male-lynxpardinus",
+      "quantity": 1
+    }
+  }
+]

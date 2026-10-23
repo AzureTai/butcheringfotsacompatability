@@ -2,50 +2,139 @@
   {
     "op": "replace",
     "side": "server",
+    "file": "butchering:itemtypes/butchercreatures/cervinae/cervini.json",
     "path": "/enabled",
     "value": true,
-    "file": "butchering:itemtypes/butchercreatures/cervinae/cervini.json",
     "dependsOn": [
       {
         "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
   {
     "op": "addmerge",
     "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-adult.json",
     "path": "/server/behaviors/-",
     "value": {
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
-        "*-adult-male-*": "butchering:deadcervidae-male-1-dead",
-        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead"
       }
     },
-    "file": "cervinae:entities/land/cervini.json",
     "dependsOn": [
       {
         "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
   {
     "op": "addmerge",
     "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-adult.json",
     "path": "/client/behaviors/-",
     "value": {
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
-        "*-adult-male-*": "butchering:deadcervidae-male-1-dead",
-        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead"
       }
     },
-    "file": "cervinae:entities/land/cervini.json",
     "dependsOn": [
       {
         "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-baby.json",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-baby.json",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadcervidae-baby-1-dead"
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-tamed.json",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead"
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-tamed.json",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadcervidae-female-1-dead",
+        "*-adult-male-*": "butchering:deadcervidae-male-1-dead"
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

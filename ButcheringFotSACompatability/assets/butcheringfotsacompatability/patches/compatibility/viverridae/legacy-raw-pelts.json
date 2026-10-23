@@ -1,0 +1,854 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "viverridae:itemtypes/resource/compat-legacy-raw-pelt.json",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/4/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/5/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/6/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/7/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/8/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/9/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/10/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/11/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/12/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/13/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/14/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/15/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/16/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/17/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/18/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/19/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/20/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/21/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/22/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/23/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/24/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/25/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/26/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/27/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/28/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/29/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/30/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/31/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/32/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/33/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/34/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/35/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/36/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/37/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/38/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/39/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/40/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/41/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/42/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/43/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/44/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/45/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/46/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/47/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/48/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/49/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/50/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/51/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/52/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/53/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/54/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/55/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/56/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/57/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/58/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/59/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/60/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/61/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/62/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/63/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/64/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/65/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/66/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/67/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/68/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/viverridae-pelt-conversion.json",
+    "path": "/69/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "viverridae"
+      }
+    ]
+  }
+]

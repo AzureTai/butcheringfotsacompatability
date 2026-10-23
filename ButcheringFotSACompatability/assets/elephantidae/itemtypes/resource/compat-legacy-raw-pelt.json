@@ -1,0 +1,1051 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "elephasmaximus",
+        "elephasmaximusborneensis",
+        "loxodontaafricana",
+        "loxodontacyclotis",
+        "mammuthuscolumbi",
+        "mammuthusexilis",
+        "mammuthusprimigenius",
+        "palaeoloxodoncypriotes"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "*-female-*": {
+      "base": "item/animal/mammal/elephantidae/{species}/floorpelt-male"
+    },
+    "*": {
+      "base": "item/animal/mammal/elephantidae/{species}/floorpelt-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-baby-elephasmaximus": {
+      "skin": {
+        "base": "entity/animal/mammal/elephantidae/elephasmaximusborneensis-baby"
+      }
+    },
+    "*-baby-loxodontaafricana": {
+      "skin": {
+        "base": "entity/animal/mammal/elephantidae/loxodontacyclotis-baby"
+      }
+    },
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/elephantidae/{species}-baby"
+      }
+    },
+    "*": {
+      "skin": {
+        "base": "entity/animal/mammal/elephantidae/{species}-adult"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-elephasmaximus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*-male-elephasmaximus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.32
+      },
+      "*-baby-elephasmaximus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-elephasmaximusborneensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.89
+      },
+      "*-male-elephasmaximusborneensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.28
+      },
+      "*-baby-elephasmaximusborneensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-loxodontaafricana": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-male-loxodontaafricana": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.37
+      },
+      "*-baby-loxodontaafricana": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-loxodontacyclotis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.13
+      },
+      "*-male-loxodontacyclotis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.54
+      },
+      "*-baby-loxodontacyclotis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-mammuthuscolumbi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.11
+      },
+      "*-male-mammuthuscolumbi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.36
+      },
+      "*-baby-mammuthuscolumbi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.1
+      },
+      "*-female-mammuthusexilis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.83
+      },
+      "*-male-mammuthusexilis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.12
+      },
+      "*-baby-mammuthusexilis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-mammuthusprimigenius": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.94
+      },
+      "*-male-mammuthusprimigenius": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.14
+      },
+      "*-baby-mammuthusprimigenius": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-palaeoloxodoncypriotes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-palaeoloxodoncypriotes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.1
+      },
+      "*-baby-palaeoloxodoncypriotes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-elephasmaximus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*-male-elephasmaximus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.32
+      },
+      "*-baby-elephasmaximus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-elephasmaximusborneensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.89
+      },
+      "*-male-elephasmaximusborneensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.28
+      },
+      "*-baby-elephasmaximusborneensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-loxodontaafricana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-male-loxodontaafricana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.37
+      },
+      "*-baby-loxodontaafricana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-loxodontacyclotis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.13
+      },
+      "*-male-loxodontacyclotis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.54
+      },
+      "*-baby-loxodontacyclotis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-mammuthuscolumbi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.11
+      },
+      "*-male-mammuthuscolumbi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.36
+      },
+      "*-baby-mammuthuscolumbi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.1
+      },
+      "*-female-mammuthusexilis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.83
+      },
+      "*-male-mammuthusexilis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.12
+      },
+      "*-baby-mammuthusexilis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-mammuthusprimigenius": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.94
+      },
+      "*-male-mammuthusprimigenius": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.14
+      },
+      "*-baby-mammuthusprimigenius": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-palaeoloxodoncypriotes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-palaeoloxodoncypriotes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.1
+      },
+      "*-baby-palaeoloxodoncypriotes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*-baby-*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-mammuthusprimigenius": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-mammuthusprimigenius": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.1
+    },
+    "*-female-*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-elephasmaximus": 100,
+          "*-female-elephasmaximus": 70,
+          "*-baby-elephasmaximus": 5,
+          "*-male-elephasmaximusborneensis": 90,
+          "*-female-elephasmaximusborneensis": 60,
+          "*-baby-elephasmaximusborneensis": 5,
+          "*-male-loxodontaafricana": 110,
+          "*-female-loxodontaafricana": 80,
+          "*-baby-loxodontaafricana": 10,
+          "*-male-loxodontacyclotis": 60,
+          "*-female-loxodontacyclotis": 50,
+          "*-baby-loxodontacyclotis": 5,
+          "*-male-mammuthuscolumbi": 120,
+          "*-female-mammuthuscolumbi": 100,
+          "*-baby-mammuthuscolumbi": 10,
+          "*-male-mammuthusexilis": 30,
+          "*-female-mammuthusexilis": 20,
+          "*-baby-mammuthusexilis": 3,
+          "*-male-mammuthusprimigenius": 110,
+          "*-female-mammuthusprimigenius": 80,
+          "*-baby-mammuthusprimigenius": 5,
+          "*-male-palaeoloxodoncypriotes": 9,
+          "*-female-palaeoloxodoncypriotes": 6,
+          "*-baby-palaeoloxodoncypriotes": 2
+        }
+      }
+    ]
+  }
+}

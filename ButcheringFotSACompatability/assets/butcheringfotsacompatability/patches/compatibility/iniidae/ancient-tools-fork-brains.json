@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-lipotesvexillifer": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-male-lipotesvexillifer": {
+          "avg": 0.75,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "iniidae:entities/animal/mammal/iniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,1332 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-arctictisbinturong",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-arctictisbinturong",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-arctogalidiatrivirgata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-arctogalidiatrivirgata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-chrotogaleowstoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-chrotogaleowstoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-civettictiscivetta",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-civettictiscivetta",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-cynogalebennettii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-cynogalebennettii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-diplogalehosei",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-diplogalehosei",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettaabyssinica",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettaabyssinica",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettaangolensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettaangolensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettabourloni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettabourloni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettacristata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettacristata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettagenetta",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettagenetta",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettajohnstoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettajohnstoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettamaculata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettamaculata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettapardina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettapardina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettapiscivora",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettapiscivora",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettaplesictoides",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettaplesictoides",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettapoensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettapoensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettaservalina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettaservalina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettathierryi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettathierryi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettatigrina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettatigrina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-genettavictoriae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-genettavictoriae",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-hemigalusderbyanus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-hemigalusderbyanus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-macrogalidiamusschenbroekii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-macrogalidiamusschenbroekii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-nandiniabinotata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-nandiniabinotata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-pagumalarvata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-pagumalarvata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-paradoxurushermaphroditus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-paradoxurushermaphroditus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-paradoxurusjerdoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-paradoxurusjerdoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-paradoxuruszeylonensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-paradoxuruszeylonensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-poianaleightoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-poianaleightoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-poianarichardsonii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-poianarichardsonii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-viverracivettina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-viverracivettina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-viverramegaspila",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-viverramegaspila",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-viverratangalunga",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-viverratangalunga",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-viverrazibetha",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-viverrazibetha",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-female-viverriculaindica",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-female-viverriculaindica",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-arctictisbinturong",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-arctictisbinturong",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-arctogalidiatrivirgata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-arctogalidiatrivirgata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-chrotogaleowstoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-chrotogaleowstoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-civettictiscivetta",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-civettictiscivetta",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-cynogalebennettii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-cynogalebennettii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-diplogalehosei",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-diplogalehosei",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettaabyssinica",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettaabyssinica",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettaangolensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettaangolensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettabourloni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettabourloni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettacristata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettacristata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettagenetta",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettagenetta",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettajohnstoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettajohnstoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettamaculata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettamaculata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettapardina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettapardina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettapiscivora",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettapiscivora",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettaplesictoides",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettaplesictoides",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettapoensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettapoensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettaservalina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettaservalina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettathierryi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettathierryi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettatigrina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettatigrina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-genettavictoriae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-genettavictoriae",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-hemigalusderbyanus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-hemigalusderbyanus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-macrogalidiamusschenbroekii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-macrogalidiamusschenbroekii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-nandiniabinotata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-nandiniabinotata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-pagumalarvata",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-pagumalarvata",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-paradoxurushermaphroditus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-paradoxurushermaphroditus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-paradoxurusjerdoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-paradoxurusjerdoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-paradoxuruszeylonensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-paradoxuruszeylonensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-poianaleightoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-poianaleightoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-poianarichardsonii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-poianarichardsonii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-viverracivettina",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-viverracivettina",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-viverramegaspila",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-viverramegaspila",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-viverratangalunga",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-viverratangalunga",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-viverrazibetha",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-viverrazibetha",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "viverridae:pelt-male-viverriculaindica",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "viverridae:pelt-raw-male-viverriculaindica",
+      "quantity": 1
+    }
+  }
+]

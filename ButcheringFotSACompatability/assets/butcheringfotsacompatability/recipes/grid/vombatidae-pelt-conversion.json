@@ -1,0 +1,325 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-baby-phascolonusgigas",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-baby-phascolonusgigas",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-baby-thylacoleocarnifex",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-baby-thylacoleocarnifex",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-baby-zygomaturustrilobus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-baby-zygomaturustrilobus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-lasiorhinuskrefftii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-lasiorhinuskrefftii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-lasiorhinuslatifrons",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-lasiorhinuslatifrons",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-phascolonusgigas",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-phascolonusgigas",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-thylacoleocarnifex",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-thylacoleocarnifex",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-vombatushacketti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-vombatushacketti",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-vombatusursinus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-vombatusursinus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-female-zygomaturustrilobus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-female-zygomaturustrilobus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-lasiorhinuskrefftii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-lasiorhinuskrefftii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-lasiorhinuslatifrons",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-lasiorhinuslatifrons",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-phascolonusgigas",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-phascolonusgigas",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-thylacoleocarnifex",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-thylacoleocarnifex",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-vombatushacketti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-vombatushacketti",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-vombatusursinus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-vombatusursinus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "vombatidae:pelt-male-zygomaturustrilobus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "vombatidae:pelt-raw-male-zygomaturustrilobus",
+      "quantity": 1
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "thylacinidae:itemtypes/resource/compat-legacy-raw-pelt.json",
+    "path": "/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/0/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/1/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/2/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/3/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/4/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/thylacinidae-pelt-conversion.json",
+    "path": "/5/enabled",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ],
+    "value": true
+  }
+]

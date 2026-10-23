@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "side": "server",
+    "file": "butcheringfotsacompatability:config/remaps.json",
+    "path": "/butcheringfotsacompatability:v1.0.9-cervini",
+    "value": [
+      "/iir remapq butchering:deadcervidae-male-1-dead butcheringfotsacompatability:deadcervini-male-1-dead force",
+      "/iir remapq butchering:deadcervidae-male-1-skinned butcheringfotsacompatability:deadcervini-male-1-skinned force",
+      "/iir remapq butchering:deadcervidae-male-1-bledout butcheringfotsacompatability:deadcervini-male-1-bledout force",
+      "/iir remapq butchering:deadcervidae-male-1-rotten butcheringfotsacompatability:deadcervini-male-1-rotten force",
+      "/iir remapq butchering:deadcervidae-female-1-dead butcheringfotsacompatability:deadcervini-female-1-dead force",
+      "/iir remapq butchering:deadcervidae-female-1-skinned butcheringfotsacompatability:deadcervini-female-1-skinned force",
+      "/iir remapq butchering:deadcervidae-female-1-bledout butcheringfotsacompatability:deadcervini-female-1-bledout force",
+      "/iir remapq butchering:deadcervidae-female-1-rotten butcheringfotsacompatability:deadcervini-female-1-rotten force",
+      "/iir remapq butchering:deadcervidae-baby-1-dead butcheringfotsacompatability:deadcervini-baby-1-dead force",
+      "/iir remapq butchering:deadcervidae-baby-1-skinned butcheringfotsacompatability:deadcervini-baby-1-skinned force",
+      "/iir remapq butchering:deadcervidae-baby-1-bledout butcheringfotsacompatability:deadcervini-baby-1-bledout force",
+      "/iir remapq butchering:deadcervidae-baby-1-rotten butcheringfotsacompatability:deadcervini-baby-1-rotten force"
+    ],
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  }
+]

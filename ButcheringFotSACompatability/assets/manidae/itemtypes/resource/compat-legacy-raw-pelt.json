@@ -1,0 +1,928 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "crassicaudata",
+        "culionensis",
+        "gigantea",
+        "javanica",
+        "mysteria",
+        "pentadactyla",
+        "temminckii",
+        "tetradactyla",
+        "tricuspis"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "*": {
+      "base": "item/animal/mammal/manidae/{species}/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "skin": {
+        "base": "entity/animal/mammal/manidae/{species}-adult"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-crassicaudata": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.51
+      },
+      "*-male-crassicaudata": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-culionensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-male-culionensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.77
+      },
+      "*-female-gigantea": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-gigantea": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-javanica": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-javanica": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-female-mysteria": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-mysteria": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-female-pentadactyla": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.52
+      },
+      "*-male-pentadactyla": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-female-temminckii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.44
+      },
+      "*-male-temminckii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.66
+      },
+      "*-female-tetradactyla": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.43
+      },
+      "*-male-tetradactyla": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-tricuspis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-male-tricuspis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.15,
+        "y": -0.01,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-crassicaudata": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.51
+      },
+      "*-male-crassicaudata": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-culionensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-male-culionensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.77
+      },
+      "*-female-gigantea": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-gigantea": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-javanica": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-javanica": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-female-mysteria": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-mysteria": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-female-pentadactyla": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.52
+      },
+      "*-male-pentadactyla": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-female-temminckii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.44
+      },
+      "*-male-temminckii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.66
+      },
+      "*-female-tetradactyla": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.43
+      },
+      "*-male-tetradactyla": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-tricuspis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-male-tricuspis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-crassicaudata": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.51
+    },
+    "*-male-crassicaudata": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.64
+    },
+    "*-female-culionensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.64
+    },
+    "*-male-culionensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.77
+    },
+    "*-female-gigantea": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-male-gigantea": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-female-javanica": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.59
+    },
+    "*-male-javanica": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.71
+    },
+    "*-female-mysteria": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.59
+    },
+    "*-male-mysteria": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.71
+    },
+    "*-female-pentadactyla": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.52
+    },
+    "*-male-pentadactyla": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    },
+    "*-female-temminckii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.44
+    },
+    "*-male-temminckii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.66
+    },
+    "*-female-tetradactyla": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.43
+    },
+    "*-male-tetradactyla": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.53
+    },
+    "*-female-tricuspis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.45
+    },
+    "*-male-tricuspis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.6
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-crassicaudata": 2,
+          "*-female-crassicaudata": 2,
+          "*-male-culionensis": 1,
+          "*-female-culionensis": 1,
+          "*-male-gigantea": 4,
+          "*-female-gigantea": 4,
+          "*-male-javanica": 2,
+          "*-female-javanica": 2,
+          "*-male-mysteria": 2,
+          "*-female-mysteria": 2,
+          "*-male-pentadactyla": 1,
+          "*-female-pentadactyla": 1,
+          "*-male-temminckii": 2,
+          "*-female-temminckii": 2,
+          "*-male-tetradactyla": 1,
+          "*-female-tetradactyla": 1,
+          "*-male-tricuspis": 1,
+          "*-female-tricuspis": 1
+        }
+      }
+    ]
+  }
+}

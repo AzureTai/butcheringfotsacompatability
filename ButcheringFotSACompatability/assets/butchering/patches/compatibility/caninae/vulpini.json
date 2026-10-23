@@ -13,6 +13,9 @@
     "dependsOn": [
       {
         "modid": "caninae"
+      },
+      {
+        "modid": "butchering"
       }
     ],
     "side": "server"
@@ -31,6 +34,9 @@
     "dependsOn": [
       {
         "modid": "caninae"
+      },
+      {
+        "modid": "butchering"
       }
     ],
     "side": "server"
@@ -46,6 +52,9 @@
     "dependsOn": [
       {
         "modid": "caninae"
+      },
+      {
+        "modid": "butchering"
       }
     ],
     "side": "server"
@@ -61,6 +70,9 @@
     "dependsOn": [
       {
         "modid": "caninae"
+      },
+      {
+        "modid": "butchering"
       }
     ],
     "side": "server"

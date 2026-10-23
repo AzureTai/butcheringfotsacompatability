@@ -1,0 +1,134 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-male-zygomaturustrilobus": {
+          "avg": 2.1,
+          "var": 0.4
+        },
+        "*-adult-female-zygomaturustrilobus": {
+          "avg": 1.7,
+          "var": 0.3
+        }
+      }
+    },
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-zygomaturustrilobus": {
+          "avg": 0.35,
+          "var": 0
+        }
+      }
+    },
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-*-thylacoleocarnifex": {
+          "avg": 0.6,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "vombatidae:entities/animal/mammal/thylacoleonidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-*-lasiorhinuskrefftii": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-adult-*-lasiorhinuslatifrons": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-*-phascolonusgigas": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-*-vombatushacketti": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-adult-*-vombatusursinus": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "vombatidae:entities/animal/mammal/vombatidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "vombatidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

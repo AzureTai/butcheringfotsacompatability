@@ -1,0 +1,82 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-aenocyon-dirus": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-canis-familiaris": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-canis-lupus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-canis-lupusarctos": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-canis-lycaon": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-lycaon-pictus": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "caninae:entities/animal/mammal/canina-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-dusicyon-avus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-speothos-pacivorus": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "caninae:entities/animal/mammal/cerdocyonina-adult.json",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

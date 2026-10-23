@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <VintageStoryPath Condition="'$(VintageStoryPath)' == ''">F:/Games/VintageStory/Server/1.22.7</VintageStoryPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../ButcheringFotSACompatability/ButcheringFotSACompatability.csproj" />
+    <Reference Include="VintagestoryAPI" HintPath="$(VintageStoryPath)/VintagestoryAPI.dll" />
+    <Reference Include="VintagestoryLib" HintPath="$(VintageStoryPath)/VintagestoryLib.dll" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(VintageStoryPath)/Lib/Newtonsoft.Json.dll" />
+    <Reference Include="protobuf-net" HintPath="$(VintageStoryPath)/Lib/protobuf-net.dll" />
+  </ItemGroup>
+</Project>

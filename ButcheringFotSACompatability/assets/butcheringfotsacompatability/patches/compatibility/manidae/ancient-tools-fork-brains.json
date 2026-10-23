@@ -1,0 +1,110 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-crassicaudata": {
+          "avg": 2.8,
+          "var": 0.6
+        },
+        "*-adult-male-crassicaudata": {
+          "avg": 3.3,
+          "var": 0.7
+        },
+        "*-adult-female-gigantea": {
+          "avg": 3.6,
+          "var": 0.7
+        },
+        "*-adult-male-gigantea": {
+          "avg": 4.3,
+          "var": 0.9
+        },
+        "*-adult-female-javanica": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "*-adult-male-javanica": {
+          "avg": 2.3,
+          "var": 0.5
+        },
+        "*-adult-female-mysteria": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "*-adult-male-mysteria": {
+          "avg": 2.3,
+          "var": 0.5
+        },
+        "*-adult-female-temminckii": {
+          "avg": 2.8,
+          "var": 0.6
+        },
+        "*-adult-male-temminckii": {
+          "avg": 3.3,
+          "var": 0.7
+        }
+      }
+    },
+    "file": "manidae:entities/animal/mammal/manidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "manidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-crassicaudata": {
+          "avg": 0.75,
+          "var": 0.1
+        },
+        "*-baby-*-gigantea": {
+          "avg": 0.9,
+          "var": 0.2
+        },
+        "*-baby-*-javanica": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "*-baby-*-mysteria": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "*-baby-*-temminckii": {
+          "avg": 0.75,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "manidae:entities/animal/mammal/manidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "manidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

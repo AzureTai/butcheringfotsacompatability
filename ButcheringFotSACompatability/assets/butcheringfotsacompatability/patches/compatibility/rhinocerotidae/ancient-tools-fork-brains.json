@@ -1,0 +1,122 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-ceratotheriumsimum": {
+          "avg": 3.8,
+          "var": 0.8
+        },
+        "*-adult-male-ceratotheriumsimum": {
+          "avg": 4.6,
+          "var": 0.9
+        },
+        "*-adult-female-coelodontaantiquitatis": {
+          "avg": 3.5,
+          "var": 0.7
+        },
+        "*-adult-male-coelodontaantiquitatis": {
+          "avg": 4.2,
+          "var": 0.8
+        },
+        "*-adult-female-dicerorhinussumatrensis": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "*-adult-male-dicerorhinussumatrensis": {
+          "avg": 2.3,
+          "var": 0.5
+        },
+        "*-adult-female-dicerosbicornis": {
+          "avg": 2.8,
+          "var": 0.6
+        },
+        "*-adult-male-dicerosbicornis": {
+          "avg": 3.3,
+          "var": 0.7
+        },
+        "*-adult-female-rhinocerossondaicus": {
+          "avg": 2.8,
+          "var": 0.6
+        },
+        "*-adult-male-rhinocerossondaicus": {
+          "avg": 3.3,
+          "var": 0.7
+        },
+        "*-adult-female-rhinocerosunicornis": {
+          "avg": 3.6,
+          "var": 0.7
+        },
+        "*-adult-male-rhinocerosunicornis": {
+          "avg": 4.3,
+          "var": 0.9
+        }
+      }
+    },
+    "file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-ceratotheriumsimum": {
+          "avg": 0.9,
+          "var": 0.2
+        },
+        "*-baby-*-coelodontaantiquitatis": {
+          "avg": 0.9,
+          "var": 0.2
+        },
+        "*-baby-*-dicerorhinussumatrensis": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-baby-*-dicerosbicornis": {
+          "avg": 0.75,
+          "var": 0.1
+        },
+        "*-baby-*-rhinocerossondaicus": {
+          "avg": 0.75,
+          "var": 0.1
+        },
+        "*-baby-*-rhinocerosunicornis": {
+          "avg": 0.9,
+          "var": 0.2
+        }
+      }
+    },
+    "file": "rhinocerotidae:entities/animal/mammal/hooved/rhinocerotidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

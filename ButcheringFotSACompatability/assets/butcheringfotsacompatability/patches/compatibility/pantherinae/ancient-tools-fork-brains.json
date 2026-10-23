@@ -1,0 +1,82 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-female-atrox-*": {
+          "avg": 0.8,
+          "var": 0.2
+        },
+        "*-male-atrox-*": {
+          "avg": 1,
+          "var": 0.2
+        },
+        "*-female-leo-*": {
+          "avg": 0.65,
+          "var": 0.1
+        },
+        "*-male-leo-*": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-female-onca-*": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-male-onca-*": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "*-female-pardus-*": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-male-pardus-*": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-female-spelaea-*": {
+          "avg": 0.7,
+          "var": 0.1
+        },
+        "*-male-spelaea-*": {
+          "avg": 0.9,
+          "var": 0.2
+        },
+        "*-female-tigris-*": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-male-tigris-*": {
+          "avg": 0.8,
+          "var": 0.2
+        },
+        "*-female-uncia-*": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-male-uncia-*": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "pantherinae:entities/animal/mammal/pantherinae-panthera-adult.json",
+    "dependsOn": [
+      {
+        "modid": "pantherinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

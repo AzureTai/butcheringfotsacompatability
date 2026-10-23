@@ -1,0 +1,386 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-alcesalces": {
+          "avg": 1.3,
+          "var": 0.3
+        },
+        "*-adult-male-alcesalces": {
+          "avg": 1.7,
+          "var": 0.3
+        },
+        "*-adult-female-cervalcesscotti": {
+          "avg": 1.3,
+          "var": 0.3
+        },
+        "*-adult-male-cervalcesscotti": {
+          "avg": 1.7,
+          "var": 0.3
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-alcesalces": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-baby-*-cervalcesscotti": {
+          "avg": 0.35,
+          "var": 0
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-*-capreoluscapreolus": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-*-capreoluspygargus": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-adult-*-hydropotesinermis": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-male-antiferultra": {
+          "avg": 1,
+          "var": 0.1
+        },
+        "*-adult-female-antiferultra": {
+          "avg": 0.8,
+          "var": 0.1
+        },
+        "*-adult-male-blastocerusdichotomus": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "*-adult-female-blastocerusdichotomus": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "*-adult-male-bretzianebrascensis": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "*-adult-female-bretzianebrascensis": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "*-adult-male-hippocamelusantisensis": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-adult-female-hippocamelusantisensis": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-adult-male-hippocamelusbisulcus": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "*-adult-female-hippocamelusbisulcus": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "*-adult-male-mazamaamericana": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "*-adult-female-mazamaamericana": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-adult-male-odocoileushemionus": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "*-adult-female-odocoileushemionus": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-adult-male-odocoileuslucasi": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-female-odocoileuslucasi": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-adult-male-odocoileusvirginianus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-female-odocoileusvirginianus": {
+          "avg": 0.45,
+          "var": 0.1
+        },
+        "*-adult-male-ozotocerosbezoarticus": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-female-ozotocerosbezoarticus": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-male-rangiferarcticus": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangiferarcticus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangifercaribou": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangifercaribou": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangiferfennicus": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangiferfennicus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangifergroenlandicus": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangifergroenlandicus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangiferplatyrhynchus": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangiferplatyrhynchus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangifertarandus": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangifertarandus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-torontoceroshypnogeos": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-torontoceroshypnogeos": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-odocoileini-*": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-antiferultra": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-odocoileuslucasi": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangiferarcticus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangifercaribou": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangiferfennicus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangifergroenlandicus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangiferplatyrhynchus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangifertarandusdomesticus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-rangifertarandus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-baby-*-torontoceroshypnogeos": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-odocoileini-*": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-male-rangifertarandusdomesticus-*": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangifertarandusdomesticus-*": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-adult-male-rangifertarandus-*": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "*-adult-female-rangifertarandus-*": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "*-odocoileini-*": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

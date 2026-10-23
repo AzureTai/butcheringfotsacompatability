@@ -1,0 +1,4266 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "tribe",
+      "states": [
+        "alceini",
+        "capreolini",
+        "odocoileini"
+      ]
+    },
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "alcesalces",
+        "cervalcesscotti",
+        "capreoluscapreolus",
+        "capreoluspygargus",
+        "hydropotesinermis",
+        "antiferultra",
+        "blastocerusdichotomus",
+        "bretzianebrascensis",
+        "hippocamelusantisensis",
+        "hippocamelusbisulcus",
+        "mazamaamericana",
+        "mazamabricenii",
+        "mazamajucunda",
+        "mazamanana",
+        "mazamarufa",
+        "mazamarufina",
+        "mazamatemama",
+        "mazamatienhoveni",
+        "odocoileushemionus",
+        "odocoileuslucasi",
+        "odocoileuspandora",
+        "odocoileusvirginianus",
+        "ozotocerosbezoarticus",
+        "passalitesnemorivaga",
+        "pudellacarlae",
+        "pudellamephistophiles",
+        "pudupuda",
+        "rangiferarcticus",
+        "rangifercaribou",
+        "rangiferfennicus",
+        "rangifergroenlandicus",
+        "rangiferplatyrhynchus",
+        "rangifertarandusdomesticus",
+        "rangifertarandus",
+        "subulochunyi",
+        "subulogouazoubira",
+        "torontoceroshypnogeos",
+        "mazamachunyi",
+        "mazamagouazoubira",
+        "mazamanemorivaga"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-alceini-*-alcesalces",
+    "*-alceini-*-cervalcesscotti",
+    "*-capreolini-*-capreoluscapreolus",
+    "*-capreolini-*-capreoluspygargus",
+    "*-capreolini-*-hydropotesinermis",
+    "*-odocoileini-*-antiferultra",
+    "*-odocoileini-*-blastocerusdichotomus",
+    "*-odocoileini-*-bretzianebrascensis",
+    "*-odocoileini-*-hippocamelusantisensis",
+    "*-odocoileini-*-hippocamelusbisulcus",
+    "*-odocoileini-*-mazamaamericana",
+    "*-odocoileini-*-mazamabricenii",
+    "*-odocoileini-*-mazamajucunda",
+    "*-odocoileini-*-mazamanana",
+    "*-odocoileini-*-mazamarufa",
+    "*-odocoileini-*-mazamarufina",
+    "*-odocoileini-*-mazamatemama",
+    "*-odocoileini-*-mazamatienhoveni",
+    "*-odocoileini-*-odocoileushemionus",
+    "*-odocoileini-*-odocoileuslucasi",
+    "*-odocoileini-*-odocoileuspandora",
+    "*-odocoileini-*-odocoileusvirginianus",
+    "*-odocoileini-*-ozotocerosbezoarticus",
+    "*-odocoileini-*-passalitesnemorivaga",
+    "*-odocoileini-*-pudellacarlae",
+    "*-odocoileini-*-pudellamephistophiles",
+    "*-odocoileini-*-pudupuda",
+    "*-odocoileini-*-rangiferarcticus",
+    "*-odocoileini-*-rangifercaribou",
+    "*-odocoileini-*-rangiferfennicus",
+    "*-odocoileini-*-rangifergroenlandicus",
+    "*-odocoileini-*-rangiferplatyrhynchus",
+    "*-odocoileini-*-rangifertarandusdomesticus",
+    "*-odocoileini-*-rangifertarandus",
+    "*-odocoileini-*-subulochunyi",
+    "*-odocoileini-*-subulogouazoubira",
+    "*-odocoileini-*-torontoceroshypnogeos",
+    "*-odocoileini-*-mazamachunyi",
+    "*-odocoileini-*-mazamagouazoubira",
+    "*-odocoileini-*-mazamanemorivaga"
+  ],
+  "shapebytype": {
+    "pelt-odocoileini-male-mazamanemorivaga": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-female-mazamanemorivaga": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-baby-mazamanemorivaga": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-baby"
+    },
+    "pelt-odocoileini-male-mazamagouazoubira": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-female-mazamagouazoubira": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-baby-mazamagouazoubira": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-baby"
+    },
+    "pelt-odocoileini-male-mazamachunyi": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-female-mazamachunyi": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-male"
+    },
+    "pelt-odocoileini-baby-mazamachunyi": {
+      "base": "item/animal/mammal/hooved/odocoileini/subulogouazoubira/floorpelt-baby"
+    },
+    "*-baby-cervalcesscotti": {
+      "base": "item/animal/mammal/hooved/alceini/alcesalces/floorpelt-baby"
+    },
+    "*-baby-capreoluscapreolus": {
+      "base": "item/animal/mammal/hooved/odocoileini/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-capreoluscapreolus": {
+      "base": "item/animal/mammal/hooved/capreolini/capreoluspygargus/floorpelt-male"
+    },
+    "*-baby-capreoluspygargus": {
+      "base": "item/animal/mammal/hooved/odocoileini/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-baby-hydropotesinermis": {
+      "base": "item/animal/mammal/hooved/odocoileini/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-baby-antiferultra": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-antiferultra": {
+      "base": "item/animal/mammal/hooved/{tribe}/blastocerusdichotomus/floorpelt-male"
+    },
+    "*-baby-blastocerusdichotomus": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-baby-bretzianebrascensis": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-bretzianebrascensis": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileushemionus/floorpelt-male"
+    },
+    "*-baby-hippocamelusantisensis": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-baby-hippocamelusbisulcus": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-baby-mazamabricenii": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamabricenii": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamajucunda": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamajucunda": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamanana": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamanana": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamarufa": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamarufa": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamarufina": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamarufina": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamatemama": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamatemama": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-mazamatienhoveni": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-mazamatienhoveni": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-odocoileushemionus": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-baby-odocoileuslucasi": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-baby-odocoileuspandora": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-odocoileuspandora": {
+      "base": "item/animal/mammal/hooved/{tribe}/mazamaamericana/floorpelt-male"
+    },
+    "*-baby-ozotocerosbezoarticus": {
+      "base": "item/animal/mammal/hooved/{tribe}/mazamaamericana/floorpelt-baby"
+    },
+    "*-baby-passalitesnemorivaga": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-passalitesnemorivaga": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-pudellacarlae": {
+      "base": "item/animal/mammal/hooved/{tribe}/pudupuda/floorpelt-baby"
+    },
+    "*-pudellacarlae": {
+      "base": "item/animal/mammal/hooved/{tribe}/pudupuda/floorpelt-male"
+    },
+    "*-baby-pudellamephistophiles": {
+      "base": "item/animal/mammal/hooved/{tribe}/pudupuda/floorpelt-baby"
+    },
+    "*-pudellamephistophiles": {
+      "base": "item/animal/mammal/hooved/{tribe}/pudupuda/floorpelt-male"
+    },
+    "*-baby-rangiferarcticus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-baby"
+    },
+    "*-rangiferarcticus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-male"
+    },
+    "*-baby-rangifercaribou": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-baby"
+    },
+    "*-baby-rangiferfennicus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-baby"
+    },
+    "*-rangiferfennicus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-male"
+    },
+    "*-baby-rangifergroenlandicus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-baby"
+    },
+    "*-rangifergroenlandicus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-male"
+    },
+    "*-baby-rangifertarandusdomesticus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-baby"
+    },
+    "*-rangifertarandusdomesticus": {
+      "base": "item/animal/mammal/hooved/{tribe}/rangifertarandus/floorpelt-male"
+    },
+    "*-baby-subulochunyi": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-baby"
+    },
+    "*-subulochunyi": {
+      "base": "item/animal/mammal/hooved/{tribe}/subulogouazoubira/floorpelt-male"
+    },
+    "*-baby-torontoceroshypnogeos": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileusvirginianus/floorpelt-baby"
+    },
+    "*-torontoceroshypnogeos": {
+      "base": "item/animal/mammal/hooved/{tribe}/odocoileuslucasi/floorpelt-male"
+    },
+    "*-baby-*": {
+      "base": "item/animal/mammal/hooved/{tribe}/{species}/floorpelt-baby"
+    },
+    "*": {
+      "base": "item/animal/mammal/hooved/{tribe}/{species}/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "pelt-odocoileini-male-mazamanemorivaga": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/passalitesnemorivaga-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-female-mazamanemorivaga": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/passalitesnemorivaga-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-baby-mazamanemorivaga": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulogouazoubira-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-male-mazamagouazoubira": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulogouazoubira-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-female-mazamagouazoubira": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulogouazoubira-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-baby-mazamagouazoubira": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulogouazoubira-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-male-mazamachunyi": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulochunyi-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-female-mazamachunyi": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/subulochunyi-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "pelt-odocoileini-baby-mazamachunyi": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/mazamarufina-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-capreoluscapreolus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-capreoluspygargus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-hydropotesinermis": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/odocoileini/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-*-hippocamelusbisulcus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/hippocamelusbisulcus-{gender}"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-mazamabricenii": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/mazamarufina-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-mazamarufina": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/mazamarufina-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-mazama*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/subulogouazoubira-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-odocoileushemionus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-odocoileuslucasi": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-odocoileuspandora": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-passalitesnemorivaga": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/subulogouazoubira-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-pudellacarlae": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/pudupuda-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-pudellamephistophiles": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/pudupuda-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-rangifertarandusdomesticus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/rangifertarandus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-subulochunyi": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/mazamarufina-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-torontoceroshypnogeos": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/odocoileusvirginianus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/{species}-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/{tribe}/{species}-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-baby-alcesalces": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-female-alcesalces": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-male-alcesalces": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.17
+      },
+      "*-baby-cervalcesscotti": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-cervalcesscotti": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-cervalcesscotti": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.06
+      },
+      "*-baby-capreoluscapreolus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-capreoluscapreolus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-capreoluscapreolus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-baby-capreoluspygargus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-capreoluspygargus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-capreoluspygargus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-hydropotesinermis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-hydropotesinermis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-hydropotesinermis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-baby-antiferultra": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-antiferultra": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-antiferultra": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-baby-blastocerusdichotomus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-blastocerusdichotomus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.84
+      },
+      "*-male-blastocerusdichotomus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-bretzianebrascensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-female-bretzianebrascensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-bretzianebrascensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-hippocamelusantisensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-hippocamelusantisensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-hippocamelusantisensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-baby-hippocamelusbisulcus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-hippocamelusbisulcus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-hippocamelusbisulcus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-mazamaamericana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamaamericana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-mazamaamericana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-baby-mazamabricenii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-mazamabricenii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamabricenii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-mazamajucunda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamajucunda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-mazamajucunda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.56
+      },
+      "*-baby-mazamanana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamanana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamanana": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-mazamarufa": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamarufa": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-mazamarufina": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamarufina": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-male-mazamarufina": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.58
+      },
+      "*-baby-mazamatemama": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamatemama": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-mazamatemama": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-mazamatienhoveni": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-mazamatienhoveni": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamatienhoveni": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-odocoileushemionus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-female-odocoileushemionus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-odocoileushemionus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-odocoileuslucasi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-odocoileuslucasi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.09
+      },
+      "*-baby-odocoileuspandora": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-odocoileuspandora": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-odocoileuspandora": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-odocoileusvirginianus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-odocoileusvirginianus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-baby-ozotocerosbezoarticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-ozotocerosbezoarticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-baby-passalitesnemorivaga": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-passalitesnemorivaga": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-passalitesnemorivaga": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-pudellacarlae": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.34
+      },
+      "*-female-pudellacarlae": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.57
+      },
+      "*-male-pudellacarlae": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-baby-pudellamephistophiles": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.31
+      },
+      "*-female-pudellamephistophiles": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.52
+      },
+      "*-male-pudellamephistophiles": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.57
+      },
+      "*-baby-pudupuda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.37
+      },
+      "*-female-pudupuda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-pudupuda": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.73
+      },
+      "*-baby-rangiferarcticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangiferarcticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.88
+      },
+      "*-male-rangiferarcticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.01
+      },
+      "*-baby-rangifercaribou": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-rangifercaribou": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-rangifercaribou": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.04
+      },
+      "*-baby-rangiferfennicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-rangiferfennicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-male-rangiferfennicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.13
+      },
+      "*-baby-rangifergroenlandicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifergroenlandicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.88
+      },
+      "*-male-rangifergroenlandicus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-rangiferplatyrhynchus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-rangiferplatyrhynchus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-rangiferplatyrhynchus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-rangifertarandusdomesticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifertarandusdomesticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-male-rangifertarandusdomesticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-rangifertarandus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifertarandus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-male-rangifertarandus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-subulochunyi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-subulochunyi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.43
+      },
+      "*-male-subulochunyi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.47
+      },
+      "*-baby-subulogouazoubira": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-subulogouazoubira": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-subulogouazoubira": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-female-torontoceroshypnogeos": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-torontoceroshypnogeos": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0.1
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-baby-alcesalces": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-female-alcesalces": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-male-alcesalces": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.17
+      },
+      "*-baby-cervalcesscotti": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-cervalcesscotti": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-cervalcesscotti": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.06
+      },
+      "*-baby-capreoluscapreolus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-capreoluscapreolus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-capreoluscapreolus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-baby-capreoluspygargus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-capreoluspygargus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-capreoluspygargus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-hydropotesinermis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-hydropotesinermis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-hydropotesinermis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-baby-antiferultra": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-antiferultra": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-antiferultra": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-baby-blastocerusdichotomus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-blastocerusdichotomus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.84
+      },
+      "*-male-blastocerusdichotomus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-bretzianebrascensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-female-bretzianebrascensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-bretzianebrascensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-hippocamelusantisensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-hippocamelusantisensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-hippocamelusantisensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-baby-hippocamelusbisulcus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-hippocamelusbisulcus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-hippocamelusbisulcus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-mazamaamericana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamaamericana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-mazamaamericana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-baby-mazamabricenii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-mazamabricenii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamabricenii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-mazamajucunda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamajucunda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-mazamajucunda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.56
+      },
+      "*-baby-mazamanana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamanana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamanana": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-mazamarufa": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamarufa": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-mazamarufina": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-female-mazamarufina": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-male-mazamarufina": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.58
+      },
+      "*-baby-mazamatemama": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-mazamatemama": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-mazamatemama": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-mazamatienhoveni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-mazamatienhoveni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-mazamatienhoveni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-odocoileushemionus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-female-odocoileushemionus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-odocoileushemionus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-odocoileuslucasi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-odocoileuslucasi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.09
+      },
+      "*-baby-odocoileuspandora": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-odocoileuspandora": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-male-odocoileuspandora": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.875
+      },
+      "*-baby-odocoileusvirginianus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-odocoileusvirginianus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-baby-ozotocerosbezoarticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-ozotocerosbezoarticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-baby-passalitesnemorivaga": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-female-passalitesnemorivaga": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-passalitesnemorivaga": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.625
+      },
+      "*-baby-pudellacarlae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.34
+      },
+      "*-female-pudellacarlae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.57
+      },
+      "*-male-pudellacarlae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-baby-pudellamephistophiles": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.31
+      },
+      "*-female-pudellamephistophiles": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.52
+      },
+      "*-male-pudellamephistophiles": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.57
+      },
+      "*-baby-pudupuda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.37
+      },
+      "*-female-pudupuda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-pudupuda": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.73
+      },
+      "*-baby-rangiferarcticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangiferarcticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.88
+      },
+      "*-male-rangiferarcticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.01
+      },
+      "*-baby-rangifercaribou": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-rangifercaribou": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-rangifercaribou": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.04
+      },
+      "*-baby-rangiferfennicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-rangiferfennicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-male-rangiferfennicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.13
+      },
+      "*-baby-rangifergroenlandicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifergroenlandicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.88
+      },
+      "*-male-rangifergroenlandicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-rangiferplatyrhynchus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-rangiferplatyrhynchus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-rangiferplatyrhynchus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-baby-rangifertarandusdomesticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifertarandusdomesticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-male-rangifertarandusdomesticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-rangifertarandus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-rangifertarandus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-male-rangifertarandus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-baby-subulochunyi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-subulochunyi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.43
+      },
+      "*-male-subulochunyi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.47
+      },
+      "*-baby-subulogouazoubira": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-female-subulogouazoubira": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-male-subulogouazoubira": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.81
+      },
+      "*-female-torontoceroshypnogeos": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.92
+      },
+      "*-male-torontoceroshypnogeos": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.0
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*alces*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*dichotomus*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*hemionus*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.2
+    },
+    "*virginianus*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*rangifer*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*capreolini*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.9
+    },
+    "*hippocamelus*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.9
+    },
+    "*ozotoceros*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.9
+    },
+    "*torontoceroshypnogeos*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.7
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-alcesalces": 30,
+          "*-female-alcesalces": 20,
+          "*-baby-alcesalces": 3,
+          "*-male-cervalcesscotti": 30,
+          "*-female-cervalcesscotti": 20,
+          "*-baby-cervalcesscotti": 3,
+          "*-male-capreoluscapreolus": 4,
+          "*-female-capreoluscapreolus": 4,
+          "*-baby-capreoluscapreolus": 1,
+          "*-male-capreoluspygargus": 4,
+          "*-female-capreoluspygargus": 4,
+          "*-baby-capreoluspygargus": 1,
+          "*-male-hydropotesinermis": 2,
+          "*-female-hydropotesinermis": 2,
+          "*-baby-hydropotesinermis": 1,
+          "*-male-antiferultra": 15,
+          "*-female-antiferultra": 12,
+          "*-baby-antiferultra": 2,
+          "*-male-blastocerusdichotomus": 12,
+          "*-female-blastocerusdichotomus": 9,
+          "*-baby-blastocerusdichotomus": 2,
+          "*-male-bretzianebrascensis": 9,
+          "*-female-bretzianebrascensis": 6,
+          "*-baby-bretzianebrascensis": 2,
+          "*-male-hippocamelusantisensis": 6,
+          "*-female-hippocamelusantisensis": 6,
+          "*-baby-hippocamelusantisensis": 2,
+          "*-male-hippocamelusbisulcus": 9,
+          "*-female-hippocamelusbisulcus": 6,
+          "*-baby-hippocamelusbisulcus": 2,
+          "*-male-mazamaamericana": 4,
+          "*-female-mazamaamericana": 4,
+          "*-baby-mazamaamericana": 1,
+          "*-male-mazamabricenii": 2,
+          "*-female-mazamabricenii": 2,
+          "*-baby-mazamabricenii": 1,
+          "*-male-mazamajucunda": 2,
+          "*-female-mazamajucunda": 2,
+          "*-baby-mazamajucunda": 1,
+          "*-male-mazamanana": 2,
+          "*-female-mazamanana": 2,
+          "*-baby-mazamanana": 1,
+          "*-male-mazamarufa": 4,
+          "*-female-mazamarufa": 4,
+          "*-baby-mazamarufa": 1,
+          "*-male-mazamarufina": 2,
+          "*-female-mazamarufina": 2,
+          "*-baby-mazamarufina": 1,
+          "*-male-mazamatemama": 2,
+          "*-female-mazamatemama": 2,
+          "*-baby-mazamatemama": 1,
+          "*-male-mazamatienhoveni": 2,
+          "*-female-mazamatienhoveni": 2,
+          "*-baby-mazamatienhoveni": 1,
+          "*-male-odocoileushemionus": 9,
+          "*-female-odocoileushemionus": 6,
+          "*-baby-odocoileushemionus": 2,
+          "*-male-odocoileuslucasi": 18,
+          "*-female-odocoileuslucasi": 12,
+          "*-baby-odocoileuslucasi": 2,
+          "*-male-odocoileuspandora": 2,
+          "*-female-odocoileuspandora": 2,
+          "*-baby-odocoileuspandora": 1,
+          "*-male-odocoileusvirginianus": 9,
+          "*-female-odocoileusvirginianus": 6,
+          "*-baby-odocoileusvirginianus": 2,
+          "*-male-ozotocerosbezoarticus": 4,
+          "*-female-ozotocerosbezoarticus": 4,
+          "*-baby-ozotocerosbezoarticus": 1,
+          "*-male-passalitesnemorivaga": 2,
+          "*-female-passalitesnemorivaga": 2,
+          "*-baby-passalitesnemorivaga": 1,
+          "*-male-pudellacarlae": 1,
+          "*-female-pudellacarlae": 1,
+          "*-baby-pudellacarlae": 1,
+          "*-male-pudellamephistophiles": 1,
+          "*-female-pudellamephistophiles": 1,
+          "*-baby-pudellamephistophiles": 1,
+          "*-male-pudupuda": 2,
+          "*-female-pudupuda": 2,
+          "*-baby-pudupuda": 1,
+          "*-male-rangiferarcticus": 12,
+          "*-female-rangiferarcticus": 9,
+          "*-baby-rangiferarcticus": 2,
+          "*-male-rangifercaribou": 15,
+          "*-female-rangifercaribou": 12,
+          "*-baby-rangifercaribou": 2,
+          "*-male-rangiferfennicus": 15,
+          "*-female-rangiferfennicus": 9,
+          "*-baby-rangiferfennicus": 2,
+          "*-male-rangifergroenlandicus": 12,
+          "*-female-rangifergroenlandicus": 9,
+          "*-baby-rangifergroenlandicus": 2,
+          "*-male-rangiferplatyrhynchus": 6,
+          "*-female-rangiferplatyrhynchus": 6,
+          "*-baby-rangiferplatyrhynchus": 2,
+          "*-male-rangifertarandusdomesticus": 12,
+          "*-female-rangifertarandusdomesticus": 9,
+          "*-baby-rangifertarandusdomesticus": 2,
+          "*-male-rangifertarandus": 9,
+          "*-female-rangifertarandus": 6,
+          "*-baby-rangifertarandus": 2,
+          "*-male-subulochunyi": 2,
+          "*-female-subulochunyi": 2,
+          "*-baby-subulochunyi": 1,
+          "*-male-subulogouazoubira": 2,
+          "*-female-subulogouazoubira": 2,
+          "*-baby-subulogouazoubira": 1,
+          "*-male-torontoceroshypnogeos": 12,
+          "*-female-torontoceroshypnogeos": 9,
+          "*-baby-torontoceroshypnogeos": 2
+        }
+      }
+    ]
+  }
+}

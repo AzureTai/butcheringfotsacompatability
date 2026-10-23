@@ -1,0 +1,262 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "genus",
+      "states": [
+        "homotherium",
+        "smilodon"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "fatalis",
+        "populator",
+        "serum"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-homotherium-serum",
+    "*-smilodon-fatalis",
+    "*-smilodon-populator"
+  ],
+  "shapebytype": {
+    "*-baby-*": {
+      "base": "item/animal/mammal/machairodontinae/homotherium/floorpelt-serum-baby"
+    },
+    "*": {
+      "base": "item/animal/mammal/machairodontinae/{genus}/floorpelt-{species}-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/machairodontinae/{species}-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*": {
+      "skin": {
+        "base": "entity/animal/mammal/machairodontinae/{species}"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1.0
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-homotherium-serum": 30,
+          "*-female-homotherium-serum": 25,
+          "*-baby-homotherium-serum": 2,
+          "*-male-smilodon-fatalis": 35,
+          "*-female-smilodon-fatalis": 25,
+          "*-baby-smilodon-fatalis": 2,
+          "*-male-smilodon-populator": 40,
+          "*-female-smilodon-populator": 35,
+          "*-baby-smilodon-populator": 2
+        }
+      }
+    ]
+  }
+}

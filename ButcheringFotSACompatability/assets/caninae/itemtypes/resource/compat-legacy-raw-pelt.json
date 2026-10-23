@@ -1,0 +1,657 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "tribe",
+      "states": [
+        "canina",
+        "cerdocyonina",
+        "urocyonini",
+        "vulpini"
+      ]
+    },
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "genus",
+      "states": [
+        "aenocyon",
+        "canis",
+        "cuon",
+        "cynotherium",
+        "lupulella",
+        "lycaon",
+        "atelocynus",
+        "cerdocyon",
+        "chrysocyon",
+        "dusicyon",
+        "lycalopex",
+        "speothos",
+        "urocyon",
+        "nyctereutes",
+        "otocyon",
+        "vulpes"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "dirus",
+        "aureus",
+        "familiaris",
+        "latrans",
+        "lupastor",
+        "lupus",
+        "lupusarctos",
+        "lupusdingo",
+        "lycaon",
+        "rufus",
+        "simensis",
+        "alpinus",
+        "sardous",
+        "adusta",
+        "mesomelas",
+        "pictus",
+        "microtis",
+        "thous",
+        "brachyurus",
+        "australis",
+        "avus",
+        "culpaeus",
+        "fulvipes",
+        "griseus",
+        "gymnocercus",
+        "sechurae",
+        "vetulus",
+        "pacivorus",
+        "venaticus",
+        "cinereoargenteus",
+        "littoralis",
+        "procyonoides",
+        "viverrinus",
+        "megalotis",
+        "bengalensis",
+        "cana",
+        "chama",
+        "corsac",
+        "ferrilata",
+        "lagopus",
+        "macrotis",
+        "pallida",
+        "rueppellii",
+        "velox",
+        "vulpes",
+        "zerda"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-canina-*-aenocyon-dirus",
+    "*-canina-*-canis-aureus",
+    "*-canina-*-canis-familiaris",
+    "*-canina-*-canis-latrans",
+    "*-canina-*-canis-lupastor",
+    "*-canina-*-canis-lupus",
+    "*-canina-*-canis-lupusarctos",
+    "*-canina-*-canis-lupusdingo",
+    "*-canina-*-canis-lycaon",
+    "*-canina-*-canis-rufus",
+    "*-canina-*-canis-simensis",
+    "*-canina-*-cuon-alpinus",
+    "*-canina-*-cynotherium-sardous",
+    "*-canina-*-lupulella-adusta",
+    "*-canina-*-lupulella-mesomelas",
+    "*-canina-*-lycaon-pictus",
+    "*-cerdocyonina-*-atelocynus-microtis",
+    "*-cerdocyonina-*-cerdocyon-thous",
+    "*-cerdocyonina-*-chrysocyon-brachyurus",
+    "*-cerdocyonina-*-dusicyon-australis",
+    "*-cerdocyonina-*-dusicyon-avus",
+    "*-cerdocyonina-*-lycalopex-culpaeus",
+    "*-cerdocyonina-*-lycalopex-fulvipes",
+    "*-cerdocyonina-*-lycalopex-griseus",
+    "*-cerdocyonina-*-lycalopex-gymnocercus",
+    "*-cerdocyonina-*-lycalopex-sechurae",
+    "*-cerdocyonina-*-lycalopex-vetulus",
+    "*-cerdocyonina-*-speothos-pacivorus",
+    "*-cerdocyonina-*-speothos-venaticus",
+    "*-urocyonini-*-urocyon-cinereoargenteus",
+    "*-urocyonini-*-urocyon-littoralis",
+    "*-vulpini-*-nyctereutes-procyonoides",
+    "*-vulpini-*-nyctereutes-viverrinus",
+    "*-vulpini-*-otocyon-megalotis",
+    "*-vulpini-*-vulpes-bengalensis",
+    "*-vulpini-*-vulpes-cana",
+    "*-vulpini-*-vulpes-chama",
+    "*-vulpini-*-vulpes-corsac",
+    "*-vulpini-*-vulpes-ferrilata",
+    "*-vulpini-*-vulpes-lagopus",
+    "*-vulpini-*-vulpes-macrotis",
+    "*-vulpini-*-vulpes-pallida",
+    "*-vulpini-*-vulpes-rueppellii",
+    "*-vulpini-*-vulpes-velox",
+    "*-vulpini-*-vulpes-vulpes",
+    "*-vulpini-*-vulpes-zerda"
+  ],
+  "shapebytype": {
+    "*": {
+      "base": "item/animal/mammal/{tribe}/floorpelt-{species}-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-*-baby-canis-familiaris": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/latrans-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-canis-lupastor": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/aureus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-canis-lupus": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/latrans-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-canis-lycaon": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/latrans-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-canis-rufus": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/latrans-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-cuon-alpinus": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/simensis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-cynotherium-sardous": {
+      "skin": {
+        "base": "entity/animal/mammal/canis/lupusdingo-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-lupulella-*": {
+      "skin": {
+        "base": "entity/animal/mammal/aenocyon/dirus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-dusicyon-avus": {
+      "skin": {
+        "base": "entity/animal/mammal/dusicyon/australis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-lycalopex-griseus": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/corsac-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-lycalopex-gymnocercus": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/pallida-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-lycalopex-sechurae": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/macrotis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-lycalopex-vetulus": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/macrotis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-speothos-pacivorus": {
+      "skin": {
+        "base": "entity/animal/mammal/speothos/venaticus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-nyctereutes-viverrinus": {
+      "skin": {
+        "base": "entity/animal/mammal/nyctereutes/procyonoides-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-vulpes-cana": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/bengalensis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-vulpes-ferrilata": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/macrotis-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-vulpes-rueppellii": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/pallida-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-vulpes-velox": {
+      "skin": {
+        "base": "entity/animal/mammal/vulpes/corsac-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-urocyon-littoralis": {
+      "skin": {
+        "base": "entity/animal/mammal/urocyon/cinereoargenteus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/{genus}/{species}-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*": {
+      "skin": {
+        "base": "entity/animal/mammal/{genus}/{species}-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0.1
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1.0
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-aenocyon-dirus": 8,
+          "*-female-aenocyon-dirus": 8,
+          "*-baby-aenocyon-dirus": 1,
+          "*-male-canis-aureus": 2,
+          "*-female-canis-aureus": 2,
+          "*-baby-canis-aureus": 1,
+          "*-male-canis-familiaris": 6,
+          "*-female-canis-familiaris": 6,
+          "*-baby-canis-familiaris": 1,
+          "*-male-canis-latrans": 2,
+          "*-female-canis-latrans": 2,
+          "*-baby-canis-latrans": 1,
+          "*-male-canis-lupastor": 2,
+          "*-female-canis-lupastor": 2,
+          "*-baby-canis-lupastor": 1,
+          "*-male-canis-lupus": 6,
+          "*-female-canis-lupus": 6,
+          "*-baby-canis-lupus": 1,
+          "*-male-canis-lupusarctos": 6,
+          "*-female-canis-lupusarctos": 6,
+          "*-baby-canis-lupusarctos": 1,
+          "*-male-canis-lupusdingo": 2,
+          "*-female-canis-lupusdingo": 2,
+          "*-baby-canis-lupusdingo": 1,
+          "*-male-canis-lycaon": 6,
+          "*-female-canis-lycaon": 6,
+          "*-baby-canis-lycaon": 1,
+          "*-male-canis-rufus": 4,
+          "*-female-canis-rufus": 4,
+          "*-baby-canis-rufus": 1,
+          "*-male-canis-simensis": 2,
+          "*-female-canis-simensis": 2,
+          "*-baby-canis-simensis": 1,
+          "*-male-cuon-alpinus": 2,
+          "*-female-cuon-alpinus": 2,
+          "*-baby-cuon-alpinus": 1,
+          "*-male-cynotherium-sardous": 2,
+          "*-female-cynotherium-sardous": 2,
+          "*-baby-cynotherium-sardous": 1,
+          "*-male-lupulella-adusta": 2,
+          "*-female-lupulella-adusta": 2,
+          "*-baby-lupulella-adusta": 1,
+          "*-male-lupulella-mesomelas": 2,
+          "*-female-lupulella-mesomelas": 2,
+          "*-baby-lupulella-mesomelas": 1,
+          "*-male-lycaon-pictus": 6,
+          "*-female-lycaon-pictus": 6,
+          "*-baby-lycaon-pictus": 1,
+          "*-male-atelocynus-microtis": 2,
+          "*-female-atelocynus-microtis": 2,
+          "*-baby-atelocynus-microtis": 1,
+          "*-male-cerdocyon-thous": 1,
+          "*-female-cerdocyon-thous": 1,
+          "*-baby-cerdocyon-thous": 1,
+          "*-male-chrysocyon-brachyurus": 6,
+          "*-female-chrysocyon-brachyurus": 6,
+          "*-baby-chrysocyon-brachyurus": 1,
+          "*-male-dusicyon-australis": 4,
+          "*-female-dusicyon-australis": 4,
+          "*-baby-dusicyon-australis": 1,
+          "*-male-dusicyon-avus": 4,
+          "*-female-dusicyon-avus": 4,
+          "*-baby-dusicyon-avus": 1,
+          "*-male-lycalopex-culpaeus": 4,
+          "*-female-lycalopex-culpaeus": 4,
+          "*-baby-lycalopex-culpaeus": 1,
+          "*-male-lycalopex-fulvipes": 1,
+          "*-female-lycalopex-fulvipes": 1,
+          "*-baby-lycalopex-fulvipes": 1,
+          "*-male-lycalopex-griseus": 1,
+          "*-female-lycalopex-griseus": 1,
+          "*-baby-lycalopex-griseus": 1,
+          "*-male-lycalopex-gymnocercus": 1,
+          "*-female-lycalopex-gymnocercus": 1,
+          "*-baby-lycalopex-gymnocercus": 1,
+          "*-male-lycalopex-sechurae": 1,
+          "*-female-lycalopex-sechurae": 1,
+          "*-baby-lycalopex-sechurae": 1,
+          "*-male-lycalopex-vetulus": 1,
+          "*-female-lycalopex-vetulus": 1,
+          "*-baby-lycalopex-vetulus": 1,
+          "*-male-speothos-pacivorus": 6,
+          "*-female-speothos-pacivorus": 6,
+          "*-baby-speothos-pacivorus": 1,
+          "*-male-speothos-venaticus": 1,
+          "*-female-speothos-venaticus": 1,
+          "*-baby-speothos-venaticus": 1,
+          "*-male-urocyon-cinereoargenteus": 1,
+          "*-female-urocyon-cinereoargenteus": 1,
+          "*-baby-urocyon-cinereoargenteus": 1,
+          "*-male-urocyon-littoralis": 1,
+          "*-female-urocyon-littoralis": 1,
+          "*-baby-urocyon-littoralis": 1,
+          "*-male-nyctereutes-procyonoides": 1,
+          "*-female-nyctereutes-procyonoides": 1,
+          "*-baby-nyctereutes-procyonoides": 1,
+          "*-male-nyctereutes-viverrinus": 1,
+          "*-female-nyctereutes-viverrinus": 1,
+          "*-baby-nyctereutes-viverrinus": 1,
+          "*-male-otocyon-megalotis": 1,
+          "*-female-otocyon-megalotis": 1,
+          "*-baby-otocyon-megalotis": 1,
+          "*-male-vulpes-bengalensis": 1,
+          "*-female-vulpes-bengalensis": 1,
+          "*-baby-vulpes-bengalensis": 1,
+          "*-male-vulpes-cana": 1,
+          "*-female-vulpes-cana": 1,
+          "*-baby-vulpes-cana": 1,
+          "*-male-vulpes-chama": 1,
+          "*-female-vulpes-chama": 1,
+          "*-baby-vulpes-chama": 1,
+          "*-male-vulpes-corsac": 1,
+          "*-female-vulpes-corsac": 1,
+          "*-baby-vulpes-corsac": 1,
+          "*-male-vulpes-ferrilata": 1,
+          "*-female-vulpes-ferrilata": 1,
+          "*-baby-vulpes-ferrilata": 1,
+          "*-male-vulpes-lagopus": 1,
+          "*-female-vulpes-lagopus": 1,
+          "*-baby-vulpes-lagopus": 1,
+          "*-male-vulpes-macrotis": 1,
+          "*-female-vulpes-macrotis": 1,
+          "*-baby-vulpes-macrotis": 1,
+          "*-male-vulpes-pallida": 1,
+          "*-female-vulpes-pallida": 1,
+          "*-baby-vulpes-pallida": 1,
+          "*-male-vulpes-rueppellii": 1,
+          "*-female-vulpes-rueppellii": 1,
+          "*-baby-vulpes-rueppellii": 1,
+          "*-male-vulpes-velox": 1,
+          "*-female-vulpes-velox": 1,
+          "*-baby-vulpes-velox": 1,
+          "*-male-vulpes-vulpes": 2,
+          "*-female-vulpes-vulpes": 2,
+          "*-baby-vulpes-vulpes": 1,
+          "*-male-vulpes-zerda": 1,
+          "*-female-vulpes-zerda": 1,
+          "*-baby-vulpes-zerda": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-casuarius": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "*-adult-male-casuarius": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-female-novaehollandiae": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-adult-male-novaehollandiae": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "*-adult-female-novaehollandiaediemenensis": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-male-novaehollandiaediemenensis": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "*-adult-female-unappendiculatus": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "*-adult-male-unappendiculatus": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/casuariidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "dromornithidae-adult-*-genyornisnewtoni": {
+          "avg": 1,
+          "var": 0.2
+        }
+      }
+    },
+    "file": "casuariidae:entities/animal/bird/dromornithidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "casuariidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

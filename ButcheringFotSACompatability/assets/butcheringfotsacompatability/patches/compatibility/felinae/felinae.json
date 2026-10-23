@@ -19,11 +19,10 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadfelinae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadfelinae-male-1-dead",
-        "*-baby-*": "butcheringfotsacompatability:deadfelinae-baby-1-dead"
+        "*-adult-male-*": "butcheringfotsacompatability:deadfelinae-male-1-dead"
       }
     },
-    "file": "felinae:entities/land/felinae.json",
+    "file": "felinae:entities/animal/mammal/felinae-adult.json",
     "dependsOn": [
       {
         "modid": "felinae"
@@ -38,11 +37,44 @@
       "code": "butcherable",
       "itemByType": {
         "*-adult-female-*": "butcheringfotsacompatability:deadfelinae-female-1-dead",
-        "*-adult-male-*": "butcheringfotsacompatability:deadfelinae-male-1-dead",
+        "*-adult-male-*": "butcheringfotsacompatability:deadfelinae-male-1-dead"
+      }
+    },
+    "file": "felinae:entities/animal/mammal/felinae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
         "*-baby-*": "butcheringfotsacompatability:deadfelinae-baby-1-dead"
       }
     },
-    "file": "felinae:entities/land/felinae.json",
+    "file": "felinae:entities/animal/mammal/felinae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "felinae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butcheringfotsacompatability:deadfelinae-baby-1-dead"
+      }
+    },
+    "file": "felinae:entities/animal/mammal/felinae-baby.json",
     "dependsOn": [
       {
         "modid": "felinae"

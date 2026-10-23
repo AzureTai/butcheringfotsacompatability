@@ -1,0 +1,1832 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "aptenodytesforsteri",
+        "aptenodytespatagonicus",
+        "eudypteschrysocome",
+        "eudypteschrysolophus",
+        "eudyptesmoseleyi",
+        "eudyptespachyrhynchus",
+        "eudyptesrobustus",
+        "eudyptessclateri",
+        "eudyptesschlegeli",
+        "eudypteswarhami",
+        "eudyptulaminor",
+        "eudyptulanovaehollandiae",
+        "megadyptesantipodes",
+        "pygoscelisadeliae",
+        "pygoscelisantarcticus",
+        "pygoscelispapua",
+        "spheniscusdemersus",
+        "spheniscushumboldti",
+        "spheniscusmagellanicus",
+        "spheniscusmendiculus"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "@.*-(eudypteschrysolophus|eudyptesmoseleyi|eudyptespachyrhynchus|eudyptesrobustus|eudyptessclateri|eudyptesschlegeli|eudypteswarhami)": {
+      "base": "item/animal/bird/spheniscidae/eudypteschrysocome/floorpelt-male"
+    },
+    "@.*-(eudyptulanovaehollandiae)": {
+      "base": "item/animal/bird/spheniscidae/eudyptulaminor/floorpelt-male"
+    },
+    "@.*-(pygoscelisantarcticus|pygoscelispapua)": {
+      "base": "item/animal/bird/spheniscidae/pygoscelisadeliae/floorpelt-male"
+    },
+    "@.*-(spheniscushumboldti|spheniscusmagellanicus|spheniscusmendiculus)": {
+      "base": "item/animal/bird/spheniscidae/spheniscusdemersus/floorpelt-male"
+    },
+    "*": {
+      "base": "item/animal/bird/spheniscidae/{species}/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*": {
+      "skin": {
+        "base": "entity/animal/bird/spheniscidae/{species}-adult"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-aptenodytesforsteri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-aptenodytesforsteri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-aptenodytespatagonicus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-aptenodytespatagonicus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-eudypteschrysocome": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudypteschrysocome": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudypteschrysolophus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-eudypteschrysolophus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.58
+      },
+      "*-female-eudyptesmoseleyi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudyptesmoseleyi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudyptespachyrhynchus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-male-eudyptespachyrhynchus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.48
+      },
+      "*-female-eudyptesrobustus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudyptesrobustus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudyptessclateri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-eudyptessclateri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-eudyptesschlegeli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-eudyptesschlegeli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.69
+      },
+      "*-female-eudypteswarhami": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-eudypteswarhami": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-eudyptulaminor": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-male-eudyptulaminor": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-female-eudyptulanovaehollandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-male-eudyptulanovaehollandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-female-megadyptesantipodes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.72
+      },
+      "*-male-megadyptesantipodes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-pygoscelisadeliae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-pygoscelisadeliae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-pygoscelisantarcticus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-pygoscelisantarcticus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-pygoscelispapua": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.78
+      },
+      "*-male-pygoscelispapua": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.86
+      },
+      "*-female-spheniscusdemersus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-spheniscusdemersus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.73
+      },
+      "*-female-spheniscushumboldti": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*-male-spheniscushumboldti": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-spheniscusmagellanicus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.78
+      },
+      "*-male-spheniscusmagellanicus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.86
+      },
+      "*-female-spheniscusmendiculus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-spheniscusmendiculus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.15,
+        "y": -0.01,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-aptenodytesforsteri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-aptenodytesforsteri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-aptenodytespatagonicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-aptenodytespatagonicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-eudypteschrysocome": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudypteschrysocome": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudypteschrysolophus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-eudypteschrysolophus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.58
+      },
+      "*-female-eudyptesmoseleyi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudyptesmoseleyi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudyptespachyrhynchus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.45
+      },
+      "*-male-eudyptespachyrhynchus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.48
+      },
+      "*-female-eudyptesrobustus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-eudyptesrobustus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-female-eudyptessclateri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-eudyptessclateri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-eudyptesschlegeli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-eudyptesschlegeli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.69
+      },
+      "*-female-eudypteswarhami": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-eudypteswarhami": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-female-eudyptulaminor": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-male-eudyptulaminor": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-female-eudyptulanovaehollandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-male-eudyptulanovaehollandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-female-megadyptesantipodes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.72
+      },
+      "*-male-megadyptesantipodes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-female-pygoscelisadeliae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-pygoscelisadeliae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-pygoscelisantarcticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-pygoscelisantarcticus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.74
+      },
+      "*-female-pygoscelispapua": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.78
+      },
+      "*-male-pygoscelispapua": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.86
+      },
+      "*-female-spheniscusdemersus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-spheniscusdemersus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.73
+      },
+      "*-female-spheniscushumboldti": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*-male-spheniscushumboldti": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-spheniscusmagellanicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.78
+      },
+      "*-male-spheniscusmagellanicus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.86
+      },
+      "*-female-spheniscusmendiculus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-spheniscusmendiculus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-aptenodytesforsteri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-aptenodytesforsteri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-female-aptenodytespatagonicus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*-male-aptenodytespatagonicus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-female-eudypteschrysocome": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-male-eudypteschrysocome": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.53
+    },
+    "*-female-eudypteschrysolophus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    },
+    "*-male-eudypteschrysolophus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.58
+    },
+    "*-female-eudyptesmoseleyi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-male-eudyptesmoseleyi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.53
+    },
+    "*-female-eudyptespachyrhynchus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.45
+    },
+    "*-male-eudyptespachyrhynchus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.48
+    },
+    "*-female-eudyptesrobustus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-male-eudyptesrobustus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.53
+    },
+    "*-female-eudyptessclateri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.6
+    },
+    "*-male-eudyptessclateri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.64
+    },
+    "*-female-eudyptesschlegeli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    },
+    "*-male-eudyptesschlegeli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.69
+    },
+    "*-female-eudypteswarhami": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.6
+    },
+    "*-male-eudypteswarhami": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.64
+    },
+    "*-female-eudyptulaminor": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.3
+    },
+    "*-male-eudyptulaminor": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.36
+    },
+    "*-female-eudyptulanovaehollandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.3
+    },
+    "*-male-eudyptulanovaehollandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.36
+    },
+    "*-female-megadyptesantipodes": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.72
+    },
+    "*-male-megadyptesantipodes": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-female-pygoscelisadeliae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.7
+    },
+    "*-male-pygoscelisadeliae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.74
+    },
+    "*-female-pygoscelisantarcticus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.7
+    },
+    "*-male-pygoscelisantarcticus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.74
+    },
+    "*-female-pygoscelispapua": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.78
+    },
+    "*-male-pygoscelispapua": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.86
+    },
+    "*-female-spheniscusdemersus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    },
+    "*-male-spheniscusdemersus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.73
+    },
+    "*-female-spheniscushumboldti": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.61
+    },
+    "*-male-spheniscushumboldti": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "*-female-spheniscusmagellanicus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.78
+    },
+    "*-male-spheniscusmagellanicus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.86
+    },
+    "*-female-spheniscusmendiculus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    },
+    "*-male-spheniscusmendiculus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.61
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-aptenodytesforsteri": 3,
+          "*-female-aptenodytesforsteri": 3,
+          "*-male-aptenodytespatagonicus": 2,
+          "*-female-aptenodytespatagonicus": 2,
+          "*-male-eudypteschrysocome": 1,
+          "*-female-eudypteschrysocome": 1,
+          "*-male-eudypteschrysolophus": 1,
+          "*-female-eudypteschrysolophus": 1,
+          "*-male-eudyptesmoseleyi": 1,
+          "*-female-eudyptesmoseleyi": 1,
+          "*-male-eudyptespachyrhynchus": 1,
+          "*-female-eudyptespachyrhynchus": 1,
+          "*-male-eudyptesrobustus": 1,
+          "*-female-eudyptesrobustus": 1,
+          "*-male-eudyptessclateri": 1,
+          "*-female-eudyptessclateri": 1,
+          "*-male-eudyptesschlegeli": 1,
+          "*-female-eudyptesschlegeli": 1,
+          "*-male-eudypteswarhami": 1,
+          "*-female-eudypteswarhami": 1,
+          "*-male-eudyptulaminor": 1,
+          "*-female-eudyptulaminor": 1,
+          "*-male-eudyptulanovaehollandiae": 1,
+          "*-female-eudyptulanovaehollandiae": 1,
+          "*-male-megadyptesantipodes": 1,
+          "*-female-megadyptesantipodes": 1,
+          "*-male-pygoscelisadeliae": 1,
+          "*-female-pygoscelisadeliae": 1,
+          "*-male-pygoscelisantarcticus": 1,
+          "*-female-pygoscelisantarcticus": 1,
+          "*-male-pygoscelispapua": 1,
+          "*-female-pygoscelispapua": 1,
+          "*-male-spheniscusdemersus": 1,
+          "*-female-spheniscusdemersus": 1,
+          "*-male-spheniscushumboldti": 1,
+          "*-female-spheniscushumboldti": 1,
+          "*-male-spheniscusmagellanicus": 1,
+          "*-female-spheniscusmagellanicus": 1,
+          "*-male-spheniscusmendiculus": 1,
+          "*-female-spheniscusmendiculus": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "moschusanhuiensis",
+        "moschusberezovskii",
+        "moschuscupreus",
+        "moschusfuscus",
+        "moschusmoschiferus"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "*-baby-*": {
+      "base": "item/animal/mammal/hooved/moschidae/moschusmoschiferus/floorpelt-baby"
+    },
+    "*": {
+      "base": "item/animal/mammal/hooved/moschidae/moschusmoschiferus/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/moschidae/moschusmoschiferus-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/moschidae/{species}-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-baby-moschusanhuiensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusanhuiensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-male-moschusanhuiensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-moschusberezovskii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusberezovskii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-moschusberezovskii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*-baby-moschuscupreus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschuscupreus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-moschuscupreus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-baby-moschusfuscus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusfuscus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-male-moschusfuscus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-moschusmoschiferus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusmoschiferus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-moschusmoschiferus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0.1
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-baby-moschusanhuiensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusanhuiensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-male-moschusanhuiensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-moschusberezovskii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusberezovskii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-male-moschusberezovskii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.61
+      },
+      "*-baby-moschuscupreus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschuscupreus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-moschuscupreus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*-baby-moschusfuscus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusfuscus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-male-moschusfuscus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.64
+      },
+      "*-baby-moschusmoschiferus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-female-moschusmoschiferus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.7
+      },
+      "*-male-moschusmoschiferus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.025,
+          "z": 0.5
+        },
+        "scale": 0.71
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.0
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.9
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-moschusanhuiensis": 2,
+          "*-female-moschusanhuiensis": 2,
+          "*-baby-moschusanhuiensis": 1,
+          "*-male-moschusberezovskii": 2,
+          "*-female-moschusberezovskii": 2,
+          "*-baby-moschusberezovskii": 1,
+          "*-male-moschuscupreus": 4,
+          "*-female-moschuscupreus": 4,
+          "*-baby-moschuscupreus": 1,
+          "*-male-moschusfuscus": 4,
+          "*-female-moschusfuscus": 4,
+          "*-baby-moschusfuscus": 1,
+          "*-male-moschusmoschiferus": 4,
+          "*-female-moschusmoschiferus": 4,
+          "*-baby-moschusmoschiferus": 1
+        }
+      }
+    ]
+  }
+}

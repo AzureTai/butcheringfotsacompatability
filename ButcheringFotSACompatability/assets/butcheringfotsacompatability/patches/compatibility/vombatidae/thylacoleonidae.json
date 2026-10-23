@@ -22,7 +22,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadthylacoleonidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/thylacoleonidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/thylacoleonidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -40,7 +40,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadthylacoleonidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/thylacoleonidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/thylacoleonidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -57,7 +57,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadthylacoleonidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/thylacoleonidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/thylacoleonidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -74,7 +74,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadthylacoleonidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/thylacoleonidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/thylacoleonidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"

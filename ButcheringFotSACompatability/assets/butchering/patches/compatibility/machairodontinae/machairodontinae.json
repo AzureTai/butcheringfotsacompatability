@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -26,6 +29,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -44,6 +50,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -59,6 +68,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -74,6 +86,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

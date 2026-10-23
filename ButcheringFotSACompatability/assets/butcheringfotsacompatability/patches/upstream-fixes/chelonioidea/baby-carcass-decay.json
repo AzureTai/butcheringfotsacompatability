@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/server/behaviors/4/decayedBlockByType",
+    "value": {
+      "*-baby-*": "carcass-tiny"
+    },
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-baby.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      }
+    ]
+  }
+]

@@ -1,0 +1,614 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "bennetti",
+        "casuarius",
+        "cereopsisnovaehollandiae",
+        "novaehollandiae",
+        "novaehollandiaediemenensis",
+        "unappendiculatus",
+        "genyornisnewtoni",
+        "tribonyxmortierii"
+      ]
+    }
+  ],
+  "skipVariants": [
+    "pelt-baby-cereopsisnovaehollandiae",
+    "pelt-baby-tribonyxmortierii"
+  ],
+  "shapebytype": {
+    "*-cereopsisnovaehollandiae": {
+      "base": "item/animal/bird/anatidae/{species}/floorpelt-male"
+    },
+    "*-novaehollandiaediemenensis": {
+      "base": "item/animal/bird/casuariidae/floorpelt-novaehollandiae-{gender}"
+    },
+    "*-tribonyxmortierii": {
+      "base": "item/animal/bird/rallidae/tribonyxmortierii/floorpelt-male"
+    },
+    "*male-genyornisnewtoni": {
+      "base": "item/animal/bird/dromornithidae/genyornisnewtoni/floorpelt-male"
+    },
+    "*baby-genyornisnewtoni": {
+      "base": "item/animal/bird/dromornithidae/genyornisnewtoni/floorpelt-baby"
+    },
+    "*": {
+      "base": "item/animal/bird/casuariidae/floorpelt-{species}-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-*-cereopsisnovaehollandiae": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/cereopsisnovaehollandiae-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-baby-novaehollandiae": {
+      "skin": {
+        "base": "entity/animal/bird/casuariidae/novaehollandiae-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-baby-novaehollandiaediemenensis": {
+      "skin": {
+        "base": "entity/animal/bird/casuariidae/novaehollandiae-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-genyornisnewtoni": {
+      "skin": {
+        "base": "entity/animal/bird/dromornithidae/genyornisnewtoni-{gender}"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/bird/casuariidae/bennetti-baby"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-tribonyxmortierii": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/tribonyxmortierii-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-*": {
+      "skin": {
+        "base": "entity/animal/bird/casuariidae/{species}-adult"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-cereopsisnovaehollandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-cereopsisnovaehollandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-baby-novaehollandiaediemenensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-novaehollandiaediemenensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-novaehollandiaediemenensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-genyornisnewtoni": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-tribonyxmortierii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.1,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -180,
+        "y": 180,
+        "z": 0.1
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-cereopsisnovaehollandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-cereopsisnovaehollandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-baby-novaehollandiaediemenensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-novaehollandiaediemenensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-novaehollandiaediemenensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-male-genyornisnewtoni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-tribonyxmortierii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*-baby-*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 5
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-cereopsisnovaehollandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-cereopsisnovaehollandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-baby-novaehollandiaediemenensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*-female-novaehollandiaediemenensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*-male-novaehollandiaediemenensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*-male-genyornisnewtoni": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-tribonyxmortierii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-cereopsisnovaehollandiae": 2,
+          "*-female-cereopsisnovaehollandiaes": 2,
+          "*-male-bennetti": 2,
+          "*-female-bennetti": 2,
+          "*-baby-bennetti": 1,
+          "*-male-casuarius": 4,
+          "*-female-casuarius": 6,
+          "*-baby-casuarius": 1,
+          "*-male-novaehollandiae": 4,
+          "*-female-novaehollandiae": 4,
+          "*-baby-novaehollandiae": 1,
+          "*-male-novaehollandiaediemenensis": 4,
+          "*-female-novaehollandiaediemenensis": 4,
+          "*-baby-novaehollandiaediemenensis": 1,
+          "*-male-unappendiculatus": 4,
+          "*-female-unappendiculatus": 6,
+          "*-baby-unappendiculatus": 1,
+          "*-male-genyornisnewtoni": 10,
+          "*-female-genyornisnewtoni": 10,
+          "*-baby-genyornisnewtoni": 1,
+          "*-male-tribonyxmortierii": 1,
+          "*-female-tribonyxmortierii": 1
+        }
+      }
+    ]
+  }
+}

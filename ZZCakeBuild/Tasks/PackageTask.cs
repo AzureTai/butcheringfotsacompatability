@@ -1,5 +1,6 @@
 using Cake.Common.IO;
 using Cake.Frosting;
+using System.IO;
 
 namespace CakeBuild.Tasks
 {
@@ -13,6 +14,12 @@ namespace CakeBuild.Tasks
             string stagingDirectory = releasesDirectory + "/" + context.ModIdentifier;
             string archivePath = releasesDirectory + "/" + context.ModIdentifier + "_" + context.Version + ".zip";
             string sourceDirectory = "../" + BuildContext.ProjectName;
+            string assemblyPath = sourceDirectory + "/bin/" + context.BuildConfiguration + "/Build/" + BuildContext.ProjectName + ".dll";
+
+            if (!context.FileExists(assemblyPath))
+            {
+                throw new FileNotFoundException("The compiled mod DLL is missing. Packaging cannot continue.", assemblyPath);
+            }
 
             context.EnsureDirectoryExists(releasesDirectory);
 
@@ -27,6 +34,7 @@ namespace CakeBuild.Tasks
 
             context.CopyDirectory(sourceDirectory + "/assets", stagingDirectory + "/assets");
             context.CopyFile(sourceDirectory + "/modinfo.json", stagingDirectory + "/modinfo.json");
+            context.CopyFile(assemblyPath, stagingDirectory + "/" + BuildContext.ProjectName + ".dll");
 
             if (context.FileExists(sourceDirectory + "/modicon.png"))
             {

@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "iniidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -22,10 +25,13 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadiniidae-male-1-dead"
       }
     },
-    "file": "iniidae:entities/water/iniidae-adult.json",
+    "file": "iniidae:entities/animal/mammal/iniidae-adult.json",
     "dependsOn": [
       {
         "modid": "iniidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -40,10 +46,13 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadiniidae-male-1-dead"
       }
     },
-    "file": "iniidae:entities/water/iniidae-adult.json",
+    "file": "iniidae:entities/animal/mammal/iniidae-adult.json",
     "dependsOn": [
       {
         "modid": "iniidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -57,10 +66,13 @@
         "*-baby-*": "butcheringfotsacompatability:deadiniidae-baby-1-dead"
       }
     },
-    "file": "iniidae:entities/water/iniidae-baby.json",
+    "file": "iniidae:entities/animal/mammal/iniidae-baby.json",
     "dependsOn": [
       {
         "modid": "iniidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -74,10 +86,13 @@
         "*-baby-*": "butcheringfotsacompatability:deadiniidae-baby-1-dead"
       }
     },
-    "file": "iniidae:entities/water/iniidae-baby.json",
+    "file": "iniidae:entities/animal/mammal/iniidae-baby.json",
     "dependsOn": [
       {
         "modid": "iniidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

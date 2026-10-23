@@ -22,7 +22,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deaddiprotodontidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -40,7 +40,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deaddiprotodontidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -57,7 +57,7 @@
         "*-baby-*": "butcheringfotsacompatability:deaddiprotodontidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/diprotodontidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -74,7 +74,7 @@
         "*-baby-*": "butcheringfotsacompatability:deaddiprotodontidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/diprotodontidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/diprotodontidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"

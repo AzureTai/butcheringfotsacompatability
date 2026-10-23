@@ -22,7 +22,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadvombatidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/vombatidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/vombatidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -40,7 +40,7 @@
         "*-adult-male-*": "butcheringfotsacompatability:deadvombatidae-male-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/vombatidae-adult.json",
+    "file": "vombatidae:entities/animal/mammal/vombatidae-adult.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -57,7 +57,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadvombatidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/vombatidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/vombatidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"
@@ -74,7 +74,7 @@
         "*-baby-*": "butcheringfotsacompatability:deadvombatidae-baby-1-dead"
       }
     },
-    "file": "vombatidae:entities/land/vombatidae-baby.json",
+    "file": "vombatidae:entities/animal/mammal/vombatidae-baby.json",
     "dependsOn": [
       {
         "modid": "vombatidae"

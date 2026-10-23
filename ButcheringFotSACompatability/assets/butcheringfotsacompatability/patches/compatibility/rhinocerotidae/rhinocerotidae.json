@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -26,6 +29,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -44,6 +50,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -61,6 +70,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -78,6 +90,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

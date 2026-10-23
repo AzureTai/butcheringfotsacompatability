@@ -21,6 +21,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -46,6 +49,9 @@
     "dependsOn": [
       {
         "modid": "caninae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -71,6 +77,9 @@
     "dependsOn": [
       {
         "modid": "cervinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -96,6 +105,9 @@
     "dependsOn": [
       {
         "modid": "capreolinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -121,6 +133,9 @@
     "dependsOn": [
       {
         "modid": "capreolinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -146,6 +161,9 @@
     "dependsOn": [
       {
         "modid": "capreolinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -171,6 +189,9 @@
     "dependsOn": [
       {
         "modid": "casuariidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -196,6 +217,9 @@
     "dependsOn": [
       {
         "modid": "casuariidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -221,6 +245,9 @@
     "dependsOn": [
       {
         "modid": "casuariidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -246,6 +273,9 @@
     "dependsOn": [
       {
         "modid": "casuariidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -271,6 +301,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -296,6 +329,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -321,6 +357,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -346,6 +385,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -371,6 +413,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -396,6 +441,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -421,6 +469,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -446,6 +497,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -471,6 +525,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -496,6 +553,9 @@
     "dependsOn": [
       {
         "modid": "dinornithidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -521,6 +581,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -546,6 +609,9 @@
     "dependsOn": [
       {
         "modid": "machairodontinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -571,6 +637,9 @@
     "dependsOn": [
       {
         "modid": "manidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -596,6 +665,9 @@
     "dependsOn": [
       {
         "modid": "pantherinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -621,6 +693,9 @@
     "dependsOn": [
       {
         "modid": "pantherinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -646,6 +721,9 @@
     "dependsOn": [
       {
         "modid": "rhinocerotidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -671,6 +749,9 @@
     "dependsOn": [
       {
         "modid": "sirenia"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

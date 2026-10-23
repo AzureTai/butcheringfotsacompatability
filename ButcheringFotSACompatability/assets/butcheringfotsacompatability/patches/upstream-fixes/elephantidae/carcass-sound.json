@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "elephantidae:entities/animal/mammal/elephantidae-carcass.json",
+    "path": "/server/behaviors/6/aitasks/0/sound",
+    "value": "creature/elephantidae/carcass",
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  }
+]

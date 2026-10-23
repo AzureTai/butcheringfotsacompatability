@@ -1,0 +1,326 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "genus",
+      "states": [
+        "neofelis",
+        "panthera"
+      ]
+    },
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "atrox",
+        "diardi",
+        "leo",
+        "nebulosa",
+        "onca",
+        "pardus",
+        "spelaea",
+        "tigris",
+        "uncia"
+      ]
+    },
+    {
+      "code": "pigment",
+      "states": [
+        "normal",
+        "albino",
+        "melanistic"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "*-neofelis-*-diardi-normal",
+    "*-neofelis-*-nebulosa-normal",
+    "*-panthera-*-atrox-normal",
+    "*-panthera-*-leo-normal",
+    "*-panthera-*-onca-melanistic",
+    "*-panthera-*-onca-normal",
+    "*-panthera-*-pardus-melanistic",
+    "*-panthera-*-pardus-normal",
+    "*-panthera-*-spelaea-normal",
+    "*-panthera-*-tigris-normal",
+    "*-panthera-*-uncia-normal"
+  ],
+  "shapebytype": {
+    "*": {
+      "base": "item/animal/mammal/{genus}/floorpelt-{species}-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-*-male-leo-*": {
+      "skin": {
+        "base": "entity/animal/mammal/pantherinae/{genus}-{species}"
+      },
+      "mane": {
+        "base": "entity/animal/mammal/pantherinae/{genus}-{species}-mane"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-*-melanistic": {
+      "skin": {
+        "base": "entity/animal/mammal/pantherinae/cub-{species}-melanistic"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/pantherinae/cub-{species}"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*-*-*-melanistic": {
+      "skin": {
+        "base": "entity/animal/mammal/pantherinae/{genus}-{species}-melanistic"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    },
+    "*-*": {
+      "skin": {
+        "base": "entity/animal/mammal/pantherinae/{genus}-{species}"
+      },
+      "bottom": {
+        "base": "game:item/resource/hide/flesh"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.75
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": 1.0
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-atrox-*": 18,
+          "*-female-atrox-*": 12,
+          "*-baby-atrox-*": 1,
+          "*-male-diardi-*": 4,
+          "*-female-diardi-*": 4,
+          "*-baby-diardi-*": 1,
+          "*-male-leo-*": 15,
+          "*-female-leo-*": 9,
+          "*-baby-leo-*": 1,
+          "*-male-nebulosa-*": 4,
+          "*-female-nebulosa-*": 4,
+          "*-baby-nebulosa-*": 1,
+          "*-male-onca-*": 9,
+          "*-female-onca-*": 6,
+          "*-baby-onca-*": 1,
+          "*-male-pardus-*": 6,
+          "*-female-pardus-*": 6,
+          "*-baby-pardus-*": 1,
+          "*-male-spelaea-*": 15,
+          "*-female-spelaea-*": 12,
+          "*-baby-spelaea-*": 1,
+          "*-male-tigris-*": 15,
+          "*-female-tigris-*": 12,
+          "*-baby-tigris-*": 1,
+          "*-male-uncia-*": 6,
+          "*-female-uncia-*": 6,
+          "*-baby-uncia-*": 1
+        }
+      }
+    ]
+  }
+}

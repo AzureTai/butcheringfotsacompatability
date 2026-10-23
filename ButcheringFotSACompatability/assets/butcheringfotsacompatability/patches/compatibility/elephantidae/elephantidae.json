@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -26,6 +29,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -44,6 +50,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -61,6 +70,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -78,6 +90,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -96,6 +111,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -114,6 +132,9 @@
     "dependsOn": [
       {
         "modid": "elephantidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

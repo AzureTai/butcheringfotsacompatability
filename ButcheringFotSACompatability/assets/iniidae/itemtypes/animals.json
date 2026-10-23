@@ -1,0 +1,134 @@
+{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "cetacea-adult-female-lipotesvexillifer",
+        "cetacea-adult-male-lipotesvexillifer",
+        "cetacea-baby-female-lipotesvexillifer",
+        "cetacea-baby-male-lipotesvexillifer"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*-adult-male-lipotesvexillifer": {
+      "base": "entity/animal/mammal/cetacea/lipotesvexillifer-adult"
+    },
+    "*-adult-female-lipotesvexillifer": {
+      "base": "entity/animal/mammal/cetacea/lipotesvexillifer-adult"
+    },
+    "*-baby-female-lipotesvexillifer": {
+      "base": "entity/animal/mammal/cetacea/lipotesvexillifer-baby"
+    },
+    "*-baby-male-lipotesvexillifer": {
+      "base": "entity/animal/mammal/cetacea/lipotesvexillifer-baby"
+    }
+  },
+  "texturesByType": {
+    "*adult-male-lipotesvexillifer": {
+      "skin": {
+        "base": "entity/animal/mammal/cetacea/lipotesvexillifer-adult"
+      }
+    },
+    "*adult-female-lipotesvexillifer": {
+      "skin": {
+        "base": "entity/animal/mammal/cetacea/lipotesvexillifer-adult"
+      }
+    },
+    "*-baby-female-lipotesvexillifer": {
+      "skin": {
+        "base": "entity/animal/mammal/cetacea/lipotesvexillifer-baby"
+      }
+    },
+    "*-baby-male-lipotesvexillifer": {
+      "skin": {
+        "base": "entity/animal/mammal/cetacea/lipotesvexillifer-baby"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "creatures": [
+      "*"
+    ]
+  },
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "*-baby-*": {
+      "rotate": true,
+      "translation": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -11,
+        "y": -52,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.4
+      },
+      "scale": 1.25
+    },
+    "creature-cetacea-*": {
+      "rotate": true,
+      "translation": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -11,
+        "y": -52,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.4,
+        "z": 0.5
+      },
+      "scale": 0.75
+    }
+  },
+  "tpHandTransformByType": {
+    "creature-cetacea-*": {
+      "translation": {
+        "x": -0.9,
+        "y": -0.9,
+        "z": -0.7
+      },
+      "rotation": {
+        "x": -180,
+        "y": 0,
+        "z": -156
+      },
+      "scale": 0.45
+    }
+  },
+  "fpHandTransformByType": {
+    "creature-cetacea-*": {
+      "translation": {
+        "x": 0.2,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -8,
+        "y": -63,
+        "z": -7
+      }
+    }
+  },
+  "enabled": false
+}

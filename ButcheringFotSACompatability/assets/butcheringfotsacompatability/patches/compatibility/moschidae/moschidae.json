@@ -1,0 +1,84 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "path": "/enabled",
+    "value": true,
+    "file": "butcheringfotsacompatability:itemtypes/butchercreatures/moschidae/moschidae.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "moschidae-adult-female-*": "butcheringfotsacompatability:deadmoschidae-female-1-dead",
+        "moschidae-adult-male-*": "butcheringfotsacompatability:deadmoschidae-male-1-dead"
+      }
+    },
+    "file": "moschidae:entities/animal/mammal/hooved/moschidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "moschidae-adult-female-*": "butcheringfotsacompatability:deadmoschidae-female-1-dead",
+        "moschidae-adult-male-*": "butcheringfotsacompatability:deadmoschidae-male-1-dead"
+      }
+    },
+    "file": "moschidae:entities/animal/mammal/hooved/moschidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "moschidae-baby-*": "butcheringfotsacompatability:deadmoschidae-baby-1-dead"
+      }
+    },
+    "file": "moschidae:entities/animal/mammal/hooved/moschidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "moschidae-baby-*": "butcheringfotsacompatability:deadmoschidae-baby-1-dead"
+      }
+    },
+    "file": "moschidae:entities/animal/mammal/hooved/moschidae-baby.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-*": {
+          "avg": 0.25,
+          "var": 0
+        }
+      }
+    },
+    "file": "moschidae:entities/animal/mammal/hooved/moschidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "moschidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

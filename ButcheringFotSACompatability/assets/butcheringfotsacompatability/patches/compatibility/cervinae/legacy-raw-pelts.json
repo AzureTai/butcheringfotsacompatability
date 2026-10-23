@@ -1,0 +1,50 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "cervinae:itemtypes/resource/compat-legacy-raw-pelt.json",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/cervinae-pelt-conversion.json",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/cervinae-pelt-conversion.json",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/cervinae-pelt-conversion.json",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      }
+    ]
+  }
+]

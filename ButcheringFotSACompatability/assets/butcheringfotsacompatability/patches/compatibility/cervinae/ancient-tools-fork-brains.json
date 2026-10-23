@@ -1,0 +1,94 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-megalocerosgiganteus": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "*-adult-male-megalocerosgiganteus": {
+          "avg": 1.7,
+          "var": 0.3
+        }
+      }
+    },
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-adult.json",
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-baby-*-megalocerosgiganteus": {
+          "avg": 0.35,
+          "var": 0
+        }
+      }
+    },
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-baby.json",
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "*-adult-female-megalocerosgiganteus-*": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "*-adult-male-megalocerosgiganteus-*": {
+          "avg": 1.7,
+          "var": 0.3
+        }
+      }
+    },
+    "file": "cervinae:entities/animal/mammal/hooved/cervini-tamed.json",
+    "dependsOn": [
+      {
+        "modid": "cervinae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "server"
+  }
+]

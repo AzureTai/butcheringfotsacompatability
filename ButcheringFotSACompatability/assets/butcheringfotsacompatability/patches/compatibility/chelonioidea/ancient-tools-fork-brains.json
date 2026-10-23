@@ -1,0 +1,54 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "chelonioidea-adult-*-carettacaretta": {
+          "avg": 0.7,
+          "var": 0.1
+        },
+        "chelonioidea-adult-*-cheloniamydas": {
+          "avg": 0.7,
+          "var": 0.1
+        },
+        "chelonioidea-adult-*-dermochelyscoriacea": {
+          "avg": 1.6,
+          "var": 0.3
+        },
+        "chelonioidea-adult-*-eretmochelysimbricata": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "chelonioidea-adult-*-lepidochelyskempii": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "chelonioidea-adult-*-lepidochelysolivacea": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "chelonioidea-adult-*-natatordepressus": {
+          "avg": 0.5,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "chelonioidea:entities/animal/reptile/chelonioidea-adult.json",
+    "dependsOn": [
+      {
+        "modid": "chelonioidea"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

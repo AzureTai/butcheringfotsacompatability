@@ -14,6 +14,9 @@
     "dependsOn": [
       {
         "modid": "capreolinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -32,6 +35,9 @@
     "dependsOn": [
       {
         "modid": "capreolinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

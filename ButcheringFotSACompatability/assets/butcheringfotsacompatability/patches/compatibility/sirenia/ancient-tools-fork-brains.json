@@ -1,0 +1,110 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "sirenia-adult-female-dugon": {
+          "avg": 1.1,
+          "var": 0.2
+        },
+        "sirenia-adult-male-dugon": {
+          "avg": 1,
+          "var": 0.2
+        },
+        "sirenia-adult-female-gigas": {
+          "avg": 12.3,
+          "var": 2.4
+        },
+        "sirenia-adult-male-gigas": {
+          "avg": 10.5,
+          "var": 2.1
+        },
+        "sirenia-adult-female-inunguis": {
+          "avg": 1,
+          "var": 0.2
+        },
+        "sirenia-adult-male-inunguis": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "sirenia-adult-female-manatus": {
+          "avg": 1.9,
+          "var": 0.4
+        },
+        "sirenia-adult-male-manatus": {
+          "avg": 1.7,
+          "var": 0.3
+        },
+        "sirenia-adult-female-senegalensis": {
+          "avg": 1.3,
+          "var": 0.3
+        },
+        "sirenia-adult-male-senegalensis": {
+          "avg": 1.2,
+          "var": 0.2
+        }
+      }
+    },
+    "file": "sirenia:entities/animal/mammal/sirenia-adult.json",
+    "dependsOn": [
+      {
+        "modid": "sirenia"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "sirenia-baby-*-dugon": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "sirenia-baby-*-gigas": {
+          "avg": 1.7,
+          "var": 0.3
+        },
+        "sirenia-baby-*-inunguis": {
+          "avg": 0.2,
+          "var": 0
+        },
+        "sirenia-baby-*-manatus": {
+          "avg": 0.35,
+          "var": 0
+        },
+        "sirenia-baby-*-senegalensis": {
+          "avg": 0.35,
+          "var": 0
+        }
+      }
+    },
+    "file": "sirenia:entities/animal/mammal/sirenia-baby.json",
+    "dependsOn": [
+      {
+        "modid": "sirenia"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

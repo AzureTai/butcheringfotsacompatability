@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -26,6 +29,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -44,6 +50,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -62,6 +71,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -80,6 +92,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -97,6 +112,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -114,6 +132,9 @@
     "dependsOn": [
       {
         "modid": "bovinae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

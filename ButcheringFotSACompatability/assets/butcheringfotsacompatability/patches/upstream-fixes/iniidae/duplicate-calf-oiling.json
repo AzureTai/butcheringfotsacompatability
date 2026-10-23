@@ -1,0 +1,14 @@
+[
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "iniidae:recipes/grid/oiledhide.json",
+    "path": "/0",
+    "value": null,
+    "dependsOn": [
+      {
+        "modid": "iniidae"
+      }
+    ]
+  }
+]

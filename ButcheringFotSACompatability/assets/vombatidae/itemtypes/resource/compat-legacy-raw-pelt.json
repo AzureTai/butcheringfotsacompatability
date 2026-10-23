@@ -1,0 +1,509 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "zygomaturustrilobus",
+        "thylacoleocarnifex",
+        "lasiorhinuskrefftii",
+        "lasiorhinuslatifrons",
+        "phascolonusgigas",
+        "vombatushacketti",
+        "vombatusursinus"
+      ]
+    }
+  ],
+  "skipVariants": [
+    "*-baby-lasiorhinuskrefftii",
+    "*-baby-lasiorhinuslatifrons",
+    "*-baby-vombatushacketti",
+    "*-baby-vombatusursinus"
+  ],
+  "shapebytype": {
+    "*-baby-zygomaturustrilobus": {
+      "base": "item/animal/mammal/diprotodontidae/{species}/floorpelt-baby"
+    },
+    "*-zygomaturustrilobus": {
+      "base": "item/animal/mammal/diprotodontidae/{species}/floorpelt-male"
+    },
+    "*-baby-thylacoleocarnifex": {
+      "base": "item/animal/mammal/thylacoleonidae/{species}/floorpelt-baby"
+    },
+    "*-thylacoleocarnifex": {
+      "base": "item/animal/mammal/thylacoleonidae/{species}/floorpelt-male"
+    },
+    "*-baby-*": {
+      "base": "item/animal/mammal/vombatidae/{species}/floorpelt-baby"
+    },
+    "*": {
+      "base": "item/animal/mammal/vombatidae/{species}/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*-baby-zygomaturustrilobus": {
+      "skin": {
+        "base": "entity/animal/mammal/diprotodontidae/{species}-baby"
+      }
+    },
+    "*-zygomaturustrilobus": {
+      "skin": {
+        "base": "entity/animal/mammal/diprotodontidae/{species}-adult"
+      }
+    },
+    "*-baby-thylacoleocarnifex": {
+      "skin": {
+        "base": "entity/animal/mammal/thylacoleonidae/{species}-baby"
+      }
+    },
+    "*-thylacoleocarnifex": {
+      "skin": {
+        "base": "entity/animal/mammal/thylacoleonidae/{species}-adult"
+      }
+    },
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/vombatidae/{species}-baby"
+      }
+    },
+    "*": {
+      "skin": {
+        "base": "entity/animal/mammal/vombatidae/{species}-adult*"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-zygomaturustrilobus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-zygomaturustrilobus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-thylacoleocarnifex": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-thylacoleocarnifex": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.15,
+        "y": -0.01,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-zygomaturustrilobus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-zygomaturustrilobus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-thylacoleocarnifex": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-thylacoleocarnifex": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-zygomaturustrilobus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-zygomaturustrilobus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-female-thylacoleocarnifex": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-thylacoleocarnifex": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-female-*": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-male-*": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-zygomaturustrilobus": 20,
+          "*-female-zygomaturustrilobus": 15,
+          "*-baby-zygomaturustrilobus": 3,
+          "*-male-thylacoleocarnifex": 5,
+          "*-female-thylacoleocarnifex": 5,
+          "*-baby-thylacoleocarnifex": 2,
+          "*-male-lasiorhinuskrefftii": 3,
+          "*-female-lasiorhinuskrefftii": 3,
+          "*-male-lasiorhinuslatifrons": 3,
+          "*-female-lasiorhinuslatifrons": 3,
+          "*-male-phascolonusgigas": 5,
+          "*-female-phascolonusgigas": 5,
+          "*-baby-phascolonusgigas": 2,
+          "*-male-vombatushacketti": 3,
+          "*-female-vombatushacketti": 3,
+          "*-male-vombatusursinus": 3,
+          "*-female-vombatusursinus": 3
+        }
+      }
+    ]
+  }
+}

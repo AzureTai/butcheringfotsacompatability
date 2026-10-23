@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "meiolaniidae-adult-*-ninjemysoweni": {
+          "avg": 0.9,
+          "var": 0.2
+        }
+      }
+    },
+    "file": "meiolaniidae:entities/animal/reptile/meiolaniidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "meiolaniidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

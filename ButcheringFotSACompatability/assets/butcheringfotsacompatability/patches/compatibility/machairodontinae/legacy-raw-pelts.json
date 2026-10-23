@@ -1,0 +1,122 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "machairodontinae:itemtypes/resource/compat-legacy-raw-pelt.json",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/4/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/5/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/6/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/7/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/machairodontinae-pelt-conversion.json",
+    "path": "/8/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "machairodontinae"
+      }
+    ]
+  }
+]

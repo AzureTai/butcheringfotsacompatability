@@ -1,0 +1,142 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "megalapterygidae-adult-female-megalapteryxdidinus": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "megalapterygidae-adult-male-megalapteryxdidinus": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/megalapterygidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "emeidae-adult-female-anomalopteryxdidiformis": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "emeidae-adult-male-anomalopteryxdidiformis": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "emeidae-adult-female-emeuscrassus": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "emeidae-adult-male-emeuscrassus": {
+          "avg": 0.3,
+          "var": 0
+        },
+        "emeidae-adult-female-euryapteryxcurtus": {
+          "avg": 0.6,
+          "var": 0.1
+        },
+        "emeidae-adult-male-euryapteryxcurtus": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "emeidae-adult-female-pachyornisaustralis": {
+          "avg": 0.55,
+          "var": 0.1
+        },
+        "emeidae-adult-male-pachyornisaustralis": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "emeidae-adult-female-pachyorniselephantopus": {
+          "avg": 0.8,
+          "var": 0.2
+        },
+        "emeidae-adult-male-pachyorniselephantopus": {
+          "avg": 0.5,
+          "var": 0.1
+        },
+        "emeidae-adult-female-pachyornisgeranoides": {
+          "avg": 0.3,
+          "var": 0
+        }
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/emeidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "dinornithidae-adult-female-dinornisnovaezealandiae": {
+          "avg": 0.85,
+          "var": 0.2
+        },
+        "dinornithidae-adult-male-dinornisnovaezealandiae": {
+          "avg": 0.4,
+          "var": 0.1
+        },
+        "dinornithidae-adult-female-dinornisrobustus": {
+          "avg": 0.9,
+          "var": 0.2
+        },
+        "dinornithidae-adult-male-dinornisrobustus": {
+          "avg": 0.45,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "dinornithidae:entities/animal/bird/dinornithidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "dinornithidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

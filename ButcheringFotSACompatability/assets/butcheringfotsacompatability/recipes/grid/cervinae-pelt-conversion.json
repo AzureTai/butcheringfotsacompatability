@@ -1,0 +1,59 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "cervinae:pelt-cervini-baby-megalocerosgiganteus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cervinae:pelt-raw-cervini-baby-megalocerosgiganteus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "cervinae:pelt-cervini-female-megalocerosgiganteus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cervinae:pelt-raw-cervini-female-megalocerosgiganteus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "cervinae:pelt-cervini-male-megalocerosgiganteus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cervinae:pelt-raw-cervini-male-megalocerosgiganteus",
+      "quantity": 1
+    }
+  }
+]

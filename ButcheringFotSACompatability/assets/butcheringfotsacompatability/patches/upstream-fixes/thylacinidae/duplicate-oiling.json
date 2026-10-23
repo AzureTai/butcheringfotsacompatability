@@ -1,0 +1,57 @@
+[
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "thylacinidae:recipes/grid/oiledhide.json",
+    "path": "/6",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "thylacinidae:recipes/grid/oiledhide.json",
+    "path": "/4",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "thylacinidae:recipes/grid/oiledhide.json",
+    "path": "/2",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "thylacinidae:recipes/grid/oiledhide.json",
+    "path": "/1",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  },
+  {
+    "op": "remove",
+    "side": "server",
+    "file": "thylacinidae:recipes/grid/oiledhide.json",
+    "path": "/0",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      }
+    ]
+  }
+]

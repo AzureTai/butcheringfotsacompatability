@@ -1,0 +1,302 @@
+[
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "elephantidae:itemtypes/resource/compat-legacy-raw-pelt.json",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/4/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/5/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/6/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/7/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/8/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/9/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/10/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/11/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/12/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/13/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/14/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/15/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/16/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/17/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/18/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/19/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/20/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/21/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/22/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "side": "server",
+    "file": "butcheringfotsacompatability:recipes/grid/elephantidae-pelt-conversion.json",
+    "path": "/23/enabled",
+    "value": true,
+    "dependsOn": [
+      {
+        "modid": "elephantidae"
+      }
+    ]
+  }
+]

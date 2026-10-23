@@ -8,6 +8,9 @@
     "dependsOn": [
       {
         "modid": "thylacinidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -22,10 +25,13 @@
         "*-adult-male-*": "butcheringfotsacompatability:deaddasyuridae-male-1-dead"
       }
     },
-    "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult.json",
     "dependsOn": [
       {
         "modid": "thylacinidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -40,10 +46,13 @@
         "*-adult-male-*": "butcheringfotsacompatability:deaddasyuridae-male-1-dead"
       }
     },
-    "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult.json",
     "dependsOn": [
       {
         "modid": "thylacinidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -57,10 +66,13 @@
         "*-baby-*": "butcheringfotsacompatability:deaddasyuridae-baby-1-dead"
       }
     },
-    "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby.json",
     "dependsOn": [
       {
         "modid": "thylacinidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   },
@@ -74,10 +86,13 @@
         "*-baby-*": "butcheringfotsacompatability:deaddasyuridae-baby-1-dead"
       }
     },
-    "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby.json",
     "dependsOn": [
       {
         "modid": "thylacinidae"
+      },
+      {
+        "modid": "butchering"
       }
     ]
   }

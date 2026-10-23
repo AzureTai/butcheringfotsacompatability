@@ -1,0 +1,640 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "nandiniabinotata",
+        "arctictisbinturong",
+        "arctogalidiatrivirgata",
+        "chrotogaleowstoni",
+        "civettictiscivetta",
+        "cynogalebennettii",
+        "diplogalehosei",
+        "genettaabyssinica",
+        "genettaangolensis",
+        "genettabourloni",
+        "genettacristata",
+        "genettagenetta",
+        "genettajohnstoni",
+        "genettamaculata",
+        "genettapardina",
+        "genettapiscivora",
+        "genettaplesictoides",
+        "genettapoensis",
+        "genettaservalina",
+        "genettathierryi",
+        "genettatigrina",
+        "genettavictoriae",
+        "hemigalusderbyanus",
+        "macrogalidiamusschenbroekii",
+        "pagumalarvata",
+        "paradoxurushermaphroditus",
+        "paradoxurusjerdoni",
+        "paradoxuruszeylonensis",
+        "poianaleightoni",
+        "poianarichardsonii",
+        "viverracivettina",
+        "viverramegaspila",
+        "viverratangalunga",
+        "viverrazibetha",
+        "viverriculaindica"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "*-nandiniabinotata": {
+      "base": "item/animal/mammal/nandiniidae/{species}/floorpelt-male"
+    },
+    "*": {
+      "base": "item/animal/mammal/viverridae/{species}/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*-nandiniabinotata": {
+      "skin": {
+        "base": "entity/animal/mammal/nandiniidae/{species}-adult"
+      }
+    },
+    "*": {
+      "skin": {
+        "base": "entity/animal/mammal/viverridae/{species}-adult"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-female-genettaangolensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-genettaangolensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-poianaleightoni": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-poianaleightoni": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-*": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransformByType": {
+      "*-female-genettaangolensis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-genettaangolensis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-poianaleightoni": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-poianaleightoni": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-*": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-*": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.2,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "groundStorageTransformByType": {
+      "*-female-genettaangolensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-genettaangolensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-poianaleightoni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.91
+      },
+      "*-male-poianaleightoni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.96
+      },
+      "*-female-*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-female-genettaangolensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.91
+    },
+    "*-male-genettaangolensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.96
+    },
+    "*-female-*": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-*": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-nandiniabinotata": 1,
+          "*-female-nandiniabinotata": 1,
+          "*-male-arctictisbinturong": 2,
+          "*-female-arctictisbinturong": 2,
+          "*-male-arctogalidiatrivirgata": 1,
+          "*-female-arctogalidiatrivirgata": 1,
+          "*-male-chrotogaleowstoni": 1,
+          "*-female-chrotogaleowstoni": 1,
+          "*-male-civettictiscivetta": 2,
+          "*-female-civettictiscivetta": 2,
+          "*-male-cynogalebennettii": 1,
+          "*-female-cynogalebennettii": 1,
+          "*-male-diplogalehosei": 1,
+          "*-female-diplogalehosei": 1,
+          "*-male-genettaabyssinica": 1,
+          "*-female-genettaabyssinica": 1,
+          "*-male-genettaangolensis": 1,
+          "*-female-genettaangolensis": 1,
+          "*-male-genettabourloni": 1,
+          "*-female-genettabourloni": 1,
+          "*-male-genettacristata": 1,
+          "*-female-genettacristata": 1,
+          "*-male-genettagenetta": 1,
+          "*-female-genettagenetta": 1,
+          "*-male-genettajohnstoni": 1,
+          "*-female-genettajohnstoni": 1,
+          "*-male-genettamaculata": 1,
+          "*-female-genettamaculata": 1,
+          "*-male-genettapardina": 1,
+          "*-female-genettapardina": 1,
+          "*-male-genettapiscivora": 1,
+          "*-female-genettapiscivora": 1,
+          "*-male-genettaplesictoides": 1,
+          "*-female-genettaplesictoides": 1,
+          "*-male-genettapoensis": 1,
+          "*-female-genettapoensis": 1,
+          "*-male-genettaservalina": 1,
+          "*-female-genettaservalina": 1,
+          "*-male-genettathierryi": 1,
+          "*-female-genettathierryi": 1,
+          "*-male-genettatigrina": 1,
+          "*-female-genettatigrina": 1,
+          "*-male-genettavictoriae": 1,
+          "*-female-genettavictoriae": 1,
+          "*-male-hemigalusderbyanus": 1,
+          "*-female-hemigalusderbyanus": 1,
+          "*-male-macrogalidiamusschenbroekii": 2,
+          "*-female-macrogalidiamusschenbroekii": 2,
+          "*-male-pagumalarvata": 1,
+          "*-female-pagumalarvata": 1,
+          "*-male-paradoxurushermaphroditus": 1,
+          "*-female-paradoxurushermaphroditus": 1,
+          "*-male-paradoxurusjerdoni": 1,
+          "*-female-paradoxurusjerdoni": 1,
+          "*-male-paradoxuruszeylonensis": 1,
+          "*-female-paradoxuruszeylonensis": 1,
+          "*-male-poianaleightoni": 1,
+          "*-female-poianaleightoni": 1,
+          "*-male-poianarichardsonii": 1,
+          "*-female-poianarichardsonii": 1,
+          "*-male-viverracivettina": 2,
+          "*-female-viverracivettina": 2,
+          "*-male-viverramegaspila": 2,
+          "*-female-viverramegaspila": 2,
+          "*-male-viverratangalunga": 1,
+          "*-female-viverratangalunga": 1,
+          "*-male-viverrazibetha": 2,
+          "*-female-viverrazibetha": 2,
+          "*-male-viverriculaindica": 1,
+          "*-female-viverriculaindica": 1
+        }
+      }
+    ]
+  }
+}

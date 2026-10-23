@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "ancienttools:brain",
+      "quantityByType": {
+        "spheniscidae-adult-female-aptenodytesforsteri": {
+          "avg": 0.25,
+          "var": 0
+        },
+        "spheniscidae-adult-male-aptenodytesforsteri": {
+          "avg": 0.35,
+          "var": 0
+        }
+      }
+    },
+    "file": "spheniscidae:entities/animal/bird/spheniscidae-adult.json",
+    "dependsOn": [
+      {
+        "modid": "spheniscidae"
+      },
+      {
+        "modid": "ancienttoolsfork"
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
+      }
+    ],
+    "side": "Server"
+  }
+]

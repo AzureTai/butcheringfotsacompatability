@@ -1,0 +1,3986 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "acanthisittachloris",
+        "aegothelesnovaezealandiae",
+        "anasaucklandica",
+        "anaschlorotis",
+        "anasnesiotis",
+        "apteryxaustralis",
+        "apteryxhaastii",
+        "apteryxmantelli",
+        "apteryxowenii",
+        "apteryxrowi",
+        "aptornisdefossor",
+        "aptornisotidiformis",
+        "cabalusmodestus",
+        "chenonettafinschi",
+        "cnemiorniscalcitrans",
+        "cnemiornisgracilis",
+        "dendroscansordecurvirostris",
+        "diaphorapteryxhawkinsi",
+        "dinornisnovaezealandiae",
+        "dinornisrobustus",
+        "anomalopteryxdidiformis",
+        "emeuscrassus",
+        "euryapteryxcurtus",
+        "pachyornisaustralis",
+        "pachyorniselephantopus",
+        "pachyornisgeranoides",
+        "megalapteryxdidinus",
+        "gallirallusaustralis",
+        "hypotaenidiadieffenbachii",
+        "hypotaenidiaphilippensis",
+        "hypotaenidiasylvestris",
+        "lewiniamuelleri",
+        "pachyplichasjagmi",
+        "pachyplichasyaldwyni",
+        "porphyrioalbus",
+        "porphyriohochstetteri",
+        "porphyriomantelli",
+        "strigopshabroptila",
+        "traversialyalli",
+        "tribonyxhodgenorum",
+        "xenicusgilviventris",
+        "xenicuslongipes"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "pelt-female-*",
+    "pelt-male-*",
+    "pelt-baby-dinornisnovaezealandiae",
+    "pelt-baby-dinornisrobustus"
+  ],
+  "shapebytype": {
+    "*-acanthisittachloris": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-aegothelesnovaezealandiae": {
+      "base": "item/animal/bird/aegothelidae/{species}/floorpelt-male"
+    },
+    "*-anasaucklandica": {
+      "base": "item/animal/bird/anatidae/anasaucklandica/floorpelt-male"
+    },
+    "*-anaschlorotis": {
+      "base": "item/animal/bird/anatidae/anasaucklandica/floorpelt-male"
+    },
+    "*-anasnesiotis": {
+      "base": "item/animal/bird/anatidae/anasaucklandica/floorpelt-male"
+    },
+    "*-apteryxaustralis": {
+      "base": "item/animal/bird/apterygidae/{species}/floorpelt-male"
+    },
+    "*-apteryxhaastii": {
+      "base": "item/animal/bird/apterygidae/apteryxaustralis/floorpelt-male"
+    },
+    "*-apteryxmantelli": {
+      "base": "item/animal/bird/apterygidae/apteryxaustralis/floorpelt-male"
+    },
+    "*-apteryxowenii": {
+      "base": "item/animal/bird/apterygidae/apteryxaustralis/floorpelt-male"
+    },
+    "*-apteryxrowi": {
+      "base": "item/animal/bird/apterygidae/apteryxaustralis/floorpelt-male"
+    },
+    "*-aptornisdefossor": {
+      "base": "item/animal/bird/aptornithidae/{species}/floorpelt-male"
+    },
+    "*-aptornisotidiformis": {
+      "base": "item/animal/bird/aptornithidae/aptornisdefossor/floorpelt-male"
+    },
+    "*-cabalusmodestus": {
+      "base": "item/animal/bird/rallidae/cabalusmodestus/floorpelt-male"
+    },
+    "*-chenonettafinschi": {
+      "base": "item/animal/bird/anatidae/chenonettafinschi/floorpelt-male"
+    },
+    "*-cnemiorniscalcitrans": {
+      "base": "item/animal/bird/anatidae/cnemiorniscalcitrans/floorpelt-male"
+    },
+    "*-cnemiornisgracilis": {
+      "base": "item/animal/bird/anatidae/cnemiorniscalcitrans/floorpelt-male"
+    },
+    "*-dendroscansordecurvirostris": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-baby-dinornisnovaezealandiae": {
+      "base": "item/animal/bird/dinornithidae/{species}/floorpelt-baby"
+    },
+    "*-diaphorapteryxhawkinsi": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-dinornisnovaezealandiae": {
+      "base": "item/animal/bird/dinornithidae/{species}/floorpelt-male"
+    },
+    "*-baby-dinornisrobustus": {
+      "base": "item/animal/bird/dinornithidae/dinornisnovaezealandiae/floorpelt-baby"
+    },
+    "*-dinornisrobustus": {
+      "base": "item/animal/bird/dinornithidae/dinornisnovaezealandiae/floorpelt-male"
+    },
+    "*-anomalopteryxdidiformis": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-emeuscrassus": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-euryapteryxcurtus": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-pachyornisaustralis": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-pachyorniselephantopus": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-pachyornisgeranoides": {
+      "base": "item/animal/bird/emeidae/{species}/floorpelt-male"
+    },
+    "*-megalapteryxdidinus": {
+      "base": "item/animal/bird/megalapterygidae/{species}/floorpelt-male"
+    },
+    "*-gallirallusaustralis": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-hypotaenidiadieffenbachii": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-hypotaenidiaphilippensis": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-hypotaenidiasylvestris": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-lewiniamuelleri": {
+      "base": "item/animal/bird/rallidae/diaphorapteryxhawkinsi/floorpelt-male"
+    },
+    "*-pachyplichasjagmi": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-pachyplichasyaldwyni": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-porphyrioalbus": {
+      "base": "item/animal/bird/rallidae/porphyriohochstetteri/floorpelt-male"
+    },
+    "*-porphyriohochstetteri": {
+      "base": "item/animal/bird/rallidae/porphyriohochstetteri/floorpelt-male"
+    },
+    "*-porphyriomantelli": {
+      "base": "item/animal/bird/rallidae/porphyriohochstetteri/floorpelt-male"
+    },
+    "*-strigopshabroptila": {
+      "base": "item/animal/bird/strigopidae/{species}/floorpelt-male"
+    },
+    "*-traversialyalli": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-tribonyxhodgenorum": {
+      "base": "item/animal/bird/rallidae/tribonyxhodgenorum/floorpelt-male"
+    },
+    "*-xenicusgilviventris": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    },
+    "*-xenicuslongipes": {
+      "base": "item/animal/bird/acanthisittidae/acanthisittachloris/floorpelt-male"
+    }
+  },
+  "texturesByType": {
+    "*-acanthisittachloris": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-aegothelesnovaezealandiae": {
+      "skin": {
+        "base": "entity/animal/bird/aegothelidae/{species}-adult"
+      }
+    },
+    "*-anasaucklandica": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-adult"
+      }
+    },
+    "*-anaschlorotis": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-adult"
+      }
+    },
+    "*-anasnesiotis": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-adult"
+      }
+    },
+    "*-apteryxaustralis": {
+      "skin": {
+        "base": "entity/animal/bird/apterygidae/{species}-adult"
+      }
+    },
+    "*-apteryxhaastii": {
+      "skin": {
+        "base": "entity/animal/bird/apterygidae/{species}-adult"
+      }
+    },
+    "*-apteryxmantelli": {
+      "skin": {
+        "base": "entity/animal/bird/apterygidae/{species}-adult"
+      }
+    },
+    "*-apteryxowenii": {
+      "skin": {
+        "base": "entity/animal/bird/apterygidae/{species}-adult"
+      }
+    },
+    "*-apteryxrowi": {
+      "skin": {
+        "base": "entity/animal/bird/apterygidae/{species}-adult"
+      }
+    },
+    "*-aptornisdefossor": {
+      "skin": {
+        "base": "entity/animal/bird/aptornithidae/{species}-adult"
+      }
+    },
+    "*-aptornisotidiformis": {
+      "skin": {
+        "base": "entity/animal/bird/aptornithidae/{species}-adult"
+      }
+    },
+    "*-cabalusmodestus": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-chenonettafinschi": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-{gender}"
+      }
+    },
+    "*-cnemiorniscalcitrans": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-adult"
+      }
+    },
+    "*-cnemiornisgracilis": {
+      "skin": {
+        "base": "entity/animal/bird/anatidae/{species}-adult"
+      }
+    },
+    "*-dendroscansordecurvirostris": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-diaphorapteryxhawkinsi": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*baby-dinornisnovaezealandiae": {
+      "skin": {
+        "base": "entity/animal/bird/dinornithidae/{species}-baby"
+      }
+    },
+    "*-dinornisnovaezealandiae": {
+      "skin": {
+        "base": "entity/animal/bird/dinornithidae/{species}-adult"
+      }
+    },
+    "*baby-dinornisrobustus": {
+      "skin": {
+        "base": "entity/animal/bird/dinornithidae/dinornisnovaezealandiae-baby"
+      }
+    },
+    "*-dinornisrobustus": {
+      "skin": {
+        "base": "entity/animal/bird/dinornithidae/{species}-adult"
+      }
+    },
+    "*-anomalopteryxdidiformis": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-emeuscrassus": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-euryapteryxcurtus": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-pachyornisaustralis": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-pachyorniselephantopus": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-pachyornisgeranoides": {
+      "skin": {
+        "base": "entity/animal/bird/emeidae/{species}-adult"
+      }
+    },
+    "*-megalapteryxdidinus": {
+      "skin": {
+        "base": "entity/animal/bird/megalapterygidae/{species}-adult"
+      }
+    },
+    "*-gallirallusaustralis": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-hypotaenidiadieffenbachii": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-hypotaenidiaphilippensis": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-hypotaenidiasylvestris": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-lewiniamuelleri": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-pachyplichasjagmi": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-pachyplichasyaldwyni": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-porphyrioalbus": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-porphyriohochstetteri": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-porphyriomantelli": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/porphyriohochstetteri-adult"
+      }
+    },
+    "*-strigopshabroptila": {
+      "skin": {
+        "base": "entity/animal/bird/strigopidae/{species}-adult"
+      }
+    },
+    "*-traversialyalli": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-tribonyxhodgenorum": {
+      "skin": {
+        "base": "entity/animal/bird/rallidae/{species}-adult"
+      }
+    },
+    "*-xenicusgilviventris": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    },
+    "*-xenicuslongipes": {
+      "skin": {
+        "base": "entity/animal/bird/acanthisittidae/{species}-{gender}"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-acanthisittachloris": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-aegothelesnovaezealandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-anasaucklandica": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-anaschlorotis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-anasnesiotis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-female-apteryxaustralis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxaustralis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-female-apteryxhaastii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-apteryxhaastii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-female-apteryxmantelli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.31
+      },
+      "*-male-apteryxmantelli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-female-apteryxowenii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-male-apteryxowenii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-female-apteryxrowi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxrowi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-aptornisotidiformis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-cabalusmodestus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.34
+      },
+      "*-chenonettafinschi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.66
+      },
+      "*-female-cnemiorniscalcitrans": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-cnemiorniscalcitrans": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-cnemiornisgracilis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-male-cnemiornisgracilis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-diaphorapteryxhawkinsi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-dendroscansordecurvirostris": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-baby-dinornisnovaezealandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisnovaezealandiae": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-baby-dinornisrobustus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisrobustus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-anomalopteryxdidiformis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-anomalopteryxdidiformis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-emeuscrassus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-emeuscrassus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-euryapteryxcurtus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-euryapteryxcurtus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisaustralis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyornisaustralis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyorniselephantopus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyorniselephantopus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisgeranoides": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-pachyornisgeranoides": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-megalapteryxdidinus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-megalapteryxdidinus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-gallirallusaustralis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-hypotaenidiadieffenbachii": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiaphilippensis": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiasylvestris": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-lewiniamuelleri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.21
+      },
+      "*-pachyplichasjagmi": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-pachyplichasyaldwyni": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-porphyrioalbus": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriohochstetteri": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriomantelli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.68
+      },
+      "*-female-strigopshabroptila": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-strigopshabroptila": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-traversialyalli": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-tribonyxhodgenorum": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-xenicusgilviventris": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-xenicuslongipes": {
+        "translation": {
+          "x": 0.1,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransformByType": {
+      "*-acanthisittachloris": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-aegothelesnovaezealandiae": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-anasaucklandica": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-anaschlorotis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-anasnesiotis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-female-apteryxaustralis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxaustralis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-female-apteryxhaastii": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-apteryxhaastii": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-female-apteryxmantelli": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.31
+      },
+      "*-male-apteryxmantelli": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-female-apteryxowenii": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-male-apteryxowenii": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-female-apteryxrowi": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxrowi": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-aptornisotidiformis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-cabalusmodestus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.34
+      },
+      "*-chenonettafinschi": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.66
+      },
+      "*-female-cnemiorniscalcitrans": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-cnemiorniscalcitrans": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-cnemiornisgracilis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-male-cnemiornisgracilis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-diaphorapteryxhawkinsi": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-dendroscansordecurvirostris": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-baby-dinornisnovaezealandiae": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisnovaezealandiae": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-baby-dinornisrobustus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisrobustus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-anomalopteryxdidiformis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-anomalopteryxdidiformis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-emeuscrassus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-emeuscrassus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-euryapteryxcurtus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-euryapteryxcurtus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisaustralis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyornisaustralis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyorniselephantopus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyorniselephantopus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisgeranoides": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-pachyornisgeranoides": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-megalapteryxdidinus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-megalapteryxdidinus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.25,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-gallirallusaustralis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-hypotaenidiadieffenbachii": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiaphilippensis": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiasylvestris": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-lewiniamuelleri": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.21
+      },
+      "*-pachyplichasjagmi": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-pachyplichasyaldwyni": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-porphyrioalbus": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriohochstetteri": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriomantelli": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.68
+      },
+      "*-female-strigopshabroptila": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-strigopshabroptila": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-traversialyalli": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-tribonyxhodgenorum": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-xenicusgilviventris": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-xenicuslongipes": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": -179.9,
+          "y": 180,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "groundStorageTransformByType": {
+      "*-acanthisittachloris": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-aegothelesnovaezealandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.3
+      },
+      "*-anasaucklandica": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-anaschlorotis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.4
+      },
+      "*-anasnesiotis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.35
+      },
+      "*-female-apteryxaustralis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxaustralis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-female-apteryxhaastii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.65
+      },
+      "*-male-apteryxhaastii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-female-apteryxmantelli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.31
+      },
+      "*-male-apteryxmantelli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-female-apteryxowenii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.29
+      },
+      "*-male-apteryxowenii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-female-apteryxrowi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.59
+      },
+      "*-male-apteryxrowi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-aptornisotidiformis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.8
+      },
+      "*-chenonettafinschi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.66
+      },
+      "*-cabalusmodestus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.34
+      },
+      "*-female-cnemiorniscalcitrans": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-cnemiorniscalcitrans": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-female-cnemiornisgracilis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.93
+      },
+      "*-male-cnemiornisgracilis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-dendroscansordecurvirostris": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-diaphorapteryxhawkinsi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.53
+      },
+      "*-baby-dinornisnovaezealandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisnovaezealandiae": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-baby-dinornisrobustus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-male-dinornisrobustus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.75
+      },
+      "*-female-anomalopteryxdidiformis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-anomalopteryxdidiformis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-emeuscrassus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-emeuscrassus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-euryapteryxcurtus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      },
+      "*-male-euryapteryxcurtus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisaustralis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyornisaustralis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyorniselephantopus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-pachyorniselephantopus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.67
+      },
+      "*-female-pachyornisgeranoides": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "*-male-pachyornisgeranoides": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.575
+      },
+      "*-female-megalapteryxdidinus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-megalapteryxdidinus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.63
+      },
+      "*-gallirallusaustralis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.5
+      },
+      "*-hypotaenidiadieffenbachii": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiaphilippensis": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-hypotaenidiasylvestris": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.26
+      },
+      "*-lewiniamuelleri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.21
+      },
+      "*-pachyplichasjagmi": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-pachyplichasyaldwyni": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.16
+      },
+      "*-porphyrioalbus": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriohochstetteri": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.62
+      },
+      "*-porphyriomantelli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.68
+      },
+      "*-female-strigopshabroptila": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.55
+      },
+      "*-male-strigopshabroptila": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.6
+      },
+      "*-traversialyalli": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-tribonyxhodgenorum": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.36
+      },
+      "*-xenicusgilviventris": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*-xenicuslongipes": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.14
+      },
+      "*": {
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransformByType": {
+    "*-acanthisittachloris": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.14
+    },
+    "*-aegothelesnovaezealandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.3
+    },
+    "*-anasaucklandica": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.35
+    },
+    "*-anaschlorotis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.4
+    },
+    "*-anasnesiotis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.35
+    },
+    "*-female-apteryxaustralis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.59
+    },
+    "*-male-apteryxaustralis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    },
+    "*-female-apteryxhaastii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.65
+    },
+    "*-male-apteryxhaastii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.6
+    },
+    "*-female-apteryxmantelli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.31
+    },
+    "*-male-apteryxmantelli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.29
+    },
+    "*-female-apteryxowenii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.29
+    },
+    "*-male-apteryxowenii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.26
+    },
+    "*-female-apteryxrowi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.59
+    },
+    "*-male-apteryxrowi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    },
+    "*-aptornisotidiformis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-cabalusmodestus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.34
+    },
+    "*-chenonettafinschi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.66
+    },
+    "*-female-cnemiorniscalcitrans": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    },
+    "*-male-cnemiorniscalcitrans": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-female-cnemiornisgracilis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.93
+    },
+    "*-male-cnemiornisgracilis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.97
+    },
+    "*-dendroscansordecurvirostris": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.16
+    },
+    "*-diaphorapteryxhawkinsi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.53
+    },
+    "*-baby-dinornisnovaezealandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-male-dinornisnovaezealandiae": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.75
+    },
+    "*-baby-dinornisrobustus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-male-dinornisrobustus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.75
+    },
+    "*-female-anomalopteryxdidiformis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.85
+    },
+    "*-male-anomalopteryxdidiformis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.575
+    },
+    "*-female-emeuscrassus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-male-emeuscrassus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "*-female-euryapteryxcurtus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "*-male-euryapteryxcurtus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "*-female-pachyornisaustralis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-male-pachyornisaustralis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "*-female-pachyorniselephantopus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-male-pachyorniselephantopus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.67
+    },
+    "*-female-pachyornisgeranoides": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.85
+    },
+    "*-male-pachyornisgeranoides": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.575
+    },
+    "*-female-megalapteryxdidinus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.05
+    },
+    "*-male-megalapteryxdidinus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.63
+    },
+    "*-gallirallusaustralis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-hypotaenidiadieffenbachii": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.26
+    },
+    "*-hypotaenidiaphilippensis": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.26
+    },
+    "*-hypotaenidiasylvestris": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.26
+    },
+    "*-lewiniamuelleri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.21
+    },
+    "*-pachyplichasjagmi": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.16
+    },
+    "*-pachyplichasyaldwyni": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.16
+    },
+    "*-porphyrioalbus": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.62
+    },
+    "*-porphyriohochstetteri": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.62
+    },
+    "*-porphyriomantelli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.68
+    },
+    "*-female-strigopshabroptila": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.55
+    },
+    "*-male-strigopshabroptila": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.6
+    },
+    "*-traversialyalli": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.14
+    },
+    "*-tribonyxhodgenorum": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.36
+    },
+    "*-xenicusgilviventris": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.14
+    },
+    "*-xenicuslongipes": {
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.14
+    },
+    "*": {
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
+  "enabled": false,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-acanthisittachloris": 1,
+          "*-female-acanthisittachloris": 1,
+          "*-male-aegothelesnovaezealandiae": 1,
+          "*-female-aegothelesnovaezealandiae": 1,
+          "*-male-anasaucklandica": 1,
+          "*-female-anasaucklandica": 1,
+          "*-male-anaschlorotis": 1,
+          "*-female-anaschlorotis": 1,
+          "*-male-anasnesiotis": 1,
+          "*-female-anasnesiotis": 1,
+          "*-male-anomalopteryxdidiformis": 2,
+          "*-female-anomalopteryxdidiformis": 3,
+          "*-male-apteryxaustralis": 1,
+          "*-female-apteryxaustralis": 1,
+          "*-male-apteryxhaastii": 1,
+          "*-female-apteryxhaastii": 1,
+          "*-male-apteryxmantelli": 1,
+          "*-female-apteryxmantelli": 1,
+          "*-male-apteryxowenii": 1,
+          "*-female-apteryxowenii": 1,
+          "*-male-apteryxrowi": 1,
+          "*-female-apteryxrowi": 1,
+          "*-male-aptornisdefossor": 2,
+          "*-female-aptornisdefossor": 2,
+          "*-male-aptornisotidiformis": 2,
+          "*-female-aptornisotidiformis": 2,
+          "*-male-cabalusmodestus": 1,
+          "*-female-cabalusmodestus": 1,
+          "*-male-chenonettafinschi": 1,
+          "*-female-chenonettafinschi": 1,
+          "*-male-cnemiorniscalcitrans": 2,
+          "*-female-cnemiorniscalcitrans": 2,
+          "*-male-cnemiornisgracilis": 2,
+          "*-female-cnemiornisgracilis": 2,
+          "*-male-dendroscansordecurvirostris": 1,
+          "*-female-dendroscansordecurvirostris": 1,
+          "*-male-diaphorapteryxhawkinsi": 1,
+          "*-female-diaphorapteryxhawkinsi": 1,
+          "*-baby-dinornisnovaezealandiae": 2,
+          "*-male-dinornisnovaezealandiae": 6,
+          "*-female-dinornisnovaezealandiae": 10,
+          "*-baby-dinornisrobustus": 2,
+          "*-male-dinornisrobustus": 6,
+          "*-female-dinornisrobustus": 10,
+          "*-male-emeuscrassus": 3,
+          "*-female-emeuscrassus": 4,
+          "*-male-euryapteryxcurtus": 6,
+          "*-female-euryapteryxcurtus": 9,
+          "*-male-pachyornisaustralis": 4,
+          "*-female-pachyornisaustralis": 6,
+          "*-male-pachyorniselephantopus": 6,
+          "*-female-pachyorniselephantopus": 9,
+          "*-male-pachyornisgeranoides": 2,
+          "*-female-pachyornisgeranoides": 3,
+          "*-male-megalapteryxdidinus": 3,
+          "*-female-megalapteryxdidinus": 6,
+          "*-male-gallirallusaustralis": 1,
+          "*-female-gallirallusaustralis": 1,
+          "*-male-hypotaenidiadieffenbachii": 1,
+          "*-female-hypotaenidiadieffenbachii": 1,
+          "*-male-hypotaenidiaphilippensis": 1,
+          "*-female-hypotaenidiaphilippensis": 1,
+          "*-male-hypotaenidiasylvestris": 1,
+          "*-female-hypotaenidiasylvestris": 1,
+          "*-male-lewiniamuelleri": 1,
+          "*-female-lewiniamuelleri": 1,
+          "*-male-pachyplichasjagmi": 1,
+          "*-female-pachyplichasjagmi": 1,
+          "*-male-pachyplichasyaldwyni": 1,
+          "*-female-pachyplichasyaldwyni": 1,
+          "*-male-porphyrioalbus": 1,
+          "*-female-porphyrioalbus": 1,
+          "*-male-porphyriohochstetteri": 1,
+          "*-female-porphyriohochstetteri": 1,
+          "*-male-porphyriomantelli": 1,
+          "*-female-porphyriomantelli": 1,
+          "*-male-strigopshabroptila": 1,
+          "*-female-strigopshabroptila": 1,
+          "*-male-traversialyalli": 1,
+          "*-female-traversialyalli": 1,
+          "*-male-tribonyxhodgenorum": 1,
+          "*-female-tribonyxhodgenorum": 1,
+          "*-male-xenicusgilviventris": 1,
+          "*-female-xenicusgilviventris": 1,
+          "*-male-xenicuslongipes": 1,
+          "*-female-xenicuslongipes": 1
+        }
+      }
+    ]
+  }
+}

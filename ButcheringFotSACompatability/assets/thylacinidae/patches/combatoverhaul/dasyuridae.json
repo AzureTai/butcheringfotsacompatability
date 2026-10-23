@@ -1,0 +1,326 @@
+[
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elementsByType": {
+        "*": {
+          "Torso": [
+            "Neck1",
+            "Body2",
+            "Body",
+            "Hip"
+          ],
+          "Head": [
+            "Head",
+            "Face"
+          ],
+          "Arm": [
+            "L Shoulder",
+            "L Arm",
+            "L Lowerarm",
+            "L Hand",
+            "R Shoulder",
+            "R Arm",
+            "R Lowerarm",
+            "R Hand"
+          ],
+          "Leg": [
+            "L Thigh",
+            "L Lowerleg",
+            "L Foot",
+            "R Thigh",
+            "R Lowerleg",
+            "R Foot"
+          ],
+          "Critical": [
+            "Neck2"
+          ],
+          "Resistant": []
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elementsByType": {
+        "*": {
+          "Torso": [
+            "Neck1",
+            "Body2",
+            "Body",
+            "Hip"
+          ],
+          "Head": [
+            "Head",
+            "Face"
+          ],
+          "Arm": [
+            "L Shoulder",
+            "L Arm",
+            "L Lowerarm",
+            "L Hand",
+            "R Shoulder",
+            "R Arm",
+            "R Lowerarm",
+            "R Hand"
+          ],
+          "Leg": [
+            "L Thigh",
+            "L Lowerleg",
+            "L Foot",
+            "R Thigh",
+            "R Lowerleg",
+            "R Foot"
+          ],
+          "Critical": [
+            "Neck2"
+          ],
+          "Resistant": []
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-adult",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elementsByType": {
+        "*": {
+          "Torso": [
+            "Neck1",
+            "Body2",
+            "Body",
+            "Hip"
+          ],
+          "Head": [
+            "Head",
+            "Face"
+          ],
+          "Arm": [
+            "L Shoulder",
+            "L Arm",
+            "L Lowerarm",
+            "L Hand",
+            "R Shoulder",
+            "R Arm",
+            "R Lowerarm",
+            "R Hand"
+          ],
+          "Leg": [
+            "L Thigh",
+            "L Lowerleg",
+            "L Foot",
+            "R Thigh",
+            "R Lowerleg",
+            "R Foot"
+          ],
+          "Critical": [
+            "Neck2"
+          ],
+          "Resistant": []
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elementsByType": {
+        "*": {
+          "Torso": [
+            "Neck1",
+            "Body2",
+            "Body",
+            "Hip"
+          ],
+          "Head": [
+            "Head",
+            "Face"
+          ],
+          "Arm": [
+            "L Shoulder",
+            "L Arm",
+            "L Lowerarm",
+            "L Hand",
+            "R Shoulder",
+            "R Arm",
+            "R Lowerarm",
+            "R Hand"
+          ],
+          "Leg": [
+            "L Thigh",
+            "L Lowerleg",
+            "L Foot",
+            "R Thigh",
+            "R Lowerleg",
+            "R Foot"
+          ],
+          "Critical": [
+            "Neck2"
+          ],
+          "Resistant": []
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  },
+  {
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "thylacinidae"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "file": "thylacinidae:entities/animal/mammal/dasyuridae-baby",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {
+          "BluntAttack": 0,
+          "SlashingAttack": 0,
+          "PiercingAttack": 0
+        }
+      }
+    }
+  }
+]

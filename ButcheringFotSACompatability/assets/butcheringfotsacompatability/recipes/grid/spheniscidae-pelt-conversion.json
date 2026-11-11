@@ -14,7 +14,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-aptenodytesforsteri",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -33,7 +33,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-aptenodytespatagonicus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -52,7 +52,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudypteschrysocome",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -71,7 +71,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudypteschrysolophus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -90,7 +90,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptesmoseleyi",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -109,7 +109,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptespachyrhynchus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -128,7 +128,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptesrobustus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -147,7 +147,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptesschlegeli",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -166,7 +166,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptessclateri",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -185,7 +185,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudypteswarhami",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -204,7 +204,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptulaminor",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -223,7 +223,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-eudyptulanovaehollandiae",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -242,7 +242,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-megadyptesantipodes",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -261,7 +261,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-pygoscelisadeliae",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -280,7 +280,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-pygoscelisantarcticus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -299,7 +299,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-pygoscelispapua",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -318,7 +318,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-spheniscusdemersus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -337,7 +337,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-spheniscushumboldti",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -356,7 +356,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-spheniscusmagellanicus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -375,7 +375,7 @@
     "shapeless": true,
     "output": {
       "type": "item",
-      "code": "spheniscidae:pelt-raw-baby-spheniscusmendiculus",
+      "code": "game:hide-raw-small",
       "quantity": 1
     }
   },
@@ -1136,6 +1136,1526 @@
     "output": {
       "type": "item",
       "code": "spheniscidae:pelt-raw-male-spheniscusmendiculus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-aptenodytesforsteri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-aptenodytesforsteri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-aptenodytesforsteri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-aptenodytesforsteri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-aptenodytespatagonicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-aptenodytespatagonicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-aptenodytespatagonicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-aptenodytespatagonicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudypteschrysocome",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudypteschrysocome",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudypteschrysocome",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudypteschrysocome",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudypteschrysolophus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudypteschrysolophus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudypteschrysolophus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudypteschrysolophus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptesmoseleyi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptesmoseleyi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptesmoseleyi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptesmoseleyi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptespachyrhynchus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptespachyrhynchus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptespachyrhynchus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptespachyrhynchus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptesrobustus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptesrobustus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptesrobustus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptesrobustus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptessclateri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptessclateri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptessclateri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptessclateri",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptesschlegeli",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptesschlegeli",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptesschlegeli",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptesschlegeli",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudypteswarhami",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudypteswarhami",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudypteswarhami",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudypteswarhami",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptulaminor",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptulaminor",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptulaminor",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptulaminor",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-eudyptulanovaehollandiae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-eudyptulanovaehollandiae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-eudyptulanovaehollandiae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-eudyptulanovaehollandiae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-megadyptesantipodes",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-megadyptesantipodes",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-megadyptesantipodes",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-megadyptesantipodes",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-pygoscelisadeliae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-pygoscelisadeliae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-pygoscelisadeliae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-pygoscelisadeliae",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-pygoscelisantarcticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-pygoscelisantarcticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-pygoscelisantarcticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-pygoscelisantarcticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-pygoscelispapua",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-pygoscelispapua",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-pygoscelispapua",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-pygoscelispapua",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-spheniscusdemersus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-spheniscusdemersus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-spheniscusdemersus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-spheniscusdemersus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-spheniscushumboldti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-spheniscushumboldti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-spheniscushumboldti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-spheniscushumboldti",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-spheniscusmagellanicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-spheniscusmagellanicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-spheniscusmagellanicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-spheniscusmagellanicus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-raw-baby-spheniscusmendiculus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-raw-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-salted-baby-spheniscusmendiculus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-salted-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-oiled-baby-spheniscusmendiculus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-oiled-small",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "spheniscidae:pelt-pelt-baby-spheniscusmendiculus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:hide-pelt-small",
       "quantity": 1
     }
   }

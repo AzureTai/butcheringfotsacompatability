@@ -1,0 +1,1676 @@
+{
+  "code": "pelt",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "SingleCenter",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "gender",
+      "states": [
+        "baby",
+        "female",
+        "male"
+      ]
+    },
+    {
+      "code": "species",
+      "states": [
+        "bosprimigeniusprimigenius",
+        "bostaurustaurus",
+        "boselaphustragocamelus",
+        "bubalusarnee",
+        "bubalusbrevicornis",
+        "bubalusbubalis",
+        "bubaluscebuensis",
+        "bubalusdepressicornis",
+        "bubalusgrovesi",
+        "bubalusmephistopheles",
+        "bubalusmindorensis",
+        "bubalusmurrensis",
+        "bubalusquarlesi",
+        "pseudoryxnghetinhensis",
+        "syncerusantiquus",
+        "synceruscaffer",
+        "syncerusnanus",
+        "taurotragusderbianus",
+        "taurotragusoryx",
+        "tetracerusquadricornis",
+        "tragelaphusangasii",
+        "tragelaphusbuxtoni",
+        "tragelaphuseurycerus",
+        "tragelaphusimberbis",
+        "tragelaphusscriptus",
+        "tragelaphusspekii",
+        "tragelaphusstrepsiceros",
+        "tragelaphussylvaticus"
+      ]
+    }
+  ],
+  "shapebytype": {
+    "*baby-bostaurustaurus": {
+      "base": "item/animal/mammal/hooved/bovinae/bosprimigeniusprimigenius/floorpelt-baby"
+    },
+    "*baby-boselaphustragocamelus": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusstrepsiceros/floorpelt-baby"
+    },
+    "*-male-boselaphustragocamelus": {
+      "base": "item/animal/mammal/hooved/bovinae/boselaphustragocamelus/floorpelt-male"
+    },
+    "*baby-bubalusarnee": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-baby"
+    },
+    "*baby-bubalusbrevicornis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-baby"
+    },
+    "*female-bubalusbrevicornis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbrevicornis/floorpelt-male"
+    },
+    "*female-bubalusbubalis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-male"
+    },
+    "*baby-bubaluscebuensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusquarlesi/floorpelt-baby"
+    },
+    "*-bubaluscebuensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusquarlesi/floorpelt-male"
+    },
+    "*baby-bubalusdepressicornis": {
+      "base": "item/animal/mammal/hooved/bovinae/syncerusnanus/floorpelt-baby"
+    },
+    "*female-bubalusdepressicornis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusdepressicornis/floorpelt-male"
+    },
+    "*baby-bubalusgrovesi": {
+      "base": "item/animal/mammal/hooved/bovinae/syncerusnanus/floorpelt-baby"
+    },
+    "*female-bubalusgrovesi": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusmindorensis/floorpelt-male"
+    },
+    "*male-bubalusgrovesi": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusmindorensis/floorpelt-male"
+    },
+    "*baby-bubalusmephistopheles": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-baby"
+    },
+    "*female-bubalusmephistopheles": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-male"
+    },
+    "*male-bubalusmephistopheles": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-male"
+    },
+    "*female-bubalusmindorensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusmindorensis/floorpelt-male"
+    },
+    "*baby-bubalusmurrensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-baby"
+    },
+    "*female-bubalusmurrensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-male"
+    },
+    "*male-bubalusmurrensis": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusbubalis/floorpelt-male"
+    },
+    "*female-bubalusquarlesi": {
+      "base": "item/animal/mammal/hooved/bovinae/bubalusquarlesi/floorpelt-male"
+    },
+    "*female-pseudoryxnghetinhensis": {
+      "base": "item/animal/mammal/hooved/bovinae/pseudoryxnghetinhensis/floorpelt-male"
+    },
+    "*baby-syncerusantiquus": {
+      "base": "item/animal/mammal/hooved/bovinae/synceruscaffer/floorpelt-baby"
+    },
+    "*female-syncerusantiquus": {
+      "base": "item/animal/mammal/hooved/bovinae/synceruscaffer/floorpelt-female"
+    },
+    "*baby-taurotragusderbianus": {
+      "base": "item/animal/mammal/hooved/bovinae/taurotragusoryx/floorpelt-baby"
+    },
+    "*female-taurotragusderbianus": {
+      "base": "item/animal/mammal/hooved/bovinae/taurotragusoryx/floorpelt-female"
+    },
+    "*female-tetracerusquadricornis": {
+      "base": "item/animal/mammal/hooved/bovinae/tetracerusquadricornis/floorpelt-male"
+    },
+    "*baby-tragelaphusangasii": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusspekii/floorpelt-baby"
+    },
+    "*female-tragelaphusangasii": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusbuxtoni/floorpelt-female"
+    },
+    "*male-tragelaphusangasii": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusspekii/floorpelt-male"
+    },
+    "*baby-tragelaphusbuxtoni": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusspekii/floorpelt-baby"
+    },
+    "*baby-tragelaphuseurycerus": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusstrepsiceros/floorpelt-baby"
+    },
+    "*female-tragelaphuseurycerus": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusspekii/floorpelt-male"
+    },
+    "*baby-tragelaphusimberbis": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusstrepsiceros/floorpelt-baby"
+    },
+    "*female-tragelaphusimberbis": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphusimberbis/floorpelt-male"
+    },
+    "*female-tragelaphusscriptus": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphussylvaticus/floorpelt-male"
+    },
+    "*-tragelaphusscriptus": {
+      "base": "item/animal/mammal/hooved/bovinae/tragelaphussylvaticus/floorpelt-{gender}"
+    },
+    "*-baby-*": {
+      "base": "item/animal/mammal/hooved/bovinae/{species}/floorpelt-baby"
+    },
+    "@.*-(female-tragelaphussylvaticus)": {
+      "base": "item/animal/mammal/hooved/bovinae/{species}/floorpelt-male"
+    },
+    "*": {
+      "base": "item/animal/mammal/hooved/bovinae/{species}/floorpelt-{gender}"
+    }
+  },
+  "texturesByType": {
+    "*-baby-bostaurustaurus": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/bovinae/bosprimigeniusprimigenius-baby"
+      }
+    },
+    "*-baby-*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/bovinae/{species}-baby"
+      }
+    },
+    "*-tetracerusquadricornis": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/bovinae/{species}-adult"
+      }
+    },
+    "*": {
+      "skin": {
+        "base": "entity/animal/mammal/hooved/bovinae/{species}-{gender}"
+      },
+      "bottom": {
+        "base": "game:block/leather/plain"
+      }
+    }
+  },
+  "creativeinventory": {},
+  "maxstacksize": 8,
+  "transitionablePropsByType": {
+    "pelt-*": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 24
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatioByType": {
+          "*-male-bosantiquus": 20,
+          "*-female-bosantiquus": 10,
+          "*-baby-bosantiquus": 3,
+          "*-male-bosbison": 20,
+          "*-female-bosbison": 10,
+          "*-baby-bosbison": 3,
+          "*-male-bosbonasus": 15,
+          "*-female-bosbonasus": 10,
+          "*-baby-bosbonasus": 3,
+          "*-male-bosdomesticus": 10,
+          "*-female-bosdomesticus": 3,
+          "*-baby-bosdomesticus": 2,
+          "*-male-bosfrontalis": 15,
+          "*-female-bosfrontalis": 10,
+          "*-baby-bosfrontalis": 3,
+          "*-male-bosgaurus": 25,
+          "*-female-bosgaurus": 15,
+          "*-baby-bosgaurus": 3,
+          "*-male-bosgrunniens": 10,
+          "*-female-bosgrunniens": 3,
+          "*-baby-bosgrunniens": 2,
+          "*-male-bosjavanicus": 15,
+          "*-female-bosjavanicus": 15,
+          "*-baby-bosjavanicus": 2,
+          "*-male-bosmutus": 20,
+          "*-female-bosmutus": 10,
+          "*-baby-bosmutus": 3,
+          "*-male-bosoccidentalis": 20,
+          "*-female-bosoccidentalis": 10,
+          "*-baby-bosoccidentalis": 3,
+          "*-male-bosprimigeniusmauritanicus": 15,
+          "*-female-bosprimigeniusmauritanicus": 10,
+          "*-baby-bosprimigeniusmauritanicus": 2,
+          "*-male-bosprimigeniusnamadicus": 15,
+          "*-female-bosprimigeniusnamadicus": 10,
+          "*-baby-bosprimigeniusnamadicus": 2,
+          "*-male-bosprimigeniusprimigenius": 15,
+          "*-female-bosprimigeniusprimigenius": 10,
+          "*-baby-bosprimigeniusprimigenius": 2,
+          "*-male-bospriscus": 20,
+          "*-female-bospriscus": 10,
+          "*-baby-bospriscus": 3,
+          "*-male-bossauveli": 20,
+          "*-female-bossauveli": 15,
+          "*-baby-bossauveli": 3,
+          "*-male-bostaurusafricanus": 15,
+          "*-female-bostaurusafricanus": 10,
+          "*-baby-bostaurusafricanus": 3,
+          "*-male-bostaurusindicus": 15,
+          "*-female-bostaurusindicus": 10,
+          "*-baby-bostaurusindicus": 3,
+          "*-male-bostaurustaurus": 15,
+          "*-female-bostaurustaurus": 10,
+          "*-baby-bostaurustaurus": 3,
+          "*-male-boselaphustragocamelus": 6,
+          "*-female-boselaphustragocamelus": 6,
+          "*-baby-boselaphustragocamelus": 2,
+          "*-male-bubalusarnee": 20,
+          "*-female-bubalusarnee": 10,
+          "*-baby-bubalusarnee": 2,
+          "*-male-bubalusbrevicornis": 10,
+          "*-female-bubalusbrevicornis": 5,
+          "*-baby-bubalusbrevicornis": 2,
+          "*-male-bubalusbubalis": 10,
+          "*-female-bubalusbubalis": 10,
+          "*-baby-bubalusbubalis": 2,
+          "*-male-bubaluscebuensis": 6,
+          "*-female-bubaluscebuensis": 6,
+          "*-baby-bubaluscebuensis": 2,
+          "*-male-bubalusdepressicornis": 6,
+          "*-female-bubalusdepressicornis": 6,
+          "*-baby-bubalusdepressicornis": 2,
+          "*-male-bubalusgrovesi": 6,
+          "*-female-bubalusgrovesi": 6,
+          "*-baby-bubalusgrovesi": 2,
+          "*-male-bubalusmephistopheles": 10,
+          "*-female-bubalusmephistopheles": 10,
+          "*-baby-bubalusmephistopheles": 2,
+          "*-male-bubalusmindorensis": 9,
+          "*-female-bubalusmindorensis": 6,
+          "*-baby-bubalusmindorensis": 2,
+          "*-male-bubalusmurrensis": 10,
+          "*-female-bubalusmurrensis": 10,
+          "*-baby-bubalusmurrensis": 2,
+          "*-male-bubalusquarlesi": 6,
+          "*-female-bubalusquarlesi": 3,
+          "*-baby-bubalusquarlesi": 1,
+          "*-male-pseudoryxnghetinhensis": 3,
+          "*-female-pseudoryxnghetinhensis": 3,
+          "*-baby-pseudoryxnghetinhensis": 1,
+          "*-male-syncerusantiquus": 25,
+          "*-female-syncerusantiquus": 15,
+          "*-baby-syncerusantiquus": 3,
+          "*-male-synceruscaffer": 15,
+          "*-female-synceruscaffer": 10,
+          "*-baby-synceruscaffer": 3,
+          "*-male-syncerusnanus": 10,
+          "*-female-syncerusnanus": 5,
+          "*-baby-syncerusnanus": 2,
+          "*-male-taurotragusderbianus": 15,
+          "*-female-taurotragusderbianus": 10,
+          "*-baby-taurotragusderbianus": 3,
+          "*-male-taurotragusoryx": 15,
+          "*-female-taurotragusoryx": 10,
+          "*-baby-taurotragusoryx": 3,
+          "*-male-tetracerusquadricornis": 2,
+          "*-female-tetracerusquadricornis": 2,
+          "*-baby-tetracerusquadricornis": 1,
+          "*-male-tragelaphusangasii": 6,
+          "*-female-tragelaphusangasii": 3,
+          "*-baby-tragelaphusangasii": 2,
+          "*-male-tragelaphusbuxtoni": 9,
+          "*-female-tragelaphusbuxtoni": 6,
+          "*-baby-tragelaphusbuxtoni": 2,
+          "*-male-tragelaphuseurycerus": 10,
+          "*-female-tragelaphuseurycerus": 6,
+          "*-baby-tragelaphuseurycerus": 2,
+          "*-male-tragelaphusimberbis": 3,
+          "*-female-tragelaphusimberbis": 3,
+          "*-baby-tragelaphusimberbis": 2,
+          "*-male-tragelaphusscriptus": 3,
+          "*-female-tragelaphusscriptus": 2,
+          "*-baby-tragelaphusscriptus": 1,
+          "*-male-tragelaphusspekii": 3,
+          "*-female-tragelaphusspekii": 2,
+          "*-baby-tragelaphusspekii": 1,
+          "*-male-tragelaphusstrepsiceros": 6,
+          "*-female-tragelaphusstrepsiceros": 6,
+          "*-baby-tragelaphusstrepsiceros": 2,
+          "*-male-tragelaphussylvaticus": 3,
+          "*-female-tragelaphussylvaticus": 2,
+          "*-baby-tragelaphussylvaticus": 1
+        }
+      }
+    ]
+  },
+  "attributes": {
+    "handbook": {
+      "groupBy": [
+        "pelt-legacy-raw-*"
+      ]
+    },
+    "displaycaseable": false,
+    "shelvable": false,
+    "antlerMountableByType": {
+      "*": true
+    },
+    "onAntlerMountTransformByType": {
+      "*-male-boselaphustragocamelus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-female-bospriscus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-bospriscus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusarnee": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-bubalusarnee": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-bubalusarnee": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusbrevicornis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusbrevicornis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusbubalis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-bubaluscebuensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-bubaluscebuensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusdepressicornis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusdepressicornis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusgrovesi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusmephistopheles": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-bubalusmindorensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-bubalusmurrensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.97
+      },
+      "*-male-bubalusmurrensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.03
+      },
+      "*-female-bubalusquarlesi": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-pseudoryxnghetinhensis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-syncerusantiquus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-syncerusantiquus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-male-taurotragusderbianus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-taurotragusoryx": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-female-tetracerusquadricornis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-tragelaphusangasii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphusangasii": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-tragelaphusbuxtoni": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-baby-tragelaphusimberbis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-female-tragelaphusimberbis": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-baby-tragelaphusscriptus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-tragelaphusscriptus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphusscriptus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*-baby-tragelaphussylvaticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.9
+      },
+      "*-female-tragelaphussylvaticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphussylvaticus": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.05
+      },
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.45,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.5
+        },
+        "scale": 1.0
+      }
+    },
+    "rackable": true,
+    "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.45,
+        "z": 0
+      },
+      "rotation": {
+        "x": -179.9,
+        "y": 180,
+        "z": 0.1
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "scale": 1.0
+    },
+    "groundStorageTransformByType": {
+      "*-female-boselaphustragocamelus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.03
+      },
+      "*-female-bospriscus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-bospriscus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusarnee": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-female-bubalusarnee": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-male-bubalusarnee": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusbrevicornis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusbrevicornis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusbubalis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-baby-bubaluscebuensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-male-bubaluscebuensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-baby-bubalusdepressicornis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusdepressicornis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusgrovesi": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-bubalusmephistopheles": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-bubalusmindorensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-female-bubalusmurrensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.97
+      },
+      "*-male-bubalusmurrensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.03
+      },
+      "*-female-bubalusquarlesi": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-pseudoryxnghetinhensis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-baby-syncerusantiquus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-female-syncerusantiquus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-male-taurotragusderbianus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-taurotragusoryx": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-female-tetracerusquadricornis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-baby-tragelaphusangasii": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphusangasii": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-tragelaphusbuxtoni": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-baby-tragelaphusimberbis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-female-tragelaphusimberbis": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-baby-tragelaphusscriptus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.9
+      },
+      "*-female-tragelaphusscriptus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphusscriptus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*-baby-tragelaphussylvaticus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.9
+      },
+      "*-female-tragelaphussylvaticus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 0.95
+      },
+      "*-male-tragelaphussylvaticus": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.05
+      },
+      "*": {
+        "origin": {
+          "x": 0.5,
+          "y": 0.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "scale": 1.0
+      }
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/cloth"
+  },
+  "materialDensity": 500,
+  "heldTpHitAnimation": "breaktool",
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": -0.5,
+      "z": -1.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 0,
+      "z": 90
+    },
+    "scale": 1
+  },
+  "guiTransformByType": {
+    "*-male-*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "*-female-*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.9
+    },
+    "*": {
+      "translation": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 145,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.7
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.55,
+      "y": -0.1,
+      "z": -0.45
+    },
+    "rotation": {
+      "x": -90,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5299
+    },
+    "scale": 1
+  },
+  "enabled": false
+}

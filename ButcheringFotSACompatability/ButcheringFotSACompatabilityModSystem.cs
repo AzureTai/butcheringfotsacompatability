@@ -1,3 +1,4 @@
+using ButcheringFotSACompatability.Legacy;
 using ButcheringFotSACompatability.Migration;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
@@ -25,6 +26,7 @@ namespace ButcheringFotSACompatability
                 return;
             }
 
+            LegacyItemGating.Apply(serverApi);
             CerviniMigration.Apply(serverApi);
         }
     }

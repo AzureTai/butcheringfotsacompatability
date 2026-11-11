@@ -1,0 +1,1598 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bosprimigeniusprimigenius",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bosprimigeniusprimigenius",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bosprimigeniusprimigenius",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bosprimigeniusprimigenius",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bosprimigeniusprimigenius",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bosprimigeniusprimigenius",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bostaurustaurus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bostaurustaurus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bostaurustaurus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bostaurustaurus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bostaurustaurus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bostaurustaurus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-boselaphustragocamelus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-boselaphustragocamelus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-boselaphustragocamelus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-boselaphustragocamelus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-boselaphustragocamelus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-boselaphustragocamelus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusarnee",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusarnee",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusarnee",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusarnee",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusarnee",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusarnee",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusbrevicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusbrevicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusbrevicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusbrevicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusbrevicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusbrevicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusbubalis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusbubalis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusbubalis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusbubalis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusbubalis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusbubalis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubaluscebuensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubaluscebuensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubaluscebuensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubaluscebuensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubaluscebuensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubaluscebuensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusdepressicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusdepressicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusdepressicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusdepressicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusdepressicornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusdepressicornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusgrovesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusgrovesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusgrovesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusgrovesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusgrovesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusgrovesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusmephistopheles",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusmephistopheles",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusmephistopheles",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusmephistopheles",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusmephistopheles",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusmephistopheles",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusmindorensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusmindorensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusmindorensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusmindorensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusmindorensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusmindorensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusmurrensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusmurrensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusmurrensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusmurrensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusmurrensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusmurrensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-bubalusquarlesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-bubalusquarlesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-bubalusquarlesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-bubalusquarlesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-bubalusquarlesi",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-bubalusquarlesi",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-pseudoryxnghetinhensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-pseudoryxnghetinhensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-pseudoryxnghetinhensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-pseudoryxnghetinhensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-pseudoryxnghetinhensis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-pseudoryxnghetinhensis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-syncerusantiquus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-syncerusantiquus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-syncerusantiquus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-syncerusantiquus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-syncerusantiquus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-syncerusantiquus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-synceruscaffer",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-synceruscaffer",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-synceruscaffer",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-synceruscaffer",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-synceruscaffer",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-synceruscaffer",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-syncerusnanus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-syncerusnanus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-syncerusnanus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-syncerusnanus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-syncerusnanus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-syncerusnanus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-taurotragusderbianus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-taurotragusderbianus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-taurotragusderbianus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-taurotragusderbianus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-taurotragusderbianus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-taurotragusderbianus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-taurotragusoryx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-taurotragusoryx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-taurotragusoryx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-taurotragusoryx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-taurotragusoryx",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-taurotragusoryx",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tetracerusquadricornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tetracerusquadricornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tetracerusquadricornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tetracerusquadricornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tetracerusquadricornis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tetracerusquadricornis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusangasii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusangasii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusangasii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusangasii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusangasii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusangasii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusbuxtoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusbuxtoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusbuxtoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusbuxtoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusbuxtoni",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusbuxtoni",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphuseurycerus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphuseurycerus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphuseurycerus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphuseurycerus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphuseurycerus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphuseurycerus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusimberbis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusimberbis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusimberbis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusimberbis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusimberbis",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusimberbis",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusscriptus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusscriptus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusscriptus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusscriptus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusscriptus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusscriptus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusspekii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusspekii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusspekii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusspekii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusspekii",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusspekii",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphusstrepsiceros",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphusstrepsiceros",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphusstrepsiceros",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphusstrepsiceros",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphusstrepsiceros",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphusstrepsiceros",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-baby-tragelaphussylvaticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-baby-tragelaphussylvaticus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-female-tragelaphussylvaticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-female-tragelaphussylvaticus",
+      "quantity": 1
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "bovinae:pelt-male-tragelaphussylvaticus",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "bovinae:pelt-raw-male-tragelaphussylvaticus",
+      "quantity": 1
+    }
+  }
+]
